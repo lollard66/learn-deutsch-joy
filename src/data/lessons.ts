@@ -266,4 +266,159 @@ export const lessons: Lesson[] = [
       { sentence: "Ich habe ___ Sofa.", answer: "ein" },
     ],
   },
+  {
+    id: "l18",
+    date: "18. März",
+    title: "Wo? & Wohin? — Wechselpräpositionen",
+    subtitle: "Position und Bewegung mit Dativ und Akkusativ beschreiben.",
+    grammar: [
+      {
+        title: "Die Hauptregel: Wo? vs. Wohin?",
+        content: `<p class="mb-4 text-muted-foreground">Das ist die wichtigste Regel des heutigen Unterrichts:</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+  <div class="p-5 bg-rose-50 rounded-xl border border-rose-200">
+    <span class="block text-2xl font-bold case-dat mb-2">Wo?</span>
+    <span class="text-sm text-muted-foreground">= Где? (Position, kein Bewegung)</span>
+    <div class="mt-3 p-3 bg-white rounded-lg border border-rose-100">
+      <p class="font-semibold text-sm">Präposition + <span class="case-dat">Dativ</span></p>
+      <p class="text-xs text-muted-foreground mt-1">Das Buch liegt <span class="case-dat">auf dem Tisch</span>.</p>
+    </div>
+  </div>
+  <div class="p-5 bg-emerald-50 rounded-xl border border-emerald-200">
+    <span class="block text-2xl font-bold case-akk mb-2">Wohin?</span>
+    <span class="text-sm text-muted-foreground">= Куда? (Bewegung, Richtung)</span>
+    <div class="mt-3 p-3 bg-white rounded-lg border border-emerald-100">
+      <p class="font-semibold text-sm">Präposition + <span class="case-akk">Akkusativ</span></p>
+      <p class="text-xs text-muted-foreground mt-1">Ich lege das Buch <span class="case-akk">auf den Tisch</span>.</p>
+    </div>
+  </div>
+</div>
+<p class="text-muted-foreground text-sm">📌 Keine Bewegung → <span class="case-dat">Dativ</span> &nbsp;|&nbsp; Bewegung → <span class="case-akk">Akkusativ</span></p>`,
+      },
+      {
+        title: "Wechselpräpositionen (9 Präpositionen)",
+        content: `<p class="mb-3 text-muted-foreground">Diese Präpositionen können mit <span class="case-dat">Dativ</span> oder <span class="case-akk">Akkusativ</span> stehen:</p>
+<div class="grid grid-cols-3 gap-2">
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>auf</strong><br><span class="text-muted-foreground">на</span></span>
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>unter</strong><br><span class="text-muted-foreground">под</span></span>
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>vor</strong><br><span class="text-muted-foreground">перед</span></span>
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>hinter</strong><br><span class="text-muted-foreground">за</span></span>
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>neben</strong><br><span class="text-muted-foreground">рядом</span></span>
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>zwischen</strong><br><span class="text-muted-foreground">между</span></span>
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>über</strong><br><span class="text-muted-foreground">над</span></span>
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>in</strong><br><span class="text-muted-foreground">в</span></span>
+  <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>an</strong><br><span class="text-muted-foreground">у / на</span></span>
+</div>
+<div class="mt-4 p-3 bg-muted rounded-lg text-sm">
+  <p class="font-semibold mb-1">Wichtige Kurzformen:</p>
+  <p>in + dem = <strong>im</strong> &nbsp;|&nbsp; an + dem = <strong>am</strong> &nbsp;|&nbsp; in + das = <strong>ins</strong> &nbsp;|&nbsp; an + das = <strong>ans</strong></p>
+</div>`,
+      },
+      {
+        title: "Verben der Position",
+        content: `<p class="mb-4 text-muted-foreground">Welches Verb passt? Das hängt von der Position ab:</p>
+<div class="space-y-3">
+  <div class="p-4 bg-blue-50 rounded-xl border border-blue-100">
+    <span class="block font-bold case-nom mb-1">liegen</span>
+    <span class="text-sm text-muted-foreground">= лежать (horizontal)</span>
+    <p class="mt-2 text-sm">Das Buch <strong>liegt</strong> auf dem Tisch. 📖</p>
+  </div>
+  <div class="p-4 bg-emerald-50 rounded-xl border border-emerald-100">
+    <span class="block font-bold case-akk mb-1">stehen</span>
+    <span class="text-sm text-muted-foreground">= стоять (vertikal)</span>
+    <p class="mt-2 text-sm">Der Tisch <strong>steht</strong> vor dem Sofa. 🪑</p>
+  </div>
+  <div class="p-4 bg-amber-50 rounded-xl border border-amber-100">
+    <span class="block font-bold mb-1" style="color: hsl(35, 80%, 45%)">hängen</span>
+    <span class="text-sm text-muted-foreground">= висеть (an der Wand / von oben)</span>
+    <p class="mt-2 text-sm">Die Lampe <strong>hängt</strong> über dem Tisch. 💡</p>
+  </div>
+  <div class="p-4 bg-rose-50 rounded-xl border border-rose-100">
+    <span class="block font-bold case-dat mb-1">sitzen</span>
+    <span class="text-sm text-muted-foreground">= сидеть (Menschen & Tiere)</span>
+    <p class="mt-2 text-sm">Die Katze <strong>sitzt</strong> auf dem Sofa. 🐱</p>
+  </div>
+</div>`,
+      },
+      {
+        title: "Dativ-Artikel mit Präpositionen",
+        content: `<div class="overflow-x-auto">
+<table class="w-full text-sm">
+  <thead>
+    <tr class="border-b border-border">
+      <th class="py-3 px-4 text-left font-semibold text-muted-foreground">Genus</th>
+      <th class="py-3 px-4 text-left font-semibold case-nom">Nominativ</th>
+      <th class="py-3 px-4 text-left font-semibold case-dat">Dativ (Wo?)</th>
+      <th class="py-3 px-4 text-left font-semibold case-akk">Akkusativ (Wohin?)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Maskulin</td><td class="py-3 px-4 case-nom">der</td><td class="py-3 px-4 case-dat">dem</td><td class="py-3 px-4 case-akk">den</td></tr>
+    <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Feminin</td><td class="py-3 px-4 case-nom">die</td><td class="py-3 px-4 case-dat">der</td><td class="py-3 px-4 case-akk">die</td></tr>
+    <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Neutral</td><td class="py-3 px-4 case-nom">das</td><td class="py-3 px-4 case-dat">dem</td><td class="py-3 px-4 case-akk">das</td></tr>
+    <tr><td class="py-3 px-4 font-medium">Plural</td><td class="py-3 px-4 case-nom">die</td><td class="py-3 px-4 case-dat">den (+n)</td><td class="py-3 px-4 case-akk">die</td></tr>
+  </tbody>
+</table>
+</div>`,
+      },
+      {
+        title: "Möbel & Zimmer — Wortschatz",
+        content: `<div class="space-y-3">
+  <p class="font-semibold text-sm text-muted-foreground">🛋 Wohnzimmer</p>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>das Sofa</strong><br><span class="text-muted-foreground">диван</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>der Sessel</strong><br><span class="text-muted-foreground">кресло</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>das Regal</strong><br><span class="text-muted-foreground">полка</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>der Teppich</strong><br><span class="text-muted-foreground">ковёр</span></span>
+  </div>
+  <p class="font-semibold text-sm text-muted-foreground mt-3">🍳 Küche</p>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>der Herd</strong><br><span class="text-muted-foreground">плита</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>der Kühlschrank</strong><br><span class="text-muted-foreground">холодильник</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>die Mikrowelle</strong><br><span class="text-muted-foreground">микроволновка</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>der Geschirrspüler</strong><br><span class="text-muted-foreground">посудомойка</span></span>
+  </div>
+  <p class="font-semibold text-sm text-muted-foreground mt-3">🛏 Schlafzimmer</p>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>das Bett</strong><br><span class="text-muted-foreground">кровать</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>der Kasten</strong><br><span class="text-muted-foreground">шкаф</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>der Spiegel</strong><br><span class="text-muted-foreground">зеркало</span></span>
+    <span class="px-3 py-2 bg-muted rounded-lg text-center text-sm"><strong>der Polster</strong><br><span class="text-muted-foreground">подушка</span></span>
+  </div>
+</div>`,
+      },
+    ],
+    examples: [
+      { de: "Die Katze <span class='case-verb'>sitzt</span> <span class='case-dat'>auf dem Sofa</span>.", en: "Кошка сидит на диване." },
+      { de: "Das Buch <span class='case-verb'>liegt</span> <span class='case-dat'>auf dem Tisch</span>.", en: "Книга лежит на столе." },
+      { de: "Die Lampe <span class='case-verb'>hängt</span> <span class='case-dat'>über dem Tisch</span>.", en: "Лампа висит над столом." },
+      { de: "Der Kasten <span class='case-verb'>steht</span> <span class='case-dat'>an der Wand</span>.", en: "Шкаф стоит у стены." },
+      { de: "Minka <span class='case-verb'>liegt</span> <span class='case-dat'>zwischen den Kartons</span>.", en: "Минка лежит между коробками." },
+      { de: "Ich <span class='case-verb'>lege</span> das Buch <span class='case-akk'>auf den Tisch</span>.", en: "Я кладу книгу на стол." },
+      { de: "Ich <span class='case-verb'>stelle</span> den Kasten <span class='case-akk'>an die Wand</span>.", en: "Я ставлю шкаф к стене." },
+      { de: "Ich <span class='case-verb'>hänge</span> die Lampe <span class='case-akk'>über den Tisch</span>.", en: "Я вешаю лампу над столом." },
+    ],
+    test: [
+      { sentence: "Das Buch liegt auf ___ Tisch. (Wo?)", answer: "dem" },
+      { sentence: "Ich lege das Buch auf ___ Tisch. (Wohin?)", answer: "den" },
+      { sentence: "Die Lampe hängt über ___ Tisch. (Wo?)", answer: "dem" },
+      { sentence: "Ich hänge die Lampe über ___ Tisch. (Wohin?)", answer: "den" },
+      { sentence: "Der Kasten steht an ___ Wand. (Wo?)", answer: "der" },
+      { sentence: "Ich stelle den Kasten an ___ Wand. (Wohin?)", answer: "die" },
+      { sentence: "Die Katze sitzt auf ___ Sofa. (Wo?)", answer: "dem" },
+      { sentence: "Die Bücher stehen ___ Kasten. (Wo? / in+dem)", answer: "im" },
+      { sentence: "Minka liegt zwischen ___ Kartons. (Wo?)", answer: "den" },
+      { sentence: "Das Bild hängt an ___ Wand. (Wo?)", answer: "der" },
+      { sentence: "Der Teppich ___ vor dem Fenster. (liegen)", answer: "liegt" },
+      { sentence: "Der Tisch ___ auf dem Teppich. (stehen)", answer: "steht" },
+      { sentence: "Die Lampe ___ über dem Tisch. (hängen)", answer: "hängt" },
+      { sentence: "Die Katze ___ auf dem Bett. (sitzen)", answer: "sitzt" },
+      { sentence: "Ich lege die Katze in ___ Karton. (Wohin?)", answer: "den" },
+      { sentence: "Die Pflanze steht hinter ___ Sessel. (Wo?)", answer: "dem" },
+      { sentence: "Der Fernseher hängt ___ Fenster. (an+dem)", answer: "am" },
+      { sentence: "Die Hose hängt an ___ Tür. (Wo?)", answer: "der" },
+      { sentence: "Ich stelle den Tisch vor ___ Sofa. (Wohin?)", answer: "das" },
+      { sentence: "Die Puppe ___ auf dem Bett. (sitzen)", answer: "sitzt" },
+    ],
+  },
 ];
