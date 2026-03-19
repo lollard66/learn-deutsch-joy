@@ -421,4 +421,157 @@ export const lessons: Lesson[] = [
       { sentence: "Die Puppe ___ auf dem Bett. (sitzen)", answer: "sitzt" },
     ],
   },
+  {
+    id: "l19",
+    date: "19. März",
+    title: "Stellen, Legen, Hängen",
+    subtitle: "Глаголы перемещения, описание квартиры и Perfekt с предлогами места",
+    grammar: [
+      {
+        title: "Wohin? → Akkusativ (движение)",
+        content: `
+          <p class="mb-3">Когда мы говорим <strong>куда</strong> ставим / кладём / вешаем предмет — используем <span class="text-case-akk font-bold">Akkusativ</span>.</p>
+          <table class="w-full text-sm border-collapse mb-3">
+            <thead><tr class="border-b border-border">
+              <th class="text-left py-2 pr-4">Предлог</th>
+              <th class="text-left py-2 text-case-akk">Wohin? → Akkusativ</th>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 font-medium">an</td><td class="text-case-akk">an <strong>die</strong> Wand</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 font-medium">auf</td><td class="text-case-akk">auf <strong>den</strong> Tisch</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 font-medium">in</td><td class="text-case-akk">in <strong>die</strong> Küche</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 font-medium">vor</td><td class="text-case-akk">vor <strong>das</strong> Sofa</td></tr>
+              <tr><td class="py-2 pr-4 font-medium">neben</td><td class="text-case-akk">neben <strong>die</strong> Tür</td></tr>
+            </tbody>
+          </table>
+          <p class="text-xs text-muted-foreground">⚡ Формула: Subjekt + <span class="text-case-verb">stellen/legen/hängen</span> + <span class="text-case-akk">Akk (что?)</span> + Präposition + <span class="text-case-akk">Akk (куда?)</span></p>
+        `,
+      },
+      {
+        title: "Wo? → Dativ (положение)",
+        content: `
+          <p class="mb-3">Когда мы говорим <strong>где</strong> предмет уже находится — используем <span class="text-case-dat font-bold">Dativ</span>.</p>
+          <table class="w-full text-sm border-collapse mb-3">
+            <thead><tr class="border-b border-border">
+              <th class="text-left py-2 pr-4">Предлог</th>
+              <th class="text-left py-2 text-case-dat">Wo? → Dativ</th>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 font-medium">an</td><td class="text-case-dat">an <strong>der</strong> Wand</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 font-medium">auf</td><td class="text-case-dat">auf <strong>dem</strong> Tisch</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 font-medium">in</td><td class="text-case-dat">in <strong>der</strong> Küche</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 font-medium">vor</td><td class="text-case-dat">vor <strong>dem</strong> Sofa</td></tr>
+              <tr><td class="py-2 pr-4 font-medium">neben</td><td class="text-case-dat">neben <strong>der</strong> Tür</td></tr>
+            </tbody>
+          </table>
+          <p class="text-xs text-muted-foreground">⚡ Формула: Subjekt + <span class="text-case-verb">stehen/liegen/hängen</span> + Präposition + <span class="text-case-dat">Dativ (где?)</span></p>
+        `,
+      },
+      {
+        title: "Глаголы перемещения: stellen, legen, hängen",
+        content: `
+          <p class="mb-3">Три глагола описывают <strong>действие</strong> — куда мы помещаем предмет:</p>
+          <div class="space-y-2 mb-4">
+            <div class="flex items-center gap-3 bg-muted/50 rounded-lg px-4 py-2">
+              <span class="text-case-verb font-bold text-lg">stellen</span>
+              <span class="text-muted-foreground">→</span>
+              <span>ставить <em>(вертикально)</em></span>
+              <span class="ml-auto text-xs text-muted-foreground">Tisch, Schrank, Lampe</span>
+            </div>
+            <div class="flex items-center gap-3 bg-muted/50 rounded-lg px-4 py-2">
+              <span class="text-case-verb font-bold text-lg">legen</span>
+              <span class="text-muted-foreground">→</span>
+              <span>класть <em>(горизонтально)</em></span>
+              <span class="ml-auto text-xs text-muted-foreground">Teppich, Buch, Handy</span>
+            </div>
+            <div class="flex items-center gap-3 bg-muted/50 rounded-lg px-4 py-2">
+              <span class="text-case-verb font-bold text-lg">hängen</span>
+              <span class="text-muted-foreground">→</span>
+              <span>вешать <em>(на стену / сверху)</em></span>
+              <span class="ml-auto text-xs text-muted-foreground">Bild, Lampe, Hose</span>
+            </div>
+          </div>
+          <p class="text-sm"><strong>⚠️ Двойной Akkusativ:</strong> <em>Ich lege <span class="text-case-akk font-semibold">den Teppich</span> vor <span class="text-case-akk font-semibold">das Sofa</span>.</em><br/>
+          <span class="text-xs text-muted-foreground">den Teppich = что кладу (Akk) &nbsp;|&nbsp; vor das Sofa = куда кладу (Akk)</span></p>
+        `,
+      },
+      {
+        title: "Perfekt: haben + Partizip II",
+        content: `
+          <p class="mb-3">В прошедшем времени глаголы перемещения образуют Perfekt с <span class="text-case-verb font-bold">haben</span>:</p>
+          <table class="w-full text-sm border-collapse mb-3">
+            <thead><tr class="border-b border-border">
+              <th class="text-left py-2 pr-4">Infinitiv</th>
+              <th class="text-left py-2">Partizip II</th>
+              <th class="text-left py-2 pl-4">Пример</th>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 text-case-verb font-medium">stellen</td><td>ge<strong>stellt</strong></td><td class="pl-4">Ich habe den Tisch gestellt</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-4 text-case-verb font-medium">legen</td><td>ge<strong>legt</strong></td><td class="pl-4">Ich habe den Teppich gelegt</td></tr>
+              <tr><td class="py-2 pr-4 text-case-verb font-medium">hängen</td><td>ge<strong>hängt</strong></td><td class="pl-4">Ich habe das Bild gehängt</td></tr>
+            </tbody>
+          </table>
+          <p class="text-sm bg-muted/50 rounded-lg px-4 py-2"><strong>Диалог:</strong><br/>
+          — <em>Wohin hast du den Tisch gestellt?</em><br/>
+          — <em>Ich habe den Tisch in die Küche gestellt.</em></p>
+        `,
+      },
+      {
+        title: "Описание квартиры: Mir gefällt / Es gibt",
+        content: `
+          <p class="mb-3">Полезные конструкции для описания жилья:</p>
+          <div class="space-y-2">
+            <div class="bg-muted/50 rounded-lg px-4 py-2">
+              <span class="font-semibold text-case-nom">👍 Mir gefällt:</span>
+              <span class="ml-2">Mir gefällt meine Wohnung. Sie ist hell und gemütlich.</span>
+            </div>
+            <div class="bg-muted/50 rounded-lg px-4 py-2">
+              <span class="font-semibold text-case-dat">👎 Mir gefällt nicht:</span>
+              <span class="ml-2">Sie ist zu klein. Es gibt keinen Balkon.</span>
+            </div>
+            <div class="bg-muted/50 rounded-lg px-4 py-2">
+              <span class="font-semibold text-case-akk">📦 Es gibt:</span>
+              <span class="ml-2">Es gibt ein Bett, einen Tisch, ein Sofa.</span>
+            </div>
+            <div class="bg-muted/50 rounded-lg px-4 py-2">
+              <span class="font-semibold text-case-verb">⭐ Wünsche:</span>
+              <span class="ml-2">Ich wünsche mir neue Möbel.</span>
+            </div>
+          </div>
+        `,
+      },
+    ],
+    examples: [
+      { de: "Ich <span class='text-case-verb font-semibold'>stelle</span> <span class='text-case-akk'>den Tisch</span> in <span class='text-case-akk'>die Küche</span>.", en: "Я ставлю стол в кухню." },
+      { de: "Der Tisch <span class='text-case-verb font-semibold'>steht</span> in <span class='text-case-dat'>der Küche</span>.", en: "Стол стоит в кухне." },
+      { de: "Ich <span class='text-case-verb font-semibold'>lege</span> <span class='text-case-akk'>den Teppich</span> vor <span class='text-case-akk'>das Sofa</span>.", en: "Я кладу ковёр перед диваном." },
+      { de: "Der Teppich <span class='text-case-verb font-semibold'>liegt</span> vor <span class='text-case-dat'>dem Sofa</span>.", en: "Ковёр лежит перед диваном." },
+      { de: "Ich <span class='text-case-verb font-semibold'>hänge</span> <span class='text-case-akk'>das Bild</span> an <span class='text-case-akk'>die Wand</span>.", en: "Я вешаю картину на стену." },
+      { de: "Das Bild <span class='text-case-verb font-semibold'>hängt</span> an <span class='text-case-dat'>der Wand</span>.", en: "Картина висит на стене." },
+      { de: "Ich <span class='text-case-verb font-semibold'>habe</span> den Tisch in die Küche <span class='text-case-verb font-semibold'>gestellt</span>.", en: "Я поставил стол в кухню." },
+      { de: "<span class='text-case-nom font-semibold'>Mir gefällt</span> meine Wohnung. Sie ist hell und gemütlich.", en: "Мне нравится моя квартира. Она светлая и уютная." },
+    ],
+    test: [
+      { sentence: "Ich stelle den Tisch in ___ Küche. (Wohin?)", answer: "die" },
+      { sentence: "Der Tisch steht in ___ Küche. (Wo?)", answer: "der" },
+      { sentence: "Ich lege den Teppich vor ___ Sofa. (Wohin?)", answer: "das" },
+      { sentence: "Der Teppich liegt vor ___ Sofa. (Wo?)", answer: "dem" },
+      { sentence: "Ich hänge das Bild an ___ Wand. (Wohin?)", answer: "die" },
+      { sentence: "Das Bild hängt an ___ Wand. (Wo?)", answer: "der" },
+      { sentence: "Ich stelle die Lampe neben ___ Tür. (Wohin?)", answer: "die" },
+      { sentence: "Die Lampe steht neben ___ Tür. (Wo?)", answer: "der" },
+      { sentence: "Ich ___ den Teppich auf den Boden. (класть)", answer: "lege" },
+      { sentence: "Ich ___ den Schrank an die Wand. (ставить)", answer: "stelle" },
+      { sentence: "Ich ___ das Bild an die Wand. (вешать)", answer: "hänge" },
+      { sentence: "Ich habe den Tisch ___. (stellen → Partizip II)", answer: "gestellt" },
+      { sentence: "Ich habe den Teppich ___. (legen → Partizip II)", answer: "gelegt" },
+      { sentence: "Ich habe das Bild ___. (hängen → Partizip II)", answer: "gehängt" },
+      { sentence: "Ich stelle den Stuhl auf ___ Teppich. (Wohin?)", answer: "den" },
+      { sentence: "Der Stuhl steht auf ___ Teppich. (Wo?)", answer: "dem" },
+      { sentence: "Wohin hast du den Tisch ___? (stellen → Partizip II)", answer: "gestellt" },
+      { sentence: "Es gibt ___ Balkon. (kein, m. Akk)", answer: "keinen" },
+      { sentence: "Ich lege das Buch auf ___ Tisch. (Wohin?)", answer: "den" },
+      { sentence: "Das Buch liegt auf ___ Tisch. (Wo?)", answer: "dem" },
+    ],
+  },
 ];
