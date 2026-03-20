@@ -574,4 +574,145 @@ export const lessons: Lesson[] = [
       { sentence: "Das Buch liegt auf ___ Tisch. (Wo?)", answer: "dem" },
     ],
   },
+
+  // ── 20. März ──────────────────────────────────────────
+  {
+    id: "l20",
+    date: "20. März",
+    title: "WG-Aufgaben & Wohin vs. Wo",
+    subtitle: "Обязанности в квартире, глаголы движения и положения, Akkusativ и Dativ с Wechselpräpositionen.",
+    grammar: [
+      {
+        title: "Wohin? → Akkusativ (движение)",
+        content: `
+          <p class="mb-3">Если предмет <strong>перемещается</strong> куда-то — после предлога стоит <span class="text-case-akk font-bold">Akkusativ</span>.</p>
+          <p class="mb-2 font-semibold">Глаголы движения:</p>
+          <ul class="list-disc pl-5 space-y-1 mb-4">
+            <li><strong>stellen</strong> — ставить (вертикально)</li>
+            <li><strong>legen</strong> — класть (горизонтально)</li>
+            <li><strong>hängen</strong> — вешать</li>
+          </ul>
+          <div class="bg-muted rounded-xl p-4 space-y-1 text-sm">
+            <p>Ich stelle <span class="text-case-akk font-bold">den</span> Tisch in <span class="text-case-akk font-bold">das</span> Zimmer.</p>
+            <p>Ich lege <span class="text-case-akk font-bold">den</span> Teppich auf <span class="text-case-akk font-bold">den</span> Boden.</p>
+            <p>Ich hänge <span class="text-case-akk font-bold">das</span> Bild an <span class="text-case-akk font-bold">die</span> Wand.</p>
+          </div>
+        `,
+      },
+      {
+        title: "Wo? → Dativ (положение)",
+        content: `
+          <p class="mb-3">Если предмет <strong>уже находится</strong> где-то — после предлога стоит <span class="text-case-dat font-bold">Dativ</span>.</p>
+          <p class="mb-2 font-semibold">Глаголы положения:</p>
+          <ul class="list-disc pl-5 space-y-1 mb-4">
+            <li><strong>stehen</strong> — стоять</li>
+            <li><strong>liegen</strong> — лежать</li>
+            <li><strong>hängen</strong> — висеть</li>
+          </ul>
+          <div class="bg-muted rounded-xl p-4 space-y-1 text-sm">
+            <p>Der Tisch steht <span class="text-case-dat font-bold">im</span> Zimmer.</p>
+            <p>Der Teppich liegt auf <span class="text-case-dat font-bold">dem</span> Boden.</p>
+            <p>Das Bild hängt an <span class="text-case-dat font-bold">der</span> Wand.</p>
+          </div>
+        `,
+      },
+      {
+        title: "Wechselpräpositionen — таблица",
+        content: `
+          <table class="w-full text-sm border-collapse mb-2">
+            <thead><tr class="border-b border-border">
+              <th class="text-left py-2">Präposition</th>
+              <th class="text-left py-2"><span class="text-case-akk">Akk</span> (Wohin?)</th>
+              <th class="text-left py-2"><span class="text-case-dat">Dat</span> (Wo?)</th>
+            </tr></thead>
+            <tbody class="space-y-1">
+              <tr class="border-b border-border/50"><td class="py-1.5 font-medium">in</td><td>in <span class="text-case-akk">das</span> Zimmer</td><td><span class="text-case-dat">im</span> Zimmer</td></tr>
+              <tr class="border-b border-border/50"><td class="py-1.5 font-medium">auf</td><td>auf <span class="text-case-akk">den</span> Boden</td><td>auf <span class="text-case-dat">dem</span> Boden</td></tr>
+              <tr class="border-b border-border/50"><td class="py-1.5 font-medium">an</td><td>an <span class="text-case-akk">die</span> Wand</td><td>an <span class="text-case-dat">der</span> Wand</td></tr>
+              <tr class="border-b border-border/50"><td class="py-1.5 font-medium">unter</td><td>unter <span class="text-case-akk">den</span> Tisch</td><td>unter <span class="text-case-dat">dem</span> Tisch</td></tr>
+              <tr class="border-b border-border/50"><td class="py-1.5 font-medium">über</td><td>über <span class="text-case-akk">den</span> Tisch</td><td>über <span class="text-case-dat">dem</span> Tisch</td></tr>
+              <tr class="border-b border-border/50"><td class="py-1.5 font-medium">vor</td><td>vor <span class="text-case-akk">das</span> Sofa</td><td>vor <span class="text-case-dat">dem</span> Sofa</td></tr>
+              <tr class="border-b border-border/50"><td class="py-1.5 font-medium">hinter</td><td>hinter <span class="text-case-akk">den</span> Schrank</td><td>hinter <span class="text-case-dat">dem</span> Schrank</td></tr>
+              <tr class="border-b border-border/50"><td class="py-1.5 font-medium">neben</td><td>neben <span class="text-case-akk">die</span> Tür</td><td>neben <span class="text-case-dat">der</span> Tür</td></tr>
+              <tr><td class="py-1.5 font-medium">zwischen</td><td>zwischen <span class="text-case-akk">die</span> Stühle</td><td>zwischen <span class="text-case-dat">den</span> Stühlen</td></tr>
+            </tbody>
+          </table>
+        `,
+      },
+      {
+        title: "Aufgaben in der WG — лексика",
+        content: `
+          <p class="mb-3">Обязанности в совместной квартире (Wohngemeinschaft):</p>
+          <ul class="list-disc pl-5 space-y-1.5 text-sm mb-4">
+            <li><strong>das Geschirr abwaschen</strong> — мыть посуду</li>
+            <li><strong>den Müll runterbringen</strong> — выносить мусор</li>
+            <li><strong>die Pflanzen gießen</strong> — поливать растения</li>
+            <li><strong>das Bad putzen</strong> — убирать ванную</li>
+            <li><strong>staubsaugen</strong> — пылесосить</li>
+            <li><strong>kochen</strong> — готовить</li>
+            <li><strong>die Lampe reparieren</strong> — чинить лампу</li>
+            <li><strong>den Strom ausschalten</strong> — выключить электричество</li>
+            <li><strong>die Glühbirne wechseln</strong> — заменить лампочку</li>
+          </ul>
+          <div class="bg-muted rounded-xl p-4 text-sm space-y-1">
+            <p class="font-semibold mb-1">Mini-Dialog:</p>
+            <p>👤 A: Wer putzt das Bad?</p>
+            <p>👤 B: Du bist dran.</p>
+            <p>👤 A: Okay, ich mache das heute.</p>
+          </div>
+        `,
+      },
+      {
+        title: "Итог: stellen / legen / hängen ↔ stehen / liegen / hängen",
+        content: `
+          <div class="grid grid-cols-2 gap-4 text-sm">
+            <div class="bg-muted rounded-xl p-4">
+              <p class="font-bold text-case-akk mb-2">Движение → Akk</p>
+              <p>stell<strong>en</strong> → ставить</p>
+              <p>leg<strong>en</strong> → класть</p>
+              <p>häng<strong>en</strong> → вешать</p>
+            </div>
+            <div class="bg-muted rounded-xl p-4">
+              <p class="font-bold text-case-dat mb-2">Положение → Dat</p>
+              <p>steh<strong>en</strong> → стоять</p>
+              <p>lieg<strong>en</strong> → лежать</p>
+              <p>häng<strong>en</strong> → висеть</p>
+            </div>
+          </div>
+        `,
+      },
+    ],
+    examples: [
+      { de: "Ich stelle <span class='text-case-akk font-bold'>den</span> Schreibtisch <span class='text-case-akk font-bold'>ans</span> Fenster.", en: "Я ставлю письменный стол к окну." },
+      { de: "Der Schreibtisch steht <span class='text-case-dat font-bold'>am</span> Fenster.", en: "Письменный стол стоит у окна." },
+      { de: "Ich lege <span class='text-case-akk font-bold'>das</span> Handy auf <span class='text-case-akk font-bold'>den</span> Tisch.", en: "Я кладу телефон на стол." },
+      { de: "Das Handy liegt auf <span class='text-case-dat font-bold'>dem</span> Tisch.", en: "Телефон лежит на столе." },
+      { de: "Ich hänge <span class='text-case-akk font-bold'>die</span> Lampe an <span class='text-case-akk font-bold'>die</span> Decke.", en: "Я вешаю лампу на потолок." },
+      { de: "Die Lampe hängt an <span class='text-case-dat font-bold'>der</span> Decke.", en: "Лампа висит на потолке." },
+      { de: "Ich bringe <span class='text-case-akk font-bold'>den</span> Müll runter.", en: "Я выношу мусор." },
+      { de: "Wer putzt <span class='text-case-akk font-bold'>das</span> Bad? — Du bist dran.", en: "Кто убирает ванную? — Твоя очередь." },
+    ],
+    test: [
+      { sentence: "Ich stelle den Tisch in ___ Zimmer. (Wohin?)", answer: "das" },
+      { sentence: "Der Tisch steht ___ Zimmer. (Wo?)", answer: "im" },
+      { sentence: "Ich hänge das Bild an ___ Wand. (Wohin?)", answer: "die" },
+      { sentence: "Das Bild hängt an ___ Wand. (Wo?)", answer: "der" },
+      { sentence: "Ich lege den Teppich auf ___ Boden. (Wohin?)", answer: "den" },
+      { sentence: "Der Teppich liegt auf ___ Boden. (Wo?)", answer: "dem" },
+      { sentence: "Ich stelle den Stuhl vor ___ Sofa. (Wohin?)", answer: "das" },
+      { sentence: "Der Stuhl steht vor ___ Sofa. (Wo?)", answer: "dem" },
+      { sentence: "Ich lege das Handy auf ___ Tisch. (Wohin?)", answer: "den" },
+      { sentence: "Das Handy liegt auf ___ Tisch. (Wo?)", answer: "dem" },
+      { sentence: "Ich hänge die Lampe an ___ Decke. (Wohin?)", answer: "die" },
+      { sentence: "Die Lampe hängt an ___ Decke. (Wo?)", answer: "der" },
+      { sentence: "Ich stelle den Schrank an ___ Wand. (Wohin?)", answer: "die" },
+      { sentence: "Der Schrank steht an ___ Wand. (Wo?)", answer: "der" },
+      { sentence: "Wer ___ das Bad? (putzen)", answer: "putzt" },
+      { sentence: "Ich bringe den Müll ___. (runterbringen)", answer: "runter" },
+      { sentence: "Ich ___ das Geschirr. (abwaschen, 1. P.)", answer: "wasche" },
+      { sentence: "Ich stelle den Schreibtisch ___ Fenster. (Wohin?, an+das)", answer: "ans" },
+      { sentence: "Der Schreibtisch steht ___ Fenster. (Wo?, an+dem)", answer: "am" },
+      { sentence: "Ich habe das Bild an die Wand ___. (hängen → Partizip II)", answer: "gehängt" },
+    ],
+  },
 ];
