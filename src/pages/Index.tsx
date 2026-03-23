@@ -74,6 +74,9 @@ export default function Index() {
             </div>
           </section>
 
+          {/* Adjektivdeklination for l23 */}
+          {lesson.id === "l23" && <AdjektivDeklination />}
+
           {/* Examples */}
           <section>
             <h2 className="text-2xl font-bold tracking-display mb-5 animate-slide-up-fade">
