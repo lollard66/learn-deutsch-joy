@@ -715,4 +715,144 @@ export const lessons: Lesson[] = [
       { sentence: "Ich habe das Bild an die Wand ___. (hängen → Partizip II)", answer: "gehängt" },
     ],
   },
+  {
+    id: "l23",
+    date: "23. März",
+    title: "Meinungen, Artikel & Possessivpronomen",
+    subtitle: "Wie finden Sie…? — Meinungen äußern, Artikeldeklination und Possessivpronomen im Überblick",
+    grammar: [
+      {
+        title: "Meinungen äußern — Ich finde + Akk",
+        content: `
+          <p class="mb-3">Чтобы выразить мнение, используй конструкцию:</p>
+          <div class="bg-muted rounded-xl p-4 mb-4 font-mono text-sm sm:text-base">
+            <span class="text-case-nom font-bold">Ich</span> finde
+            <span class="text-case-akk font-bold">den Tisch</span>
+            <span class="text-primary font-bold">schön</span>.
+          </div>
+          <p class="mb-2"><strong>Структура:</strong> Ich finde + <span class="text-case-akk font-semibold">Akkusativ</span> + прилагательное</p>
+          <p class="mb-1">❓ <em>Wie finden Sie den Tisch?</em> — Как вам стол?</p>
+          <p class="mb-1">✅ <em>Ich finde den Tisch sehr schön.</em></p>
+          <p class="mb-1">✅ <em>Ich finde das Zimmer klein.</em></p>
+          <p>✅ <em>Ich finde die Wohnung gut.</em></p>
+        `,
+      },
+      {
+        title: "Артикли: Nom → Akk → Dat",
+        content: `
+          <p class="mb-3">Полная таблица изменения артиклей по падежам:</p>
+          <table class="w-full text-sm sm:text-base border-collapse mb-4">
+            <thead>
+              <tr class="border-b border-border">
+                <th class="text-left py-2 pr-3">Род</th>
+                <th class="text-left py-2 pr-3 text-case-nom">Nom</th>
+                <th class="text-left py-2 pr-3 text-case-akk">Akk</th>
+                <th class="text-left py-2 text-case-dat">Dat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">♂ maskulin</td><td class="py-2 pr-3">der / ein</td><td class="py-2 pr-3 font-bold">den / einen</td><td class="py-2 font-bold">dem / einem</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">♀ feminin</td><td class="py-2 pr-3">die / eine</td><td class="py-2 pr-3">die / eine</td><td class="py-2 font-bold">der / einer</td></tr>
+              <tr><td class="py-2 pr-3">⚬ neutrum</td><td class="py-2 pr-3">das / ein</td><td class="py-2 pr-3">das / ein</td><td class="py-2 font-bold">dem / einem</td></tr>
+            </tbody>
+          </table>
+          <p class="text-sm text-muted-foreground">💡 В Akkusativ меняется <strong>только мужской род</strong>: der → <span class="text-case-akk font-bold">den</span></p>
+        `,
+      },
+      {
+        title: "Dativ + Akkusativ вместе",
+        content: `
+          <p class="mb-3">Когда в предложении два объекта — <strong>кому?</strong> и <strong>что?</strong>:</p>
+          <div class="bg-muted rounded-xl p-4 mb-4 font-mono text-sm sm:text-base">
+            <span class="text-case-nom">Ich</span> gebe
+            <span class="text-case-dat font-bold">dir</span>
+            <span class="text-case-akk font-bold">ein Buch</span>.
+          </div>
+          <p class="mb-2">📌 <strong>Правило:</strong></p>
+          <p class="mb-1">👤 Человек → <span class="text-case-dat font-semibold">Dativ</span> (кому?)</p>
+          <p class="mb-3">📦 Вещь → <span class="text-case-akk font-semibold">Akkusativ</span> (что?)</p>
+          <div class="space-y-1 text-sm">
+            <p>• Ich schenke <span class="text-case-dat font-semibold">meiner Mutter</span> <span class="text-case-akk font-semibold">eine Tasche</span>.</p>
+            <p>• Ich zeige <span class="text-case-dat font-semibold">dir</span> <span class="text-case-akk font-semibold">mein Auto</span>.</p>
+          </div>
+        `,
+      },
+      {
+        title: "Wohin? vs. Wo? — повторение",
+        content: `
+          <table class="w-full text-sm sm:text-base border-collapse mb-4">
+            <thead>
+              <tr class="border-b border-border">
+                <th class="text-left py-2 pr-3">Вопрос</th>
+                <th class="text-left py-2 pr-3">Смысл</th>
+                <th class="text-left py-2">Падеж</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3 font-bold">Wohin?</td><td class="py-2 pr-3">движение →</td><td class="py-2 text-case-akk font-bold">Akkusativ</td></tr>
+              <tr><td class="py-2 pr-3 font-bold">Wo?</td><td class="py-2 pr-3">место 📍</td><td class="py-2 text-case-dat font-bold">Dativ</td></tr>
+            </tbody>
+          </table>
+          <div class="space-y-2 text-sm">
+            <p>→ Ich stelle <span class="text-case-akk">den Tisch</span> in <span class="text-case-akk font-bold">die Küche</span>. <em>(Wohin?)</em></p>
+            <p>📍 Der Tisch steht in <span class="text-case-dat font-bold">der Küche</span>. <em>(Wo?)</em></p>
+          </div>
+        `,
+      },
+      {
+        title: "Possessivpronomen: mein, dein…",
+        content: `
+          <p class="mb-3">Притяжательные местоимения склоняются как <em>ein</em>:</p>
+          <table class="w-full text-sm sm:text-base border-collapse mb-4">
+            <thead>
+              <tr class="border-b border-border">
+                <th class="text-left py-2 pr-3">Падеж</th>
+                <th class="text-left py-2 pr-3">♂ m</th>
+                <th class="text-left py-2 pr-3">♀ f</th>
+                <th class="text-left py-2">⚬ n</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3 text-case-nom font-semibold">Nom</td><td class="py-2 pr-3">mein</td><td class="py-2 pr-3">meine</td><td class="py-2">mein</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3 text-case-akk font-semibold">Akk</td><td class="py-2 pr-3 font-bold">meinen</td><td class="py-2 pr-3">meine</td><td class="py-2">mein</td></tr>
+              <tr><td class="py-2 pr-3 text-case-dat font-semibold">Dat</td><td class="py-2 pr-3 font-bold">meinem</td><td class="py-2 pr-3 font-bold">meiner</td><td class="py-2 font-bold">meinem</td></tr>
+            </tbody>
+          </table>
+          <p class="text-sm text-muted-foreground">То же для: dein, sein, ihr, unser, euer, ihr, Ihr</p>
+        `,
+      },
+    ],
+    examples: [
+      { de: "Ich finde <span class='text-case-akk font-semibold'>den Tisch</span> sehr <span class='text-primary font-semibold'>schön</span>.", en: "I find the table very beautiful." },
+      { de: "Ich finde <span class='text-case-akk font-semibold'>das Zimmer</span> <span class='text-primary font-semibold'>klein</span>.", en: "I find the room small." },
+      { de: "Ich gebe <span class='text-case-dat font-semibold'>dir</span> <span class='text-case-akk font-semibold'>ein Buch</span>.", en: "I give you a book." },
+      { de: "Ich schenke <span class='text-case-dat font-semibold'>meiner Mutter</span> <span class='text-case-akk font-semibold'>eine Tasche</span>.", en: "I give my mother a bag." },
+      { de: "Ich stelle <span class='text-case-akk font-semibold'>den Tisch</span> in <span class='text-case-akk font-semibold'>die Küche</span>.", en: "I put the table in the kitchen. (movement)" },
+      { de: "Der Tisch steht in <span class='text-case-dat font-semibold'>der Küche</span>.", en: "The table is in the kitchen. (position)" },
+      { de: "Ich hänge <span class='text-case-akk font-semibold'>das Bild</span> an <span class='text-case-akk font-semibold'>die Wand</span>.", en: "I hang the picture on the wall." },
+      { de: "Das Bild hängt an <span class='text-case-dat font-semibold'>der Wand</span>.", en: "The picture hangs on the wall." },
+    ],
+    test: [
+      { sentence: "Ich finde ___ Tisch schön. (der Tisch, Akk)", answer: "den" },
+      { sentence: "Ich finde ___ Wohnung gut. (die Wohnung, Akk)", answer: "die" },
+      { sentence: "Ich finde ___ Zimmer klein. (das Zimmer, Akk)", answer: "das" },
+      { sentence: "Ich gebe ___ Mann das Buch. (der Mann, Dat)", answer: "dem" },
+      { sentence: "Ich schenke ___ Mutter eine Tasche. (mein, Dat, f)", answer: "meiner" },
+      { sentence: "Ich zeige ___ mein Auto. (du, Dat)", answer: "dir" },
+      { sentence: "Ich stelle den Tisch in ___ Küche. (Wohin?, die)", answer: "die" },
+      { sentence: "Der Tisch steht in ___ Küche. (Wo?, die)", answer: "der" },
+      { sentence: "Ich hänge das Bild an ___ Wand. (Wohin?, die)", answer: "die" },
+      { sentence: "Das Bild hängt an ___ Wand. (Wo?, die)", answer: "der" },
+      { sentence: "Ich lege das Buch auf ___ Tisch. (Wohin?, der)", answer: "den" },
+      { sentence: "Das Buch liegt auf ___ Tisch. (Wo?, der)", answer: "dem" },
+      { sentence: "Ich finde ___ Film interessant. (der Film, Akk)", answer: "den" },
+      { sentence: "Ich gebe ___ Kind ein Spielzeug. (das Kind, Dat)", answer: "dem" },
+      { sentence: "Ich sehe ___ Tisch. (mein, Akk, m)", answer: "meinen" },
+      { sentence: "Ich helfe ___ Freund. (mein, Dat, m)", answer: "meinem" },
+      { sentence: "Ich stelle den Stuhl vor ___ Sofa. (Wohin?, das)", answer: "das" },
+      { sentence: "Der Stuhl steht vor ___ Sofa. (Wo?, das)", answer: "dem" },
+      { sentence: "Ich finde ___ Lampe schön. (die Lampe, Akk)", answer: "die" },
+      { sentence: "Ich gebe ___ Frau die Blumen. (die Frau, Dat)", answer: "der" },
+    ],
+  },
 ];
