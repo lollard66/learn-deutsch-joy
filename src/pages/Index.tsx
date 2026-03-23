@@ -4,6 +4,7 @@ import { GrammarCard } from "@/components/GrammarCard";
 import { ExampleCard } from "@/components/ExampleCard";
 import { TestSection } from "@/components/TestSection";
 import { ScoreToast } from "@/components/ScoreToast";
+import { AdjektivDeklination } from "@/components/AdjektivDeklination";
 import { BookOpen } from "lucide-react";
 
 export default function Index() {
@@ -72,6 +73,9 @@ export default function Index() {
               ))}
             </div>
           </section>
+
+          {/* Adjektivdeklination for l23 */}
+          {lesson.id === "l23" && <AdjektivDeklination />}
 
           {/* Examples */}
           <section>
