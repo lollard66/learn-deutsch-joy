@@ -5,6 +5,7 @@ import { ExampleCard } from "@/components/ExampleCard";
 import { TestSection } from "@/components/TestSection";
 import { ScoreToast } from "@/components/ScoreToast";
 import { AdjektivDeklination } from "@/components/AdjektivDeklination";
+import { VerbTrainer } from "@/components/VerbTrainer";
 import { BookOpen } from "lucide-react";
 
 export default function Index() {
@@ -76,6 +77,9 @@ export default function Index() {
 
           {/* Adjektivdeklination for l23 */}
           {lesson.id === "l23" && <AdjektivDeklination />}
+
+          {/* Verb Trainer for l24 */}
+          {lesson.id === "l24" && <VerbTrainer />}
 
           {/* Examples */}
           <section>
