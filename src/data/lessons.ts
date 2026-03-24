@@ -855,4 +855,203 @@ export const lessons: Lesson[] = [
       { sentence: "Ich gebe ___ Frau die Blumen. (die Frau, Dat)", answer: "der" },
     ],
   },
+  },
+  {
+    id: "l24",
+    date: "24. März",
+    title: "Beruf, Freizeit & Perfekt",
+    subtitle: "Работа, свободное время и прошедшее время с неправильными глаголами",
+    grammar: [
+      {
+        title: "Beruf — как говорить о работе",
+        content: `
+          <p class="mb-3">Чтобы сказать, кем ты работаешь:</p>
+          <div class="bg-muted rounded-xl p-4 mb-4 space-y-2 text-sm sm:text-base">
+            <p>❓ <strong>Was bist du von Beruf?</strong> — Кем ты работаешь?</p>
+            <p>👉 <span class="text-case-nom font-bold">Ich bin Techniker.</span></p>
+            <p>👉 <span class="text-case-nom font-bold">Ich arbeite im Büro.</span></p>
+          </div>
+          <p class="font-semibold mb-2">📌 Важные слова:</p>
+          <div class="grid grid-cols-2 gap-2 text-sm">
+            <div class="bg-muted/50 rounded-lg p-2"><strong>arbeiten</strong> — работать</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>der Beruf</strong> — профессия</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>die Firma</strong> — фирма</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>der Kollege</strong> — коллега</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>planen</strong> — планировать</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>organisieren</strong> — организовывать</div>
+          </div>
+        `,
+      },
+      {
+        title: "Freizeit — свободное время",
+        content: `
+          <p class="mb-3">Чтобы рассказать о свободном времени:</p>
+          <div class="bg-muted rounded-xl p-4 mb-4 space-y-2 text-sm sm:text-base">
+            <p>❓ <strong>Was machst du in deiner Freizeit?</strong></p>
+            <p>👉 <span class="text-case-nom font-bold">Ich koche.</span></p>
+            <p>👉 <span class="text-case-nom font-bold">Ich gehe einkaufen.</span></p>
+            <p>👉 <span class="text-case-nom font-bold">Ich mache Sport.</span></p>
+          </div>
+          <p class="font-semibold mb-2">📌 Важные слова:</p>
+          <div class="grid grid-cols-2 gap-2 text-sm">
+            <div class="bg-muted/50 rounded-lg p-2"><strong>die Freizeit</strong> — свободное время</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>kochen</strong> — готовить</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>einkaufen</strong> — покупать</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>Sport machen</strong> — заниматься спортом</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>Freunde treffen</strong> — встречаться с друзьями</div>
+            <div class="bg-muted/50 rounded-lg p-2"><strong>joggen</strong> — бегать</div>
+          </div>
+        `,
+      },
+      {
+        title: "Perfekt — прошедшее время 🔥",
+        content: `
+          <p class="mb-3">Самая важная тема уровня A2! Используем, когда говорим о прошлом.</p>
+          <div class="bg-primary/10 border border-primary/20 rounded-xl p-4 mb-4">
+            <p class="text-lg font-bold mb-2">📌 Формула:</p>
+            <p class="text-xl font-bold text-center">
+              <span class="text-case-akk">haben / sein</span> + … + <span class="text-case-dat">Partizip II</span>
+            </p>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4 mb-4">
+            <div class="bg-muted rounded-xl p-4">
+              <p class="font-bold text-case-akk mb-2">haben (почти всегда)</p>
+              <p class="text-sm">👉 Ich <span class="text-case-akk font-bold">habe</span> <span class="text-case-dat font-bold">gegessen</span></p>
+              <p class="text-sm">👉 Ich <span class="text-case-akk font-bold">habe</span> <span class="text-case-dat font-bold">gearbeitet</span></p>
+              <p class="text-sm">👉 Ich <span class="text-case-akk font-bold">habe</span> <span class="text-case-dat font-bold">gekocht</span></p>
+            </div>
+            <div class="bg-muted rounded-xl p-4">
+              <p class="font-bold text-case-nom mb-2">sein (движение / изменение)</p>
+              <p class="text-sm">👉 Ich <span class="text-case-nom font-bold">bin</span> <span class="text-case-dat font-bold">gegangen</span></p>
+              <p class="text-sm">👉 Ich <span class="text-case-nom font-bold">bin</span> <span class="text-case-dat font-bold">gefahren</span></p>
+              <p class="text-sm">👉 Ich <span class="text-case-nom font-bold">bin</span> <span class="text-case-dat font-bold">geblieben</span></p>
+            </div>
+          </div>
+          <div class="bg-muted rounded-xl p-4">
+            <p class="font-semibold mb-2">🔥 Когда <span class="text-case-nom">sein</span>?</p>
+            <p class="text-sm">👉 gehen, fahren, kommen, fliegen, bleiben, aufstehen, einschlafen</p>
+            <p class="text-sm text-muted-foreground mt-1">Запомни: движение или изменение состояния → sein</p>
+          </div>
+        `,
+      },
+      {
+        title: "Неправильные глаголы (Unreg. Verben)",
+        content: `
+          <p class="mb-3">У них меняется форма. Учи их с предложениями!</p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm border-collapse">
+              <thead>
+                <tr class="border-b border-border">
+                  <th class="text-left p-2 font-bold">Infinitiv</th>
+                  <th class="text-left p-2 font-bold">Präteritum</th>
+                  <th class="text-left p-2 font-bold text-case-dat">Partizip II</th>
+                  <th class="text-left p-2 font-bold text-muted-foreground">Перевод</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr><td class="p-2">gehen</td><td class="p-2">ging</td><td class="p-2 text-case-dat font-semibold">gegangen</td><td class="p-2 text-muted-foreground">идти</td></tr>
+                <tr><td class="p-2">sehen</td><td class="p-2">sah</td><td class="p-2 text-case-dat font-semibold">gesehen</td><td class="p-2 text-muted-foreground">видеть</td></tr>
+                <tr><td class="p-2">essen</td><td class="p-2">aß</td><td class="p-2 text-case-dat font-semibold">gegessen</td><td class="p-2 text-muted-foreground">есть</td></tr>
+                <tr><td class="p-2">trinken</td><td class="p-2">trank</td><td class="p-2 text-case-dat font-semibold">getrunken</td><td class="p-2 text-muted-foreground">пить</td></tr>
+                <tr><td class="p-2">bleiben</td><td class="p-2">blieb</td><td class="p-2 text-case-dat font-semibold">geblieben</td><td class="p-2 text-muted-foreground">оставаться</td></tr>
+                <tr><td class="p-2">fahren</td><td class="p-2">fuhr</td><td class="p-2 text-case-dat font-semibold">gefahren</td><td class="p-2 text-muted-foreground">ехать</td></tr>
+                <tr><td class="p-2">kommen</td><td class="p-2">kam</td><td class="p-2 text-case-dat font-semibold">gekommen</td><td class="p-2 text-muted-foreground">приходить</td></tr>
+                <tr><td class="p-2">schreiben</td><td class="p-2">schrieb</td><td class="p-2 text-case-dat font-semibold">geschrieben</td><td class="p-2 text-muted-foreground">писать</td></tr>
+              </tbody>
+            </table>
+          </div>
+        `,
+      },
+      {
+        title: "Как описывать людей (экзамен!)",
+        content: `
+          <p class="mb-3">На экзамене часто нужно описать человека по картинке:</p>
+          <div class="bg-muted rounded-xl p-4 mb-4 space-y-1 text-sm sm:text-base">
+            <p>👉 <strong>Ich glaube, …</strong> — Я думаю, …</p>
+            <p>👉 <strong>Vielleicht ist er/sie …</strong> — Может быть, он/она …</p>
+            <p>👉 <strong>Er/Sie arbeitet …</strong> — Он/она работает …</p>
+            <p>👉 <strong>In seiner/ihrer Freizeit …</strong> — В свободное время …</p>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div class="bg-muted/50 rounded-xl p-4 text-sm">
+              <p class="font-bold mb-1">👨 Aman:</p>
+              <p>Ich glaube, Aman ist <span class="text-case-nom font-bold">Techniker</span>.</p>
+              <p>Er arbeitet mit <span class="text-case-akk font-bold">Solaranlagen</span>.</p>
+              <p>In seiner Freizeit macht er <span class="text-case-akk font-bold">Sport</span>.</p>
+            </div>
+            <div class="bg-muted/50 rounded-xl p-4 text-sm">
+              <p class="font-bold mb-1">👩 Jana:</p>
+              <p>Ich glaube, Jana arbeitet im <span class="text-case-dat font-bold">Büro</span>.</p>
+              <p>In ihrer Freizeit <span class="text-case-akk font-bold">kocht</span> sie.</p>
+              <p>Sie geht gern <span class="text-case-akk font-bold">einkaufen</span>.</p>
+            </div>
+          </div>
+        `,
+      },
+      {
+        title: "Порядок слов + Perfekt",
+        content: `
+          <div class="space-y-4">
+            <div class="bg-muted rounded-xl p-4">
+              <p class="font-bold mb-2">📌 Глагол ВСЕГДА на 2-м месте:</p>
+              <p class="text-sm">👉 Ich <span class="text-case-akk font-bold">arbeite</span> heute.</p>
+              <p class="text-sm">👉 Ich <span class="text-case-akk font-bold">gehe</span> nach Hause.</p>
+            </div>
+            <div class="bg-muted rounded-xl p-4">
+              <p class="font-bold mb-2">📌 В Perfekt — Partizip II в конце:</p>
+              <p class="text-sm">👉 Ich <span class="text-case-akk font-bold">habe</span> Pizza <span class="text-case-dat font-bold">gegessen</span>.</p>
+              <p class="text-sm">👉 Ich <span class="text-case-nom font-bold">bin</span> nach Wien <span class="text-case-dat font-bold">gefahren</span>.</p>
+            </div>
+            <div class="bg-primary/10 border border-primary/20 rounded-xl p-4">
+              <p class="font-bold mb-2">🔥 sein vs haben:</p>
+              <div class="grid grid-cols-2 gap-4 text-sm">
+                <div>
+                  <p class="font-bold text-case-nom mb-1">sein</p>
+                  <p>движение:</p>
+                  <p>gehen, fahren, kommen, fliegen</p>
+                </div>
+                <div>
+                  <p class="font-bold text-case-akk mb-1">haben</p>
+                  <p>всё остальное:</p>
+                  <p>essen, arbeiten, kochen, lernen</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        `,
+      },
+    ],
+    examples: [
+      { de: "Ich <span class='text-case-akk font-bold'>arbeite</span> in einer Firma.", en: "Я работаю в фирме." },
+      { de: "Ich <span class='text-case-akk font-bold'>organisiere</span> Termine.", en: "Я организую встречи." },
+      { de: "Ich <span class='text-case-akk font-bold'>koche</span> am Abend.", en: "Я готовлю вечером." },
+      { de: "Ich <span class='text-case-akk font-bold'>treffe</span> Freunde.", en: "Я встречаюсь с друзьями." },
+      { de: "Ich <span class='text-case-akk font-bold'>habe</span> Pizza <span class='text-case-dat font-bold'>gegessen</span>.", en: "Я ел пиццу." },
+      { de: "Ich <span class='text-case-nom font-bold'>bin</span> nach Wien <span class='text-case-dat font-bold'>gefahren</span>.", en: "Я поехал в Вену." },
+      { de: "Ich <span class='text-case-nom font-bold'>bin</span> zu Hause <span class='text-case-dat font-bold'>geblieben</span>.", en: "Я остался дома." },
+      { de: "Ich <span class='text-case-akk font-bold'>habe</span> dich <span class='text-case-dat font-bold'>gesehen</span>.", en: "Я тебя видел." },
+    ],
+    test: [
+      { sentence: "Ich ___ Pizza gegessen. (haben)", answer: "habe" },
+      { sentence: "Ich ___ nach Wien gefahren. (sein)", answer: "bin" },
+      { sentence: "Ich ___ zu Hause geblieben. (sein)", answer: "bin" },
+      { sentence: "Ich ___ gearbeitet. (haben)", answer: "habe" },
+      { sentence: "Ich ___ Freunde getroffen. (haben)", answer: "habe" },
+      { sentence: "Er ___ nach Berlin geflogen. (sein)", answer: "ist" },
+      { sentence: "Sie ___ ein Buch gelesen. (haben)", answer: "hat" },
+      { sentence: "Wir ___ ins Kino gegangen. (sein)", answer: "sind" },
+      { sentence: "gehen → ging → ___", answer: "gegangen" },
+      { sentence: "sehen → sah → ___", answer: "gesehen" },
+      { sentence: "essen → aß → ___", answer: "gegessen" },
+      { sentence: "trinken → trank → ___", answer: "getrunken" },
+      { sentence: "bleiben → blieb → ___", answer: "geblieben" },
+      { sentence: "fahren → fuhr → ___", answer: "gefahren" },
+      { sentence: "kommen → kam → ___", answer: "gekommen" },
+      { sentence: "schreiben → schrieb → ___", answer: "geschrieben" },
+      { sentence: "Was ___ du von Beruf? (sein)", answer: "bist" },
+      { sentence: "Ich ___ im Büro. (arbeiten)", answer: "arbeite" },
+      { sentence: "Was ___ du in deiner Freizeit? (machen)", answer: "machst" },
+      { sentence: "Ich ___ Sport. (machen)", answer: "mache" },
+    ],
+  },
 ];
