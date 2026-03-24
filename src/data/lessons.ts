@@ -855,7 +855,6 @@ export const lessons: Lesson[] = [
       { sentence: "Ich gebe ___ Frau die Blumen. (die Frau, Dat)", answer: "der" },
     ],
   },
-  },
   {
     id: "l24",
     date: "24. März",
