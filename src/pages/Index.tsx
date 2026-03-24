@@ -78,6 +78,9 @@ export default function Index() {
           {/* Adjektivdeklination for l23 */}
           {lesson.id === "l23" && <AdjektivDeklination />}
 
+          {/* Verb Trainer for l24 */}
+          {lesson.id === "l24" && <VerbTrainer />}
+
           {/* Examples */}
           <section>
             <h2 className="text-2xl font-bold tracking-display mb-5 animate-slide-up-fade">
