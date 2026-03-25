@@ -1053,4 +1053,223 @@ export const lessons: Lesson[] = [
       { sentence: "Ich ___ Sport. (machen)", answer: "mache" },
     ],
   },
+  {
+    id: "l25",
+    date: "25. März",
+    title: "Nomen & Artikel: Nominativ, Akkusativ, Dativ",
+    subtitle: "Wer? Wen? Wem? — Притяжательные артикли, Dativ-предлоги и женские формы профессий.",
+    grammar: [
+      {
+        title: "Wer? Wen? Wem? — Три главных вопроса",
+        content: `<p class="mb-4 text-muted-foreground leading-relaxed">В немецком языке падеж определяет роль слова в предложении. Три ключевых вопроса:</p>
+<div class="space-y-3 mb-4">
+  <div class="p-4 bg-muted rounded-xl border border-dashed border-border">
+    <span class="case-nom font-bold text-lg">Wer?</span> <span class="text-muted-foreground">— кто? →</span> <span class="font-semibold">Nominativ</span>
+    <p class="text-sm text-muted-foreground mt-1"><span class="case-nom font-medium">Der Mann</span> kommt. — Мужчина приходит.</p>
+  </div>
+  <div class="p-4 bg-muted rounded-xl border border-dashed border-border">
+    <span class="case-akk font-bold text-lg">Wen?</span> <span class="text-muted-foreground">— кого? →</span> <span class="font-semibold">Akkusativ</span>
+    <p class="text-sm text-muted-foreground mt-1">Ich sehe <span class="case-akk font-medium">den Mann</span>. — Я вижу мужчину.</p>
+  </div>
+  <div class="p-4 bg-muted rounded-xl border border-dashed border-border">
+    <span class="case-dat font-bold text-lg">Wem?</span> <span class="text-muted-foreground">— кому? →</span> <span class="font-semibold">Dativ</span>
+    <p class="text-sm text-muted-foreground mt-1">Ich helfe <span class="case-dat font-medium">dem Mann</span>. — Я помогаю мужчине.</p>
+  </div>
+</div>`,
+      },
+      {
+        title: "Artikeltabelle: der / die / das",
+        content: `<div class="overflow-x-auto">
+<table class="w-full text-sm">
+<thead><tr class="border-b border-border">
+  <th class="text-left py-2 pr-3 font-semibold text-muted-foreground">Род</th>
+  <th class="py-2 px-3 font-semibold"><span class="case-nom">Nominativ</span></th>
+  <th class="py-2 px-3 font-semibold"><span class="case-akk">Akkusativ</span></th>
+  <th class="py-2 px-3 font-semibold"><span class="case-dat">Dativ</span></th>
+</tr></thead>
+<tbody>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3 font-medium">Maskulin</td><td class="py-2 px-3"><span class="case-nom font-bold">der</span></td><td class="py-2 px-3"><span class="case-akk font-bold">den</span></td><td class="py-2 px-3"><span class="case-dat font-bold">dem</span></td></tr>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3 font-medium">Feminin</td><td class="py-2 px-3"><span class="case-nom font-bold">die</span></td><td class="py-2 px-3"><span class="case-akk font-bold">die</span></td><td class="py-2 px-3"><span class="case-dat font-bold">der</span></td></tr>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3 font-medium">Neutral</td><td class="py-2 px-3"><span class="case-nom font-bold">das</span></td><td class="py-2 px-3"><span class="case-akk font-bold">das</span></td><td class="py-2 px-3"><span class="case-dat font-bold">dem</span></td></tr>
+  <tr><td class="py-2 pr-3 font-medium">Plural</td><td class="py-2 px-3"><span class="case-nom font-bold">die</span></td><td class="py-2 px-3"><span class="case-akk font-bold">die</span></td><td class="py-2 px-3"><span class="case-dat font-bold">den + n</span></td></tr>
+</tbody>
+</table>
+</div>
+<p class="mt-4 text-muted-foreground text-sm leading-relaxed">📌 Запомни: только <span class="case-akk font-semibold">мужской род</span> меняется в Akkusativ: der → <span class="case-akk font-bold">den</span>. В Dativ меняются все!</p>`,
+      },
+      {
+        title: "Притяжательные артикли: mein / dein / sein / ihr…",
+        content: `<p class="mb-3 text-muted-foreground">Притяжательные артикли меняются так же, как неопределённый артикль <strong>ein</strong>:</p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4">
+  <div class="bg-muted rounded-lg p-2 text-center text-sm"><span class="font-bold">mein</span><br/><span class="text-muted-foreground text-xs">мой</span></div>
+  <div class="bg-muted rounded-lg p-2 text-center text-sm"><span class="font-bold">dein</span><br/><span class="text-muted-foreground text-xs">твой</span></div>
+  <div class="bg-muted rounded-lg p-2 text-center text-sm"><span class="font-bold">sein</span><br/><span class="text-muted-foreground text-xs">его</span></div>
+  <div class="bg-muted rounded-lg p-2 text-center text-sm"><span class="font-bold">ihr</span><br/><span class="text-muted-foreground text-xs">её</span></div>
+  <div class="bg-muted rounded-lg p-2 text-center text-sm"><span class="font-bold">unser</span><br/><span class="text-muted-foreground text-xs">наш</span></div>
+  <div class="bg-muted rounded-lg p-2 text-center text-sm"><span class="font-bold">euer</span><br/><span class="text-muted-foreground text-xs">ваш</span></div>
+  <div class="bg-muted rounded-lg p-2 text-center text-sm"><span class="font-bold">ihr</span><br/><span class="text-muted-foreground text-xs">их</span></div>
+  <div class="bg-muted rounded-lg p-2 text-center text-sm"><span class="font-bold">Ihr</span><br/><span class="text-muted-foreground text-xs">Ваш</span></div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-sm">
+<thead><tr class="border-b border-border">
+  <th class="text-left py-2 pr-3 font-semibold text-muted-foreground">Род</th>
+  <th class="py-2 px-3 font-semibold"><span class="case-nom">Nom.</span></th>
+  <th class="py-2 px-3 font-semibold"><span class="case-akk">Akk.</span></th>
+  <th class="py-2 px-3 font-semibold"><span class="case-dat">Dat.</span></th>
+</tr></thead>
+<tbody>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3 font-medium">der (Maskulin)</td><td class="py-2 px-3">mein</td><td class="py-2 px-3"><span class="case-akk font-bold">meinen</span></td><td class="py-2 px-3"><span class="case-dat font-bold">meinem</span></td></tr>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3 font-medium">die (Feminin)</td><td class="py-2 px-3">mein<span class="case-nom font-bold">e</span></td><td class="py-2 px-3">mein<span class="case-akk font-bold">e</span></td><td class="py-2 px-3"><span class="case-dat font-bold">meiner</span></td></tr>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3 font-medium">das (Neutral)</td><td class="py-2 px-3">mein</td><td class="py-2 px-3">mein</td><td class="py-2 px-3"><span class="case-dat font-bold">meinem</span></td></tr>
+  <tr><td class="py-2 pr-3 font-medium">die (Plural)</td><td class="py-2 px-3">mein<span class="case-nom font-bold">e</span></td><td class="py-2 px-3">mein<span class="case-akk font-bold">e</span></td><td class="py-2 px-3"><span class="case-dat font-bold">meinen</span></td></tr>
+</tbody>
+</table>
+</div>`,
+      },
+      {
+        title: "Dativ-Предлоги: mit, von, bei, zu, nach",
+        content: `<p class="mb-3 text-muted-foreground">После этих предлогов <strong>всегда</strong> стоит Dativ. Это главные сигналы Dativ!</p>
+<div class="space-y-2">
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="case-dat font-bold text-lg shrink-0">mit</span>
+    <div><span class="text-muted-foreground text-sm">— с</span><br/><span class="text-sm">Ich gehe mit <span class="case-dat font-bold">meinem Freund</span>.</span></div>
+  </div>
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="case-dat font-bold text-lg shrink-0">von</span>
+    <div><span class="text-muted-foreground text-sm">— от</span><br/><span class="text-sm">Eine Nachricht von <span class="case-dat font-bold">meiner Kollegin</span>.</span></div>
+  </div>
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="case-dat font-bold text-lg shrink-0">bei</span>
+    <div><span class="text-muted-foreground text-sm">— у, при</span><br/><span class="text-sm">Er arbeitet bei <span class="case-dat font-bold">einer Firma</span>.</span></div>
+  </div>
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="case-dat font-bold text-lg shrink-0">zu</span>
+    <div><span class="text-muted-foreground text-sm">— к</span><br/><span class="text-sm">Ich gehe zu <span class="case-dat font-bold">meinem Arzt</span>.</span></div>
+  </div>
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="case-dat font-bold text-lg shrink-0">nach</span>
+    <div><span class="text-muted-foreground text-sm">— после, в</span><br/><span class="text-sm">Nach <span class="case-dat font-bold">der Arbeit</span> gehe ich nach Hause.</span></div>
+  </div>
+</div>`,
+      },
+      {
+        title: "Demonstrativartikel: dieser / dieses / diese",
+        content: `<p class="mb-3 text-muted-foreground">Указательные артикли склоняются так же, как определённый артикль:</p>
+<div class="overflow-x-auto">
+<table class="w-full text-sm">
+<thead><tr class="border-b border-border">
+  <th class="text-left py-2 pr-3 font-semibold text-muted-foreground">Падеж</th>
+  <th class="py-2 px-3 font-semibold">mask.</th>
+  <th class="py-2 px-3 font-semibold">neutr.</th>
+  <th class="py-2 px-3 font-semibold">fem.</th>
+  <th class="py-2 px-3 font-semibold">Plural</th>
+</tr></thead>
+<tbody>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3"><span class="case-nom font-semibold">Nom.</span></td><td class="py-2 px-3">dies<span class="case-nom font-bold">er</span></td><td class="py-2 px-3">dies<span class="case-nom font-bold">es</span></td><td class="py-2 px-3">dies<span class="case-nom font-bold">e</span></td><td class="py-2 px-3">dies<span class="case-nom font-bold">e</span></td></tr>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3"><span class="case-akk font-semibold">Akk.</span></td><td class="py-2 px-3">dies<span class="case-akk font-bold">en</span></td><td class="py-2 px-3">dies<span class="case-akk font-bold">es</span></td><td class="py-2 px-3">dies<span class="case-akk font-bold">e</span></td><td class="py-2 px-3">dies<span class="case-akk font-bold">e</span></td></tr>
+  <tr><td class="py-2 pr-3"><span class="case-dat font-semibold">Dat.</span></td><td class="py-2 px-3">dies<span class="case-dat font-bold">em</span></td><td class="py-2 px-3">dies<span class="case-dat font-bold">em</span></td><td class="py-2 px-3">dies<span class="case-dat font-bold">er</span></td><td class="py-2 px-3">dies<span class="case-dat font-bold">en</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="mt-4 space-y-1 text-sm">
+  <p><span class="case-nom font-medium">Dieser Mann</span> ist nett. → Ich sehe <span class="case-akk font-medium">diesen Mann</span>. → Ich helfe <span class="case-dat font-medium">diesem Mann</span>.</p>
+  <p><span class="case-nom font-medium">Diese Frau</span> arbeitet. → Ich sehe <span class="case-akk font-medium">diese Frau</span>. → Ich spreche mit <span class="case-dat font-medium">dieser Frau</span>.</p>
+</div>`,
+      },
+      {
+        title: "Женские формы профессий: -in / -innen",
+        content: `<p class="mb-3 text-muted-foreground">Для женской формы добавляется <strong>-in</strong>, во множественном числе <strong>-innen</strong>:</p>
+<div class="overflow-x-auto">
+<table class="w-full text-sm">
+<thead><tr class="border-b border-border">
+  <th class="text-left py-2 pr-3 font-semibold text-muted-foreground">Мужчина</th>
+  <th class="py-2 px-3 font-semibold">Женщина</th>
+  <th class="py-2 px-3 font-semibold">Множественное</th>
+</tr></thead>
+<tbody>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3">der Mitarbeiter</td><td class="py-2 px-3">die Mitarbeiter<span class="case-akk font-bold">in</span></td><td class="py-2 px-3">die Mitarbeiter<span class="case-akk font-bold">innen</span></td></tr>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3">der Kollege</td><td class="py-2 px-3">die Kolleg<span class="case-akk font-bold">in</span></td><td class="py-2 px-3">die Kolleg<span class="case-akk font-bold">innen</span></td></tr>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3">der Arzt</td><td class="py-2 px-3">die <span class="case-akk font-bold">Ä</span>rzt<span class="case-akk font-bold">in</span></td><td class="py-2 px-3">die <span class="case-akk font-bold">Ä</span>rzt<span class="case-akk font-bold">innen</span></td></tr>
+  <tr class="border-b border-border/50"><td class="py-2 pr-3">der Elektriker</td><td class="py-2 px-3">die Elektriker<span class="case-akk font-bold">in</span></td><td class="py-2 px-3">die Elektriker<span class="case-akk font-bold">innen</span></td></tr>
+  <tr><td class="py-2 pr-3">der Ingenieur</td><td class="py-2 px-3">die Ingenieur<span class="case-akk font-bold">in</span></td><td class="py-2 px-3">die Ingenieur<span class="case-akk font-bold">innen</span></td></tr>
+</tbody>
+</table>
+</div>
+<p class="mt-3 text-sm text-muted-foreground">⚠️ Иногда меняется гласная: <strong>Arzt → Ärztin</strong></p>`,
+      },
+      {
+        title: "Как выбирать форму: 4 шага",
+        content: `<div class="space-y-3">
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="w-7 h-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold shrink-0">1</span>
+    <div><span class="font-semibold">Найди существительное:</span> <span class="text-muted-foreground text-sm">Freund, Familie, Buch, Freunde</span></div>
+  </div>
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="w-7 h-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold shrink-0">2</span>
+    <div><span class="font-semibold">Определи род:</span> <span class="text-muted-foreground text-sm"><span class="case-nom">der</span> Freund, <span class="case-nom">die</span> Familie, <span class="case-nom">das</span> Buch</span></div>
+  </div>
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="w-7 h-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold shrink-0">3</span>
+    <div><span class="font-semibold">Посмотри на вопрос / предлог:</span> <span class="text-muted-foreground text-sm">Wer? → Nom. | Wen? → Akk. | mit/von/bei/zu/nach → Dat.</span></div>
+  </div>
+  <div class="flex items-start gap-3 p-3 bg-muted rounded-lg">
+    <span class="w-7 h-7 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold shrink-0">4</span>
+    <div><span class="font-semibold">Поставь правильную форму:</span> <span class="text-muted-foreground text-sm">mein → meinen → meinem</span></div>
+  </div>
+</div>`,
+      },
+      {
+        title: "Частые ошибки ❌ → ✅",
+        content: `<div class="space-y-3">
+  <div class="p-3 bg-muted rounded-lg">
+    <p class="text-sm"><span class="case-dat">❌</span> mit <strong>mein</strong> Freund</p>
+    <p class="text-sm"><span class="case-akk">✅</span> mit <span class="case-dat font-bold">meinem</span> Freund <span class="text-muted-foreground text-xs">(mit → Dativ, mask.)</span></p>
+  </div>
+  <div class="p-3 bg-muted rounded-lg">
+    <p class="text-sm"><span class="case-dat">❌</span> mit <strong>meine</strong> Familie</p>
+    <p class="text-sm"><span class="case-akk">✅</span> mit <span class="case-dat font-bold">meiner</span> Familie <span class="text-muted-foreground text-xs">(mit → Dativ, fem.)</span></p>
+  </div>
+  <div class="p-3 bg-muted rounded-lg">
+    <p class="text-sm"><span class="case-dat">❌</span> mit <strong>meine</strong> Freunde</p>
+    <p class="text-sm"><span class="case-akk">✅</span> mit <span class="case-dat font-bold">meinen</span> Freund<span class="case-dat font-bold">en</span> <span class="text-muted-foreground text-xs">(mit → Dativ, Plural + n)</span></p>
+  </div>
+</div>`,
+      },
+    ],
+    examples: [
+      { de: '<span class="case-nom font-bold">Der Mann</span> arbeitet.', en: "Мужчина работает." },
+      { de: 'Ich sehe <span class="case-akk font-bold">den Mann</span>.', en: "Я вижу мужчину." },
+      { de: 'Ich helfe <span class="case-dat font-bold">dem Mann</span>.', en: "Я помогаю мужчине." },
+      { de: 'Ich gehe mit <span class="case-dat font-bold">meinem Freund</span>.', en: "Я иду с моим другом." },
+      { de: 'Ich spreche mit <span class="case-dat font-bold">meiner Kollegin</span>.', en: "Я говорю с моей коллегой." },
+      { de: 'Ich spiele mit <span class="case-dat font-bold">meinen Freunden</span>.', en: "Я играю с моими друзьями." },
+      { de: 'Aman ist gerne mit <span class="case-dat font-bold">seiner Familie</span> zusammen.', en: "Аман любит быть со своей семьёй." },
+      { de: 'Nach <span class="case-dat font-bold">der Arbeit</span> gehe ich nach Hause.', en: "После работы я иду домой." },
+      { de: '<span class="case-nom font-bold">Dieser Mann</span> ist freundlich.', en: "Этот мужчина дружелюбный." },
+      { de: 'Ich helfe <span class="case-dat font-bold">diesem Mann</span>.', en: "Я помогаю этому мужчине." },
+    ],
+    test: [
+      { sentence: "Ich gehe mit ___ Freund. (mein, mask.)", answer: "meinem" },
+      { sentence: "Ich spreche mit ___ Mutter. (mein, fem.)", answer: "meiner" },
+      { sentence: "Ich spiele mit ___ Freunden. (mein, Pl.)", answer: "meinen" },
+      { sentence: "Ich sehe ___ Freund. (mein, mask.)", answer: "meinen" },
+      { sentence: "Ich helfe ___ Freund. (mein, mask.)", answer: "meinem" },
+      { sentence: "Das ist ___ Familie. (mein, fem. Nom.)", answer: "meine" },
+      { sentence: "Ich liebe ___ Familie. (mein, fem. Akk.)", answer: "meine" },
+      { sentence: "Ich bin mit ___ Familie zusammen. (mein, fem.)", answer: "meiner" },
+      { sentence: "Er arbeitet mit ___ Kollegen. (sein, mask.)", answer: "seinem" },
+      { sentence: "Sie geht zu ___ Arzt. (ihr, mask.)", answer: "ihrem" },
+      { sentence: "___ Mann kommt. (dieser, Nom.)", answer: "Dieser" },
+      { sentence: "Ich sehe ___ Mann. (dieser, Akk.)", answer: "diesen" },
+      { sentence: "Ich helfe ___ Mann. (dieser, Dat.)", answer: "diesem" },
+      { sentence: "Ich spreche mit ___ Frau. (dieser, Dat.)", answer: "dieser" },
+      { sentence: "___ Kind spielt. (dieses, Nom.)", answer: "Dieses" },
+      { sentence: "Nach ___ Arbeit gehe ich nach Hause. (die, Dat.)", answer: "der" },
+      { sentence: "Ich gehe zu ___ Arzt. (mein, mask.)", answer: "meinem" },
+      { sentence: "Eine Nachricht von ___ Kollegin. (mein, fem.)", answer: "meiner" },
+      { sentence: "Die Mitarbeiterin → die Mitarbeiter___ (Plural)", answer: "innen" },
+      { sentence: "Der Arzt → die ___ (fem.)", answer: "Ärztin" },
+    ],
+  },
 ];
