@@ -1275,11 +1275,11 @@ export const lessons: Lesson[] = [
   {
     id: "l26",
     date: "26. März",
-    title: "Konjunktion „dass" & Nebensätze",
+    title: 'Konjunktion „dass" & Nebensätze',
     subtitle: "Придаточные предложения с dass — слухи, мнения, аргументы. Глагол в конце!",
     grammar: [
       {
-        title: "Was ist „dass"?",
+        title: 'Was ist „dass"?',
         content: `
           <p class="mb-3"><strong>dass</strong> = <em>что</em> (союз, <strong>не</strong> артикль <em>das</em>!)</p>
           <p class="mb-2">Он соединяет два предложения:</p>
