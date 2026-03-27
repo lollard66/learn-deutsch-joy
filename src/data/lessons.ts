@@ -1432,10 +1432,10 @@ export const lessons: Lesson[] = [
     id: "l27",
     date: "27. März",
     title: "dass-Sätze & Nebensatz (Vertiefung)",
-    subtitle: "Konjunktion „dass", Verben mit dass, Gerüchte, Alltag & Dialoge.",
+    subtitle: "Konjunktion dass, Verben mit dass, Gerüchte, Alltag & Dialoge.",
     grammar: [
       {
-        title: "Was ist „dass"?",
+        title: "Was ist dass?",
         content: `<p class="mb-3">👉 <strong>dass</strong> = <em>что</em> (по-русски)</p>
 <p class="mb-3">Это <strong>союз</strong> (Konjunktion), а <strong>НЕ</strong> артикль!</p>
 <div class="bg-muted rounded-xl border border-dashed border-border p-4 sm:p-6 mb-4">
