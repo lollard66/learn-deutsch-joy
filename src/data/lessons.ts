@@ -1428,4 +1428,180 @@ export const lessons: Lesson[] = [
       { sentence: "Ich weiß, dass er in einer Firma ___ . (arbeiten)", answer: "arbeitet" },
     ],
   },
+  {
+    id: "l27",
+    date: "27. März",
+    title: "dass-Sätze & Nebensatz (Vertiefung)",
+    subtitle: "Konjunktion dass, Verben mit dass, Gerüchte, Alltag & Dialoge.",
+    grammar: [
+      {
+        title: "Was ist dass?",
+        content: `<p class="mb-3">👉 <strong>dass</strong> = <em>что</em> (по-русски)</p>
+<p class="mb-3">Это <strong>союз</strong> (Konjunktion), а <strong>НЕ</strong> артикль!</p>
+<div class="bg-muted rounded-xl border border-dashed border-border p-4 sm:p-6 mb-4">
+  <p class="text-base sm:text-lg font-medium">Ich <span class="text-case-nom font-bold">glaube</span>, <span class="text-case-akk font-bold">dass</span> er <span class="text-case-dat font-bold">arbeitet</span>.</p>
+  <p class="text-sm text-muted-foreground mt-1">Я думаю, <em>что</em> он работает</p>
+</div>
+<p class="text-muted-foreground">Он соединяет <strong>главное предложение</strong> (Hauptsatz) с <strong>придаточным</strong> (Nebensatz).</p>`,
+      },
+      {
+        title: "🔥 Главное правило: глагол В КОНЦЕ",
+        content: `<p class="mb-4">После <strong>dass</strong> глагол всегда стоит <strong>в конце</strong> предложения!</p>
+<div class="flex flex-wrap items-center gap-3 text-base sm:text-lg font-medium p-4 sm:p-6 bg-muted rounded-xl border border-dashed border-border mb-4">
+  <span class="text-case-nom font-bold">Hauptsatz</span>
+  <span class="text-muted-foreground">+</span>
+  <span class="text-case-akk font-bold">, dass</span>
+  <span class="text-muted-foreground">+ … +</span>
+  <span class="text-case-dat font-bold">Verb ⬅️</span>
+</div>
+<div class="space-y-2">
+  <p>✅ Ich finde, dass Deutsch interessant <strong>ist</strong>.</p>
+  <p>✅ Ich habe gehört, dass Jana die Prämie gewonnen <strong>hat</strong>.</p>
+  <p class="text-destructive mt-3">❌ Ich glaube, dass er <s>ist</s> müde → ❌</p>
+  <p class="text-case-akk">✅ Ich glaube, dass er müde <strong>ist</strong> → ✅</p>
+</div>`,
+      },
+      {
+        title: "Perfekt в dass-Sätze",
+        content: `<p class="mb-3">Если в придаточном <strong>Perfekt</strong> — оба глагола идут в конец:</p>
+<div class="bg-muted rounded-xl border border-dashed border-border p-4 sm:p-6 mb-4 space-y-2">
+  <p class="font-medium">Ich glaube, dass ich gut <span class="text-case-akk font-bold">gelernt</span> <span class="text-case-dat font-bold">habe</span>.</p>
+  <p class="text-sm text-muted-foreground">Partizip II → сначала, haben/sein → потом</p>
+</div>
+<div class="space-y-2 text-sm">
+  <p class="text-destructive">❌ … dass Jana <s>hat gewonnen</s></p>
+  <p class="text-case-akk">✅ … dass Jana gewonnen <strong>hat</strong></p>
+  <p class="text-destructive">❌ … dass er <s>ist gefahren</s></p>
+  <p class="text-case-akk">✅ … dass er nach Wien gefahren <strong>ist</strong></p>
+</div>`,
+      },
+      {
+        title: "Важные глаголы с dass",
+        content: `<div class="overflow-x-auto">
+<table class="w-full text-sm">
+  <thead><tr class="border-b border-border">
+    <th class="text-left py-2 px-3 font-bold">Глагол</th>
+    <th class="text-left py-2 px-3 font-bold">Перевод</th>
+    <th class="text-left py-2 px-3 font-bold">Пример</th>
+  </tr></thead>
+  <tbody class="divide-y divide-border">
+    <tr><td class="py-2 px-3 text-case-nom font-semibold">finden</td><td class="py-2 px-3">считать</td><td class="py-2 px-3">Ich finde, dass…</td></tr>
+    <tr><td class="py-2 px-3 text-case-nom font-semibold">glauben</td><td class="py-2 px-3">верить, думать</td><td class="py-2 px-3">Ich glaube, dass…</td></tr>
+    <tr><td class="py-2 px-3 text-case-nom font-semibold">denken</td><td class="py-2 px-3">думать</td><td class="py-2 px-3">Ich denke, dass…</td></tr>
+    <tr><td class="py-2 px-3 text-case-nom font-semibold">sagen</td><td class="py-2 px-3">говорить</td><td class="py-2 px-3">Er sagt, dass…</td></tr>
+    <tr><td class="py-2 px-3 text-case-nom font-semibold">meinen</td><td class="py-2 px-3">считать</td><td class="py-2 px-3">Sie meint, dass…</td></tr>
+    <tr><td class="py-2 px-3 text-case-nom font-semibold">wissen</td><td class="py-2 px-3">знать</td><td class="py-2 px-3">Ich weiß, dass…</td></tr>
+    <tr><td class="py-2 px-3 text-case-nom font-semibold">erzählen</td><td class="py-2 px-3">рассказывать</td><td class="py-2 px-3">Er erzählt, dass…</td></tr>
+    <tr><td class="py-2 px-3 text-case-nom font-semibold">vergessen</td><td class="py-2 px-3">забывать</td><td class="py-2 px-3">Vergiss nicht, dass…</td></tr>
+  </tbody>
+</table>
+</div>`,
+      },
+      {
+        title: "Konjugation: finden",
+        content: `<div class="overflow-x-auto">
+<table class="w-full text-sm">
+  <thead><tr class="border-b border-border">
+    <th class="text-left py-2 px-3 font-bold">Pronomen</th>
+    <th class="text-left py-2 px-3 font-bold">Form</th>
+  </tr></thead>
+  <tbody class="divide-y divide-border">
+    <tr><td class="py-2 px-3">ich</td><td class="py-2 px-3 text-case-nom font-semibold">finde</td></tr>
+    <tr><td class="py-2 px-3">du</td><td class="py-2 px-3 text-case-nom font-semibold">findest</td></tr>
+    <tr><td class="py-2 px-3">er/sie/es</td><td class="py-2 px-3 text-case-nom font-semibold">findet</td></tr>
+    <tr><td class="py-2 px-3">wir</td><td class="py-2 px-3 text-case-nom font-semibold">finden</td></tr>
+    <tr><td class="py-2 px-3">ihr</td><td class="py-2 px-3 text-case-nom font-semibold">findet</td></tr>
+    <tr><td class="py-2 px-3">sie/Sie</td><td class="py-2 px-3 text-case-nom font-semibold">finden</td></tr>
+  </tbody>
+</table>
+</div>`,
+      },
+      {
+        title: "Gerüchte (слухи) — шаблоны",
+        content: `<div class="space-y-3">
+  <p class="font-medium">Начало фразы:</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+    <div class="bg-muted rounded-lg p-3 border border-border"><span class="text-case-nom font-bold">Hast du gehört</span>, dass…</div>
+    <div class="bg-muted rounded-lg p-3 border border-border"><span class="text-case-nom font-bold">Weißt du schon</span>, dass…</div>
+    <div class="bg-muted rounded-lg p-3 border border-border"><span class="text-case-nom font-bold">Ich glaube</span>, dass…</div>
+    <div class="bg-muted rounded-lg p-3 border border-border"><span class="text-case-nom font-bold">Ich finde</span>, dass…</div>
+  </div>
+  <p class="text-sm text-muted-foreground mt-2">Реакции: <strong>Ist das wahr?</strong> / <strong>Das stimmt!</strong> / <strong>Ich denke, dass…</strong></p>
+</div>`,
+      },
+      {
+        title: "Alltag & Freizeit с dass",
+        content: `<div class="space-y-3">
+  <p class="mb-2">Рассказывай о себе, используя dass:</p>
+  <div class="bg-muted rounded-xl border border-dashed border-border p-4 space-y-2">
+    <p>Ich <strong>mache</strong> einen Deutschkurs.</p>
+    <p>Der Kurs ist <strong>von 11 bis 14 Uhr</strong>.</p>
+    <p>Nach dem Kurs gehe ich <strong>ins Fitnessstudio</strong>.</p>
+  </div>
+  <p class="mt-3 font-medium">С dass:</p>
+  <div class="bg-muted rounded-xl border border-dashed border-border p-4 space-y-2">
+    <p>Ich denke, <strong>dass</strong> ich viel <strong>lerne</strong>.</p>
+    <p>Ich finde, <strong>dass</strong> der Kurs gut <strong>ist</strong>.</p>
+  </div>
+</div>`,
+      },
+      {
+        title: "Dialoge & Anzeigen",
+        content: `<div class="space-y-4">
+  <div>
+    <p class="font-semibold mb-2">Вопрос — Ответ:</p>
+    <div class="bg-muted rounded-xl border border-dashed border-border p-4 space-y-2 text-sm">
+      <p>— <strong>Hast du Zeit?</strong></p>
+      <p>— Ja, ich habe Zeit / Nein, ich habe <strong>keine</strong> Zeit.</p>
+      <p>— <strong>Wann hast du Zeit?</strong></p>
+      <p>— Um 18 Uhr / Am Montag.</p>
+    </div>
+  </div>
+  <div>
+    <p class="font-semibold mb-2">Anzeigen — темы объявлений:</p>
+    <div class="flex flex-wrap gap-2">
+      <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold">Essen</span>
+      <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold">Sport</span>
+      <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold">Einkaufen</span>
+      <span class="px-3 py-1 bg-primary/10 text-primary rounded-full text-xs font-bold">Besichtigung</span>
+    </div>
+  </div>
+</div>`,
+      },
+    ],
+    examples: [
+      { de: "Ich <span class='text-case-nom font-semibold'>glaube</span>, dass er gut <span class='text-case-akk font-semibold'>arbeitet</span>.", en: "Я думаю, что он хорошо работает" },
+      { de: "Ich <span class='text-case-nom font-semibold'>finde</span>, dass Deutsch interessant <span class='text-case-akk font-semibold'>ist</span>.", en: "Я считаю, что немецкий интересный" },
+      { de: "Ich habe <span class='text-case-nom font-semibold'>gehört</span>, dass Jana die Prämie gewonnen <span class='text-case-akk font-semibold'>hat</span>.", en: "Я слышал, что Яна выиграла премию" },
+      { de: "Er <span class='text-case-nom font-semibold'>sagt</span>, dass er morgen <span class='text-case-akk font-semibold'>kommt</span>.", en: "Он говорит, что придёт завтра" },
+      { de: "<span class='text-case-nom font-semibold'>Weißt du schon</span>, dass sie die Gewinnerin <span class='text-case-akk font-semibold'>ist</span>?", en: "Ты уже знаешь, что она победительница?" },
+      { de: "Ich <span class='text-case-nom font-semibold'>denke</span>, dass ich viel <span class='text-case-akk font-semibold'>lerne</span>.", en: "Я думаю, что я много учусь" },
+      { de: "<span class='text-case-nom font-semibold'>Vergiss nicht</span>, dass er viel <span class='text-case-akk font-semibold'>organisiert</span>.", en: "Не забывай, что он много организует" },
+      { de: "Sie <span class='text-case-nom font-semibold'>erzählt</span>, dass sie nach Wien gefahren <span class='text-case-akk font-semibold'>ist</span>.", en: "Она рассказывает, что ездила в Вену" },
+      { de: "Ich <span class='text-case-nom font-semibold'>finde</span>, dass der Kurs gut <span class='text-case-akk font-semibold'>ist</span>.", en: "Я считаю, что курс хороший" },
+      { de: "Ich <span class='text-case-nom font-semibold'>mache</span> einen Deutschkurs. Der Kurs ist <span class='text-case-akk font-semibold'>von 11 bis 14 Uhr</span>.", en: "Я хожу на курс немецкого. Курс с 11 до 14." },
+    ],
+    test: [
+      { sentence: "Ich glaube, dass er gut ___ . (arbeiten)", answer: "arbeitet" },
+      { sentence: "Ich finde, dass Deutsch interessant ___ . (sein)", answer: "ist" },
+      { sentence: "Ich habe gehört, dass Jana gewonnen ___ . (haben)", answer: "hat" },
+      { sentence: "Ich denke, dass er müde ___ . (sein)", answer: "ist" },
+      { sentence: "Ich glaube, ___ er viel arbeitet. (Konjunktion)", answer: "dass" },
+      { sentence: "Er sagt, dass er morgen ___ . (kommen)", answer: "kommt" },
+      { sentence: "Weißt du, dass sie nach Wien gefahren ___ ? (sein)", answer: "ist" },
+      { sentence: "Ich finde, dass der Kurs gut ___ . (sein)", answer: "ist" },
+      { sentence: "Vergiss nicht, ___ er viel organisiert. (Konjunktion)", answer: "dass" },
+      { sentence: "Ich weiß, dass du Deutsch ___ . (lernen)", answer: "lernst" },
+      { sentence: "Sie erzählt, dass sie Pizza ___ . (essen, Perfekt)", answer: "gegessen hat" },
+      { sentence: "Ich glaube, dass ich gut ___ . (lernen, Perfekt)", answer: "gelernt habe" },
+      { sentence: "Hast du gehört, ___ Jana die Prämie gewonnen hat? (Konjunktion)", answer: "dass" },
+      { sentence: "Ich finde, ___ das richtig ist. (Konjunktion)", answer: "dass" },
+      { sentence: "Er meint, dass sie zu Hause ___ . (sein)", answer: "ist" },
+      { sentence: "Ich denke, dass ich viel ___ . (lernen)", answer: "lerne" },
+      { sentence: "ich / du / er — finden: ich ___ , du findest, er findet", answer: "finde" },
+      { sentence: "Hast du ___? — Ja, um 18 Uhr. (Zeit)", answer: "Zeit" },
+      { sentence: "Nach dem Kurs ___ ich ins Fitnessstudio. (gehen)", answer: "gehe" },
+      { sentence: "Ich habe gehört, dass er nach Hause ___ . (gehen, Perfekt)", answer: "gegangen ist" },
+    ],
+  },
 ];
