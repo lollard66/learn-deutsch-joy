@@ -6,6 +6,7 @@ import { TestSection } from "@/components/TestSection";
 import { ScoreToast } from "@/components/ScoreToast";
 import { AdjektivDeklination } from "@/components/AdjektivDeklination";
 import { VerbTrainer } from "@/components/VerbTrainer";
+import { ClothingTrainer } from "@/components/ClothingTrainer";
 import { BookOpen } from "lucide-react";
 
 export default function Index() {
