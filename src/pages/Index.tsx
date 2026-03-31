@@ -82,6 +82,9 @@ export default function Index() {
           {/* Verb Trainer for l24 */}
           {lesson.id === "l24" && <VerbTrainer />}
 
+          {/* Clothing Trainer for l31 */}
+          {lesson.id === "l31" && <ClothingTrainer />}
+
           {/* Examples */}
           <section>
             <h2 className="text-2xl font-bold tracking-display mb-5 animate-slide-up-fade">
