@@ -6,6 +6,7 @@ import { TestSection } from "@/components/TestSection";
 import { ScoreToast } from "@/components/ScoreToast";
 import { AdjektivDeklination } from "@/components/AdjektivDeklination";
 import { VerbTrainer } from "@/components/VerbTrainer";
+import { ClothingTrainer } from "@/components/ClothingTrainer";
 import { BookOpen } from "lucide-react";
 
 export default function Index() {
@@ -80,6 +81,9 @@ export default function Index() {
 
           {/* Verb Trainer for l24 */}
           {lesson.id === "l24" && <VerbTrainer />}
+
+          {/* Clothing Trainer for l31 */}
+          {lesson.id === "l31" && <ClothingTrainer />}
 
           {/* Examples */}
           <section>
