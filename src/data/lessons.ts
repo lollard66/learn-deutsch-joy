@@ -1604,7 +1604,6 @@ export const lessons: Lesson[] = [
       { sentence: "Ich habe gehört, dass er nach Hause ___ . (gehen, Perfekt)", answer: "gegangen ist" },
     ],
   },
-  },
   {
     id: "l31",
     date: "31. März",
