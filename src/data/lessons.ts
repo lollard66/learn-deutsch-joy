@@ -1604,4 +1604,162 @@ export const lessons: Lesson[] = [
       { sentence: "Ich habe gehört, dass er nach Hause ___ . (gehen, Perfekt)", answer: "gegangen ist" },
     ],
   },
+  },
+  {
+    id: "l31",
+    date: "31. März",
+    title: "Kleidung, Bildbeschreibung & Meinung",
+    subtitle: "Одежда, описание картинки, dass-Sätze и как выражать мнение.",
+    grammar: [
+      {
+        title: "1. Kleidung (Одежда)",
+        content: `<p class="mb-3">Важные слова:</p>
+<div class="overflow-x-auto"><table class="w-full text-sm">
+<thead><tr class="border-b border-border">
+<th class="text-left py-2 px-3 font-bold">Deutsch</th>
+<th class="text-left py-2 px-3 font-bold">Русский</th>
+<th class="text-left py-2 px-3 font-bold">Artikel</th>
+</tr></thead>
+<tbody>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">die Hose</td><td class="py-2 px-3">штаны</td><td class="py-2 px-3 text-case-dat">die</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">die Jeans</td><td class="py-2 px-3">джинсы</td><td class="py-2 px-3 text-case-dat">die</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">die Jogginghose</td><td class="py-2 px-3">спортивные штаны</td><td class="py-2 px-3 text-case-dat">die</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">die Leggings</td><td class="py-2 px-3">леггинсы</td><td class="py-2 px-3 text-case-dat">die</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">das T-Shirt</td><td class="py-2 px-3">футболка</td><td class="py-2 px-3 text-case-nom">das</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">das Hemd</td><td class="py-2 px-3">рубашка</td><td class="py-2 px-3 text-case-nom">das</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">das Kleid</td><td class="py-2 px-3">платье</td><td class="py-2 px-3 text-case-nom">das</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">die Schuhe</td><td class="py-2 px-3">обувь</td><td class="py-2 px-3 text-case-dat">die (Pl.)</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">die Jacke</td><td class="py-2 px-3">куртка</td><td class="py-2 px-3 text-case-dat">die</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">der Pullover</td><td class="py-2 px-3">свитер</td><td class="py-2 px-3 text-case-akk">der</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">der Rock</td><td class="py-2 px-3">юбка</td><td class="py-2 px-3 text-case-akk">der</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">der Mantel</td><td class="py-2 px-3">пальто</td><td class="py-2 px-3 text-case-akk">der</td></tr>
+<tr class="border-b border-border/50"><td class="py-2 px-3 font-medium">die Mütze</td><td class="py-2 px-3">шапка</td><td class="py-2 px-3 text-case-dat">die</td></tr>
+<tr><td class="py-2 px-3 font-medium">der Schal</td><td class="py-2 px-3">шарф</td><td class="py-2 px-3 text-case-akk">der</td></tr>
+</tbody></table></div>
+<p class="mt-4 p-3 bg-muted rounded-lg text-sm"><span class="font-bold">Формула:</span> <span class="text-case-verb font-semibold">Ich trage</span> + <span class="text-case-akk font-semibold">Akkusativ</span><br/>→ Ich trage <span class="text-case-akk font-semibold">ein T-Shirt</span>.<br/>→ Ich trage <span class="text-case-akk font-semibold">Jeans</span>.</p>`,
+      },
+      {
+        title: "2. Bildbeschreibung (Описание картинки — экзамен!)",
+        content: `<p class="mb-3">Структура для описания картинки на экзамене:</p>
+<div class="space-y-2 p-4 bg-muted rounded-xl border border-dashed border-border">
+  <p><span class="text-case-nom font-bold">1.</span> Auf dem Bild sehe ich…</p>
+  <p><span class="text-case-nom font-bold">2.</span> Es gibt…</p>
+  <p><span class="text-case-nom font-bold">3.</span> Sie sind… (wo?)</p>
+  <p><span class="text-case-nom font-bold">4.</span> Sie machen…</p>
+  <p><span class="text-case-nom font-bold">5.</span> Ich denke, dass…</p>
+</div>
+<div class="mt-4 p-4 bg-primary/5 rounded-xl">
+  <p class="font-bold mb-2">🔥 Пример:</p>
+  <p class="italic">Auf dem Bild sehe ich <span class="text-case-akk font-semibold">eine Familie</span>.</p>
+  <p class="italic">Sie sind <span class="text-case-dat font-semibold">zu Hause</span>.</p>
+  <p class="italic">Die Mutter <span class="text-case-verb font-semibold">probiert</span> ein Kleid.</p>
+  <p class="italic">Ich denke, dass sie einkaufen <span class="text-case-verb font-semibold">gehen</span>.</p>
+</div>`,
+      },
+      {
+        title: "3. Meinung ausdrücken (Выражение мнения)",
+        content: `<div class="space-y-4">
+<div class="p-4 bg-muted rounded-xl">
+  <p class="font-bold text-case-akk mb-2">finden + Akkusativ</p>
+  <p>→ Ich <span class="text-case-verb font-semibold">finde</span> das Kleid <span class="text-case-akk font-semibold">schön</span>.</p>
+  <p>→ Ich <span class="text-case-verb font-semibold">finde</span> die Schuhe <span class="text-case-akk font-semibold">super</span>.</p>
+</div>
+<div class="p-4 bg-muted rounded-xl">
+  <p class="font-bold text-case-dat mb-2">gefallen + Dativ</p>
+  <p>→ Die Schuhe <span class="text-case-verb font-semibold">gefallen</span> <span class="text-case-dat font-semibold">mir</span>.</p>
+  <p>→ Das Kleid <span class="text-case-verb font-semibold">gefällt</span> <span class="text-case-dat font-semibold">dir</span>.</p>
+</div>
+<div class="p-4 bg-muted rounded-xl">
+  <p class="font-bold text-case-nom mb-2">stehen + Dativ (идёт / подходит)</p>
+  <p>→ Das <span class="text-case-verb font-semibold">steht</span> <span class="text-case-dat font-semibold">dir</span> gut!</p>
+  <p>→ Die Farbe <span class="text-case-verb font-semibold">steht</span> <span class="text-case-dat font-semibold">dir</span> nicht.</p>
+</div>
+</div>`,
+      },
+      {
+        title: "4. dass-Sätze (Повторение)",
+        content: `<p class="mb-3">Главное правило: после <span class="font-bold text-primary">dass</span> глагол идёт <span class="font-bold text-primary">в конец</span>!</p>
+<div class="p-4 bg-muted rounded-xl border border-dashed border-border mb-4">
+  <p class="font-mono text-sm">Hauptsatz + , <span class="text-primary font-bold">dass</span> + … + <span class="text-case-verb font-bold">Verb</span></p>
+</div>
+<div class="space-y-2">
+  <p>→ Ich denke, <span class="text-primary font-semibold">dass</span> das Kleid schön <span class="text-case-verb font-semibold">ist</span>.</p>
+  <p>→ Ich glaube, <span class="text-primary font-semibold">dass</span> die Preise hoch <span class="text-case-verb font-semibold">sind</span>.</p>
+  <p>→ Hast du gehört, <span class="text-primary font-semibold">dass</span> Jana gewonnen <span class="text-case-verb font-semibold">hat</span>?</p>
+</div>`,
+      },
+      {
+        title: "5. Perfekt (Повторение)",
+        content: `<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-4 bg-muted rounded-xl">
+  <p class="font-bold text-case-dat mb-2">sein (движение)</p>
+  <p>gehen → <span class="font-semibold">ist gegangen</span></p>
+  <p>fahren → <span class="font-semibold">ist gefahren</span></p>
+  <p>fliegen → <span class="font-semibold">ist geflogen</span></p>
+</div>
+<div class="p-4 bg-muted rounded-xl">
+  <p class="font-bold text-case-akk mb-2">haben (остальные)</p>
+  <p>machen → <span class="font-semibold">hat gemacht</span></p>
+  <p>kaufen → <span class="font-semibold">hat gekauft</span></p>
+  <p>sehen → <span class="font-semibold">hat gesehen</span></p>
+</div>
+</div>`,
+      },
+      {
+        title: "6. Wichtige Fragen & Antworten",
+        content: `<div class="space-y-3">
+<div class="p-3 bg-muted rounded-lg">
+  <p class="text-case-nom font-semibold">Was ziehst du an?</p>
+  <p class="text-muted-foreground text-sm">→ Ich ziehe Jeans und ein T-Shirt an.</p>
+</div>
+<div class="p-3 bg-muted rounded-lg">
+  <p class="text-case-nom font-semibold">Was kaufst du gern?</p>
+  <p class="text-muted-foreground text-sm">→ Ich kaufe gern Kleidung.</p>
+</div>
+<div class="p-3 bg-muted rounded-lg">
+  <p class="text-case-nom font-semibold">Mit wem gehst du einkaufen?</p>
+  <p class="text-muted-foreground text-sm">→ Ich gehe mit meinen Freunden einkaufen.</p>
+</div>
+<div class="p-3 bg-muted rounded-lg">
+  <p class="text-case-nom font-semibold">Was soll ich anziehen?</p>
+  <p class="text-muted-foreground text-sm">→ Das passt dir gut! / Das steht dir!</p>
+</div>
+</div>`,
+      },
+    ],
+    examples: [
+      { de: "Ich <span class='text-case-verb font-semibold'>trage</span> <span class='text-case-akk font-semibold'>ein T-Shirt</span> und <span class='text-case-akk font-semibold'>Jeans</span>.", en: "Я ношу футболку и джинсы" },
+      { de: "Auf dem Bild <span class='text-case-verb font-semibold'>sehe</span> ich <span class='text-case-akk font-semibold'>eine Familie</span>.", en: "На картинке я вижу семью" },
+      { de: "Ich <span class='text-case-verb font-semibold'>finde</span> das Kleid <span class='text-case-akk font-semibold'>schön</span>.", en: "Я считаю платье красивым" },
+      { de: "Die Schuhe <span class='text-case-verb font-semibold'>gefallen</span> <span class='text-case-dat font-semibold'>mir</span>.", en: "Мне нравятся туфли" },
+      { de: "Das <span class='text-case-verb font-semibold'>steht</span> <span class='text-case-dat font-semibold'>dir</span> gut!", en: "Тебе это идёт!" },
+      { de: "Ich denke, <span class='text-primary font-semibold'>dass</span> das Kleid schön <span class='text-case-verb font-semibold'>ist</span>.", en: "Я думаю, что платье красивое" },
+      { de: "Ich <span class='text-case-verb font-semibold'>ziehe</span> <span class='text-case-akk font-semibold'>eine Jacke</span> an.", en: "Я надеваю куртку" },
+      { de: "Er <span class='text-case-verb font-semibold'>hat</span> einen Pullover <span class='text-case-verb font-semibold'>gekauft</span>.", en: "Он купил свитер" },
+      { de: "Was <span class='text-case-verb font-semibold'>soll</span> ich <span class='text-case-verb font-semibold'>anziehen</span>?", en: "Что мне надеть?" },
+      { de: "Die Farbe <span class='text-case-verb font-semibold'>steht</span> <span class='text-case-dat font-semibold'>dir</span> nicht.", en: "Этот цвет тебе не идёт" },
+    ],
+    test: [
+      { sentence: "Ich ___ gern Jeans. (tragen)", answer: "trage" },
+      { sentence: "Die Schuhe ___ mir. (gefallen)", answer: "gefallen" },
+      { sentence: "Das Kleid ___ dir gut. (stehen)", answer: "steht" },
+      { sentence: "Ich finde das T-Shirt ___ . (schön/hässlich)", answer: "schön" },
+      { sentence: "Auf dem Bild ___ ich eine Familie. (sehen)", answer: "sehe" },
+      { sentence: "Ich denke, dass das Kleid schön ___ . (sein)", answer: "ist" },
+      { sentence: "Er hat einen Pullover ___ . (kaufen, Perfekt)", answer: "gekauft" },
+      { sentence: "Sie ist nach Wien ___ . (fahren, Perfekt)", answer: "gefahren" },
+      { sentence: "Ich glaube, ___ die Preise hoch sind. (Konjunktion)", answer: "dass" },
+      { sentence: "Das ___ dir gut! (stehen)", answer: "steht" },
+      { sentence: "Die Hose → auf Russisch: ___", answer: "штаны" },
+      { sentence: "das Kleid → auf Russisch: ___", answer: "платье" },
+      { sentence: "der Pullover → auf Russisch: ___", answer: "свитер" },
+      { sentence: "die Jacke → auf Russisch: ___", answer: "куртка" },
+      { sentence: "Ich ___ eine Jacke an. (anziehen)", answer: "ziehe" },
+      { sentence: "Was ___ ich anziehen? (sollen)", answer: "soll" },
+      { sentence: "Mit wem ___ du einkaufen? (gehen)", answer: "gehst" },
+      { sentence: "Ich habe gehört, dass Jana ___ hat. (gewinnen, Perfekt)", answer: "gewonnen" },
+      { sentence: "Das Hemd → auf Russisch: ___", answer: "рубашка" },
+      { sentence: "die Mütze → auf Russisch: ___", answer: "шапка" },
+    ],
+  },
 ];
