@@ -13,6 +13,13 @@ export interface GrammarBlock {
   content: string; // HTML string
 }
 
+export interface VocabWord {
+  de: string;
+  article?: string; // der/die/das
+  en: string;
+  ru: string;
+}
+
 export interface Lesson {
   id: string;
   date: string;
@@ -21,6 +28,8 @@ export interface Lesson {
   grammar: GrammarBlock[];
   examples: Example[];
   test: TestQuestion[];
+  vocabulary?: VocabWord[];
+  weekReview?: boolean; // marks this lesson as having a weekly review
 }
 
 export const lessons: Lesson[] = [
