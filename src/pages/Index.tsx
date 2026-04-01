@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import { lessons } from "@/data/lessons";
 import { GrammarCard } from "@/components/GrammarCard";
 import { ExampleCard } from "@/components/ExampleCard";
@@ -7,6 +7,8 @@ import { ScoreToast } from "@/components/ScoreToast";
 import { AdjektivDeklination } from "@/components/AdjektivDeklination";
 import { VerbTrainer } from "@/components/VerbTrainer";
 import { ClothingTrainer } from "@/components/ClothingTrainer";
+import { VocabularyTrainer } from "@/components/VocabularyTrainer";
+import { WeeklyReview } from "@/components/WeeklyReview";
 import { BookOpen } from "lucide-react";
 
 export default function Index() {
