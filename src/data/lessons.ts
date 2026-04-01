@@ -1904,6 +1904,8 @@ export const lessons: Lesson[] = [
     ],
     weekReview: true,
   },
+  {
+    id: "l01apr",
     date: "01. Apr",
     title: "Akkusativ & Dativ: Pronomen, dass-S\u00E4tze & Alltag",
     subtitle: "Personalpronomen im Akkusativ und Dativ, Nebens\u00E4tze mit dass, Kleidung, Einkaufen und Termine.",
