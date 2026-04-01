@@ -1546,6 +1546,8 @@ export const lessons: Lesson[] = [
     ],
     weekReview: true,
   },
+  {
+    id: "l27",
     date: "27. März",
     title: "dass-Sätze & Nebensatz (Vertiefung)",
     subtitle: "Konjunktion dass, Verben mit dass, Gerüchte, Alltag & Dialoge.",
