@@ -1821,13 +1821,13 @@ export const lessons: Lesson[] = [
 </tbody></table></div>`,
       },
       {
-        title: "Nebensatz mit „dass" — глагол в конце",
+        title: 'Nebensatz mit \u201Edass\u201C \u2014 \u0433\u043B\u0430\u0433\u043E\u043B \u0432 \u043A\u043E\u043D\u0446\u0435',
         content: `<div class="flex flex-wrap items-center gap-3 text-base font-medium p-4 bg-muted rounded-xl border border-dashed border-border mb-3">
 <span class="case-nom">Hauptsatz</span>
 <span class="text-muted-foreground">+</span>
 <span class="case-verb font-bold">dass</span>
-<span class="text-muted-foreground">+ … +</span>
-<span class="case-verb font-bold">Verb ⬅️</span>
+<span class="text-muted-foreground">+ ... +</span>
+<span class="case-verb font-bold">Verb</span>
 </div>
 <p class="text-muted-foreground mb-2">Глаголы: sagen, denken, glauben, finden, wissen, erzählen, vergessen</p>
 <ul class="space-y-1 text-sm">
