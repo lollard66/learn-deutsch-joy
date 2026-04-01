@@ -1761,4 +1761,147 @@ export const lessons: Lesson[] = [
       { sentence: "die Mütze → auf Russisch: ___", answer: "шапка" },
     ],
   },
+  {
+    id: "l01apr",
+    date: "01. Apr",
+    title: "Akkusativ & Dativ: Pronomen, dass-Sätze & Alltag",
+    subtitle: "Местоимения в Akkusativ и Dativ, dass-конструкции, одежда, покупки и договорённости.",
+    grammar: [
+      {
+        title: "Akkusativ — Pronomen (кого? что?)",
+        content: `<p class="mb-3 text-muted-foreground">Используем, когда действие направлено на объект:</p>
+<div class="overflow-x-auto"><table class="w-full text-sm">
+<thead><tr class="border-b border-border">
+<th class="py-2 px-3 text-left case-nom">Nominativ</th>
+<th class="py-2 px-3 text-left case-akk">Akkusativ</th>
+</tr></thead>
+<tbody class="divide-y divide-border">
+<tr><td class="py-2 px-3">ich</td><td class="py-2 px-3 font-bold case-akk">mich</td></tr>
+<tr><td class="py-2 px-3">du</td><td class="py-2 px-3 font-bold case-akk">dich</td></tr>
+<tr><td class="py-2 px-3">er</td><td class="py-2 px-3 font-bold case-akk">ihn</td></tr>
+<tr><td class="py-2 px-3">sie</td><td class="py-2 px-3 font-bold case-akk">sie</td></tr>
+<tr><td class="py-2 px-3">es</td><td class="py-2 px-3 font-bold case-akk">es</td></tr>
+<tr><td class="py-2 px-3">wir</td><td class="py-2 px-3 font-bold case-akk">uns</td></tr>
+<tr><td class="py-2 px-3">ihr</td><td class="py-2 px-3 font-bold case-akk">euch</td></tr>
+<tr><td class="py-2 px-3">sie/Sie</td><td class="py-2 px-3 font-bold case-akk">sie/Sie</td></tr>
+</tbody></table></div>
+<p class="mt-3 text-muted-foreground">👉 Ich sehe <span class="case-akk font-bold">ihn</span>. Ich liebe <span class="case-akk font-bold">dich</span>.</p>`,
+      },
+      {
+        title: "Dativ — Pronomen (кому?)",
+        content: `<p class="mb-3 text-muted-foreground">Используем, когда что-то дают, помогают, нравится:</p>
+<div class="overflow-x-auto"><table class="w-full text-sm">
+<thead><tr class="border-b border-border">
+<th class="py-2 px-3 text-left case-nom">Nominativ</th>
+<th class="py-2 px-3 text-left case-dat">Dativ</th>
+</tr></thead>
+<tbody class="divide-y divide-border">
+<tr><td class="py-2 px-3">ich</td><td class="py-2 px-3 font-bold case-dat">mir</td></tr>
+<tr><td class="py-2 px-3">du</td><td class="py-2 px-3 font-bold case-dat">dir</td></tr>
+<tr><td class="py-2 px-3">er</td><td class="py-2 px-3 font-bold case-dat">ihm</td></tr>
+<tr><td class="py-2 px-3">sie</td><td class="py-2 px-3 font-bold case-dat">ihr</td></tr>
+<tr><td class="py-2 px-3">es</td><td class="py-2 px-3 font-bold case-dat">ihm</td></tr>
+<tr><td class="py-2 px-3">wir</td><td class="py-2 px-3 font-bold case-dat">uns</td></tr>
+<tr><td class="py-2 px-3">ihr</td><td class="py-2 px-3 font-bold case-dat">euch</td></tr>
+<tr><td class="py-2 px-3">sie/Sie</td><td class="py-2 px-3 font-bold case-dat">ihnen/Ihnen</td></tr>
+</tbody></table></div>
+<p class="mt-3 text-muted-foreground">🔥 Глаголы с Dativ: <span class="case-dat font-bold">helfen, danken, gefallen, geben, schenken</span></p>`,
+      },
+      {
+        title: "Akkusativ vs Dativ — разница",
+        content: `<div class="overflow-x-auto"><table class="w-full text-sm">
+<thead><tr class="border-b border-border">
+<th class="py-2 px-3 text-left case-akk">Akkusativ (кого? что?)</th>
+<th class="py-2 px-3 text-left case-dat">Dativ (кому?)</th>
+</tr></thead>
+<tbody class="divide-y divide-border">
+<tr><td class="py-2 px-3">Ich sehe <strong>dich</strong></td><td class="py-2 px-3">Ich helfe <strong>dir</strong></td></tr>
+<tr><td class="py-2 px-3">Ich kaufe <strong>es</strong></td><td class="py-2 px-3">Das gefällt <strong>mir</strong></td></tr>
+<tr><td class="py-2 px-3">Ich liebe <strong>ihn</strong></td><td class="py-2 px-3">Ich gebe <strong>ihm</strong> etwas</td></tr>
+</tbody></table></div>`,
+      },
+      {
+        title: 'Nebensatz mit \u201Edass\u201C \u2014 \u0433\u043B\u0430\u0433\u043E\u043B \u0432 \u043A\u043E\u043D\u0446\u0435',
+        content: `<div class="flex flex-wrap items-center gap-3 text-base font-medium p-4 bg-muted rounded-xl border border-dashed border-border mb-3">
+<span class="case-nom">Hauptsatz</span>
+<span class="text-muted-foreground">+</span>
+<span class="case-verb font-bold">dass</span>
+<span class="text-muted-foreground">+ ... +</span>
+<span class="case-verb font-bold">Verb</span>
+</div>
+<p class="text-muted-foreground mb-2">Глаголы: sagen, denken, glauben, finden, wissen, erzählen, vergessen</p>
+<ul class="space-y-1 text-sm">
+<li>👉 Ich denke, <span class="case-verb font-bold">dass</span> er <span class="case-verb font-bold">kommt</span>.</li>
+<li>👉 Ich glaube, <span class="case-verb font-bold">dass</span> sie <span class="case-verb font-bold">arbeitet</span>.</li>
+<li>👉 Ich habe gehört, <span class="case-verb font-bold">dass</span> Jana gewonnen <span class="case-verb font-bold">hat</span>.</li>
+</ul>`,
+      },
+      {
+        title: "Perfekt — прошедшее время",
+        content: `<div class="flex flex-wrap items-center gap-3 text-base font-medium p-4 bg-muted rounded-xl border border-dashed border-border mb-3">
+<span class="case-verb">haben / sein</span>
+<span class="text-muted-foreground">+</span>
+<span class="case-akk font-bold">Partizip II</span>
+</div>
+<div class="overflow-x-auto"><table class="w-full text-sm mt-2">
+<thead><tr class="border-b border-border">
+<th class="py-2 px-3 text-left">🔥 sein (движение)</th>
+<th class="py-2 px-3 text-left">haben (остальные)</th>
+</tr></thead>
+<tbody class="divide-y divide-border">
+<tr><td class="py-2 px-3">gehen → <strong>ist gegangen</strong></td><td class="py-2 px-3">kaufen → <strong>hat gekauft</strong></td></tr>
+<tr><td class="py-2 px-3">fahren → <strong>ist gefahren</strong></td><td class="py-2 px-3">sehen → <strong>hat gesehen</strong></td></tr>
+<tr><td class="py-2 px-3">fliegen → <strong>ist geflogen</strong></td><td class="py-2 px-3">machen → <strong>hat gemacht</strong></td></tr>
+</tbody></table></div>`,
+      },
+      {
+        title: "Kleidung & Einkaufen & Termin",
+        content: `<p class="mb-2 font-medium">👕 Одежда:</p>
+<p class="text-sm text-muted-foreground mb-3">das Kleid, die Hose, das T-Shirt, der Schuh, die Socke, die Jacke, der Mantel</p>
+<p class="mb-2 font-medium">🛒 Покупки:</p>
+<ul class="text-sm space-y-1 mb-3">
+<li>Ich finde das Kleid schön • Das steht dir gut • Das passt dir</li>
+</ul>
+<p class="mb-2 font-medium">📅 Договориться (Termin):</p>
+<ul class="text-sm space-y-1">
+<li>Hast du Zeit? → Ja / Nein, ich habe keine Zeit</li>
+<li>Wann hast du Zeit? → Um 18 Uhr / Am Montag</li>
+</ul>`,
+      },
+    ],
+    examples: [
+      { de: "Ich sehe <span class='case-akk font-bold'>ihn</span> jeden Tag.", en: "Я вижу его каждый день." },
+      { de: "Ich helfe <span class='case-dat font-bold'>dir</span> gern.", en: "Я с удовольствием тебе помогаю." },
+      { de: "Das gefällt <span class='case-dat font-bold'>mir</span> sehr.", en: "Мне это очень нравится." },
+      { de: "Ich schenke <span class='case-dat font-bold'>ihm</span> ein Buch.", en: "Я дарю ему книгу." },
+      { de: "Ich denke, <span class='case-verb font-bold'>dass</span> er gut arbeitet.", en: "Я думаю, что он хорошо работает." },
+      { de: "Hast du gehört, <span class='case-verb font-bold'>dass</span> Jana gewonnen hat?", en: "Ты слышал, что Яна выиграла?" },
+      { de: "Ich <span class='case-verb font-bold'>bin</span> nach Hause <span class='case-akk font-bold'>gegangen</span>.", en: "Я пошёл домой." },
+      { de: "Er <span class='case-verb font-bold'>hat</span> eine Jacke <span class='case-akk font-bold'>gekauft</span>.", en: "Он купил куртку." },
+      { de: "Das Kleid <span class='case-dat font-bold'>steht</span> dir gut.", en: "Платье тебе идёт." },
+      { de: "Ich kann <span class='case-verb font-bold'>um 18 Uhr</span>.", en: "Я могу в 18 часов." },
+    ],
+    test: [
+      { sentence: "Ich sehe ___ . (er → Akkusativ)", answer: "ihn" },
+      { sentence: "Ich helfe ___ . (du → Dativ)", answer: "dir" },
+      { sentence: "Das gefällt ___ . (ich → Dativ)", answer: "mir" },
+      { sentence: "Ich liebe ___ . (du → Akkusativ)", answer: "dich" },
+      { sentence: "Ich gebe ___ ein Geschenk. (er → Dativ)", answer: "ihm" },
+      { sentence: "Ich danke ___ . (sie, ед.ч. → Dativ)", answer: "ihr" },
+      { sentence: "Ich kaufe ___ . (es → Akkusativ)", answer: "es" },
+      { sentence: "Ich schenke ___ Blumen. (sie, мн.ч. → Dativ)", answer: "ihnen" },
+      { sentence: "Ich denke, ___ er kommt. (союз)", answer: "dass" },
+      { sentence: "Ich glaube, dass sie müde ___ . (sein)", answer: "ist" },
+      { sentence: "Ich habe gehört, dass er gewonnen ___ . (haben)", answer: "hat" },
+      { sentence: "Er ___ nach Berlin gefahren. (sein, Perfekt)", answer: "ist" },
+      { sentence: "Sie ___ Pizza gegessen. (haben, Perfekt)", answer: "hat" },
+      { sentence: "Ich ___ gestern gearbeitet. (haben, Perfekt)", answer: "habe" },
+      { sentence: "gehen → Perfekt: ist ___ .", answer: "gegangen" },
+      { sentence: "kaufen → Perfekt: hat ___ .", answer: "gekauft" },
+      { sentence: "Das Kleid ___ dir gut. (stehen)", answer: "steht" },
+      { sentence: "Ich ___ das T-Shirt schön. (finden)", answer: "finde" },
+      { sentence: "___ du Zeit? (haben)", answer: "Hast" },
+      { sentence: "Ich ___ um 18 Uhr. (können)", answer: "kann" },
+    ],
+  },
 ];
