@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useMemo } from "react";
 import { lessons } from "@/data/lessons";
 import { GrammarCard } from "@/components/GrammarCard";
 import { ExampleCard } from "@/components/ExampleCard";
@@ -7,6 +7,8 @@ import { ScoreToast } from "@/components/ScoreToast";
 import { AdjektivDeklination } from "@/components/AdjektivDeklination";
 import { VerbTrainer } from "@/components/VerbTrainer";
 import { ClothingTrainer } from "@/components/ClothingTrainer";
+import { VocabularyTrainer } from "@/components/VocabularyTrainer";
+import { WeeklyReview } from "@/components/WeeklyReview";
 import { BookOpen } from "lucide-react";
 
 export default function Index() {
@@ -15,6 +17,20 @@ export default function Index() {
   const [contentKey, setContentKey] = useState(0);
 
   const lesson = lessons.find(l => l.id === activeId)!;
+  const lessonIndex = lessons.findIndex(l => l.id === activeId);
+
+  // Collect vocabulary from the current week for weekly review
+  const weeklyVocab = useMemo(() => {
+    if (!lesson.weekReview) return [];
+    // Collect vocab from current lesson and previous lessons until the last weekReview
+    const words = [];
+    for (let i = lessonIndex; i >= 0; i--) {
+      const l = lessons[i];
+      if (l.vocabulary) words.push(...l.vocabulary);
+      if (i < lessonIndex && l.weekReview) break;
+    }
+    return words;
+  }, [lesson, lessonIndex]);
 
   const switchLesson = useCallback((id: string) => {
     setActiveId(id);
@@ -75,6 +91,16 @@ export default function Index() {
               ))}
             </div>
           </section>
+
+          {/* Vocabulary Trainer */}
+          {lesson.vocabulary && lesson.vocabulary.length > 0 && (
+            <VocabularyTrainer words={lesson.vocabulary} />
+          )}
+
+          {/* Weekly Review */}
+          {lesson.weekReview && weeklyVocab.length > 0 && (
+            <WeeklyReview words={weeklyVocab} weekLabel={lesson.date} />
+          )}
 
           {/* Adjektivdeklination for l23 */}
           {lesson.id === "l23" && <AdjektivDeklination />}

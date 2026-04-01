@@ -13,6 +13,13 @@ export interface GrammarBlock {
   content: string; // HTML string
 }
 
+export interface VocabWord {
+  de: string;
+  article?: string; // der/die/das
+  en: string;
+  ru: string;
+}
+
 export interface Lesson {
   id: string;
   date: string;
@@ -21,6 +28,8 @@ export interface Lesson {
   grammar: GrammarBlock[];
   examples: Example[];
   test: TestQuestion[];
+  vocabulary?: VocabWord[];
+  weekReview?: boolean; // marks this lesson as having a weekly review
 }
 
 export const lessons: Lesson[] = [
@@ -107,6 +116,18 @@ export const lessons: Lesson[] = [
       { sentence: "Ich sehe ___ Spiegel.", answer: "den" },
       { sentence: "Ich habe ___ Buch.", answer: "ein" },
     ],
+    vocabulary: [
+      { de: "Buch", article: "das", en: "book", ru: "книга" },
+      { de: "Mann", article: "der", en: "man", ru: "мужчина" },
+      { de: "Frau", article: "die", en: "woman", ru: "женщина" },
+      { de: "Kind", article: "das", en: "child", ru: "ребёнок" },
+      { de: "geben", en: "to give", ru: "давать" },
+      { de: "sehen", en: "to see", ru: "видеть" },
+      { de: "kaufen", en: "to buy", ru: "покупать" },
+      { de: "helfen", en: "to help", ru: "помогать" },
+      { de: "Hund", article: "der", en: "dog", ru: "собака" },
+      { de: "Apfel", article: "der", en: "apple", ru: "яблоко" },
+    ],
   },
   {
     id: "l16",
@@ -181,6 +202,18 @@ export const lessons: Lesson[] = [
       { sentence: "Wann ___ der Zug?", answer: "fährt" },
       { sentence: "Was ___ das?", answer: "kostet" },
       { sentence: "___ Sie helfen?", answer: "können" },
+    ],
+    vocabulary: [
+      { de: "bitte", en: "please", ru: "пожалуйста" },
+      { de: "Frage", article: "die", en: "question", ru: "вопрос" },
+      { de: "Toilette", article: "die", en: "toilet", ru: "туалет" },
+      { de: "Geschäft", article: "das", en: "shop", ru: "магазин" },
+      { de: "kosten", en: "to cost", ru: "стоить" },
+      { de: "öffnen", en: "to open", ru: "открывать" },
+      { de: "bezahlen", en: "to pay", ru: "платить" },
+      { de: "Bus", article: "der", en: "bus", ru: "автобус" },
+      { de: "Zug", article: "der", en: "train", ru: "поезд" },
+      { de: "Straße", article: "die", en: "street", ru: "улица" },
     ],
   },
   {
@@ -264,6 +297,18 @@ export const lessons: Lesson[] = [
       { sentence: "Ich nehme ___ Schrank.", answer: "den" },
       { sentence: "Ich bringe ___ Möbel.", answer: "die" },
       { sentence: "Ich habe ___ Sofa.", answer: "ein" },
+    ],
+    vocabulary: [
+      { de: "bringen", en: "to bring", ru: "приносить" },
+      { de: "mitbringen", en: "to bring along", ru: "приносить с собой" },
+      { de: "nehmen", en: "to take", ru: "брать" },
+      { de: "Tisch", article: "der", en: "table", ru: "стол" },
+      { de: "Sofa", article: "das", en: "sofa", ru: "диван" },
+      { de: "Bett", article: "das", en: "bed", ru: "кровать" },
+      { de: "Lampe", article: "die", en: "lamp", ru: "лампа" },
+      { de: "Zimmer", article: "das", en: "room", ru: "комната" },
+      { de: "Spiegel", article: "der", en: "mirror", ru: "зеркало" },
+      { de: "Schrank", article: "der", en: "wardrobe", ru: "шкаф" },
     ],
   },
   {
@@ -420,6 +465,18 @@ export const lessons: Lesson[] = [
       { sentence: "Ich stelle den Tisch vor ___ Sofa. (Wohin?)", answer: "das" },
       { sentence: "Die Puppe ___ auf dem Bett. (sitzen)", answer: "sitzt" },
     ],
+    vocabulary: [
+      { de: "Wand", article: "die", en: "wall", ru: "стена" },
+      { de: "Fenster", article: "das", en: "window", ru: "окно" },
+      { de: "Teppich", article: "der", en: "carpet", ru: "ковёр" },
+      { de: "Sessel", article: "der", en: "armchair", ru: "кресло" },
+      { de: "Decke", article: "die", en: "ceiling", ru: "потолок" },
+      { de: "Boden", article: "der", en: "floor", ru: "пол" },
+      { de: "stellen", en: "to put (upright)", ru: "ставить" },
+      { de: "legen", en: "to lay", ru: "класть" },
+      { de: "hängen", en: "to hang", ru: "вешать" },
+      { de: "zwischen", en: "between", ru: "между" },
+    ],
   },
   {
     id: "l19",
@@ -573,8 +630,19 @@ export const lessons: Lesson[] = [
       { sentence: "Ich lege das Buch auf ___ Tisch. (Wohin?)", answer: "den" },
       { sentence: "Das Buch liegt auf ___ Tisch. (Wo?)", answer: "dem" },
     ],
+    vocabulary: [
+      { de: "Stuhl", article: "der", en: "chair", ru: "стул" },
+      { de: "Regal", article: "das", en: "shelf", ru: "полка" },
+      { de: "Pflanze", article: "die", en: "plant", ru: "растение" },
+      { de: "Karton", article: "der", en: "box", ru: "коробка" },
+      { de: "Ecke", article: "die", en: "corner", ru: "угол" },
+      { de: "Balkon", article: "der", en: "balcony", ru: "балкон" },
+      { de: "Küche", article: "die", en: "kitchen", ru: "кухня" },
+      { de: "Wohnung", article: "die", en: "apartment", ru: "квартира" },
+      { de: "gemütlich", en: "cozy", ru: "уютный" },
+      { de: "hell", en: "bright", ru: "светлый" },
+    ],
   },
-
   // ── 20. März ──────────────────────────────────────────
   {
     id: "l20",
@@ -714,6 +782,19 @@ export const lessons: Lesson[] = [
       { sentence: "Der Schreibtisch steht ___ Fenster. (Wo?, an+dem)", answer: "am" },
       { sentence: "Ich habe das Bild an die Wand ___. (hängen → Partizip II)", answer: "gehängt" },
     ],
+    vocabulary: [
+      { de: "putzen", en: "to clean", ru: "убирать" },
+      { de: "abwaschen", en: "to wash dishes", ru: "мыть посуду" },
+      { de: "Müll", article: "der", en: "trash", ru: "мусор" },
+      { de: "Geschirr", article: "das", en: "dishes", ru: "посуда" },
+      { de: "Bad", article: "das", en: "bathroom", ru: "ванная" },
+      { de: "Flur", article: "der", en: "hallway", ru: "коридор" },
+      { de: "sauber", en: "clean", ru: "чистый" },
+      { de: "schmutzig", en: "dirty", ru: "грязный" },
+      { de: "aufräumen", en: "to tidy up", ru: "убираться" },
+      { de: "staubsaugen", en: "to vacuum", ru: "пылесосить" },
+    ],
+    weekReview: true,
   },
   {
     id: "l23",
@@ -853,6 +934,18 @@ export const lessons: Lesson[] = [
       { sentence: "Der Stuhl steht vor ___ Sofa. (Wo?, das)", answer: "dem" },
       { sentence: "Ich finde ___ Lampe schön. (die Lampe, Akk)", answer: "die" },
       { sentence: "Ich gebe ___ Frau die Blumen. (die Frau, Dat)", answer: "der" },
+    ],
+    vocabulary: [
+      { de: "Meinung", article: "die", en: "opinion", ru: "мнение" },
+      { de: "finden", en: "to find / think", ru: "считать" },
+      { de: "gefallen", en: "to like (Dat)", ru: "нравиться" },
+      { de: "langweilig", en: "boring", ru: "скучный" },
+      { de: "interessant", en: "interesting", ru: "интересный" },
+      { de: "hässlich", en: "ugly", ru: "некрасивый" },
+      { de: "praktisch", en: "practical", ru: "практичный" },
+      { de: "bequem", en: "comfortable", ru: "удобный" },
+      { de: "teuer", en: "expensive", ru: "дорогой" },
+      { de: "billig", en: "cheap", ru: "дешёвый" },
     ],
   },
   {
@@ -1051,6 +1144,18 @@ export const lessons: Lesson[] = [
       { sentence: "Ich ___ im Büro. (arbeiten)", answer: "arbeite" },
       { sentence: "Was ___ du in deiner Freizeit? (machen)", answer: "machst" },
       { sentence: "Ich ___ Sport. (machen)", answer: "mache" },
+    ],
+    vocabulary: [
+      { de: "Beruf", article: "der", en: "profession", ru: "профессия" },
+      { de: "arbeiten", en: "to work", ru: "работать" },
+      { de: "Freizeit", article: "die", en: "free time", ru: "свободное время" },
+      { de: "kochen", en: "to cook", ru: "готовить" },
+      { de: "schwimmen", en: "to swim", ru: "плавать" },
+      { de: "lesen", en: "to read", ru: "читать" },
+      { de: "schreiben", en: "to write", ru: "писать" },
+      { de: "Büro", article: "das", en: "office", ru: "офис" },
+      { de: "Kollege", article: "der", en: "colleague", ru: "коллега" },
+      { de: "Firma", article: "die", en: "company", ru: "фирма" },
     ],
   },
   {
@@ -1271,6 +1376,18 @@ export const lessons: Lesson[] = [
       { sentence: "Die Mitarbeiterin → die Mitarbeiter___ (Plural)", answer: "innen" },
       { sentence: "Der Arzt → die ___ (fem.)", answer: "Ärztin" },
     ],
+    vocabulary: [
+      { de: "Freund", article: "der", en: "friend (m)", ru: "друг" },
+      { de: "Freundin", article: "die", en: "friend (f)", ru: "подруга" },
+      { de: "Arzt", article: "der", en: "doctor (m)", ru: "врач" },
+      { de: "Ärztin", article: "die", en: "doctor (f)", ru: "врач (ж)" },
+      { de: "Lehrer", article: "der", en: "teacher (m)", ru: "учитель" },
+      { de: "Lehrerin", article: "die", en: "teacher (f)", ru: "учительница" },
+      { de: "Nachricht", article: "die", en: "message", ru: "сообщение" },
+      { de: "Arbeit", article: "die", en: "work", ru: "работа" },
+      { de: "sprechen", en: "to speak", ru: "говорить" },
+      { de: "zusammen", en: "together", ru: "вместе" },
+    ],
   },
   {
     id: "l26",
@@ -1427,6 +1544,19 @@ export const lessons: Lesson[] = [
       { sentence: "Vergiss nicht, ___ er viel organisiert. (Konjunktion)", answer: "dass" },
       { sentence: "Ich weiß, dass er in einer Firma ___ . (arbeiten)", answer: "arbeitet" },
     ],
+    vocabulary: [
+      { de: "glauben", en: "to believe", ru: "верить" },
+      { de: "denken", en: "to think", ru: "думать" },
+      { de: "sagen", en: "to say", ru: "говорить" },
+      { de: "wissen", en: "to know", ru: "знать" },
+      { de: "erzählen", en: "to tell", ru: "рассказывать" },
+      { de: "vergessen", en: "to forget", ru: "забывать" },
+      { de: "Gerücht", article: "das", en: "rumor", ru: "слух" },
+      { de: "Gewinner", article: "der", en: "winner", ru: "победитель" },
+      { de: "Prämie", article: "die", en: "bonus", ru: "премия" },
+      { de: "verdienen", en: "to deserve", ru: "заслуживать" },
+    ],
+    weekReview: true,
   },
   {
     id: "l27",
@@ -1603,6 +1733,18 @@ export const lessons: Lesson[] = [
       { sentence: "Nach dem Kurs ___ ich ins Fitnessstudio. (gehen)", answer: "gehe" },
       { sentence: "Ich habe gehört, dass er nach Hause ___ . (gehen, Perfekt)", answer: "gegangen ist" },
     ],
+    vocabulary: [
+      { de: "meinen", en: "to mean / think", ru: "иметь в виду" },
+      { de: "Kurs", article: "der", en: "course", ru: "курс" },
+      { de: "Fitnessstudio", article: "das", en: "gym", ru: "спортзал" },
+      { de: "Anzeige", article: "die", en: "advertisement", ru: "объявление" },
+      { de: "Essen", article: "das", en: "food", ru: "еда" },
+      { de: "Besichtigung", article: "die", en: "sightseeing", ru: "осмотр" },
+      { de: "einkaufen", en: "to shop", ru: "покупать" },
+      { de: "Zeit", article: "die", en: "time", ru: "время" },
+      { de: "Uhr", article: "die", en: "clock / hour", ru: "часы" },
+      { de: "Montag", article: "der", en: "Monday", ru: "понедельник" },
+    ],
   },
   {
     id: "l31",
@@ -1760,6 +1902,19 @@ export const lessons: Lesson[] = [
       { sentence: "Das Hemd → auf Russisch: ___", answer: "рубашка" },
       { sentence: "die Mütze → auf Russisch: ___", answer: "шапка" },
     ],
+    vocabulary: [
+      { de: "Kleid", article: "das", en: "dress", ru: "платье" },
+      { de: "Hose", article: "die", en: "pants", ru: "штаны" },
+      { de: "Schuh", article: "der", en: "shoe", ru: "ботинок" },
+      { de: "Jacke", article: "die", en: "jacket", ru: "куртка" },
+      { de: "Mantel", article: "der", en: "coat", ru: "пальто" },
+      { de: "Pullover", article: "der", en: "sweater", ru: "свитер" },
+      { de: "Mütze", article: "die", en: "hat", ru: "шапка" },
+      { de: "tragen", en: "to wear", ru: "носить" },
+      { de: "anziehen", en: "to put on", ru: "надевать" },
+      { de: "passen", en: "to fit", ru: "подходить" },
+    ],
+    weekReview: true,
   },
   {
     id: "l01apr",
@@ -1902,6 +2057,18 @@ export const lessons: Lesson[] = [
       { sentence: "Ich ___ das T-Shirt sch\u00F6n. (finden)", answer: "finde" },
       { sentence: "___ du Zeit? (haben)", answer: "Hast" },
       { sentence: "Ich ___ um 18 Uhr. (k\u00F6nnen)", answer: "kann" },
+    ],
+    vocabulary: [
+      { de: "schenken", en: "to give (gift)", ru: "дарить" },
+      { de: "danken", en: "to thank", ru: "благодарить" },
+      { de: "lieben", en: "to love", ru: "любить" },
+      { de: "Geschenk", article: "das", en: "gift", ru: "подарок" },
+      { de: "Blume", article: "die", en: "flower", ru: "цветок" },
+      { de: "Termin", article: "der", en: "appointment", ru: "встреча" },
+      { de: "können", en: "can", ru: "мочь" },
+      { de: "müde", en: "tired", ru: "уставший" },
+      { de: "Preis", article: "der", en: "price", ru: "цена" },
+      { de: "stehen", en: "to suit", ru: "идти (об одежде)" },
     ],
   },
 ];
