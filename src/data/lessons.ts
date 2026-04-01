@@ -784,6 +784,8 @@ export const lessons: Lesson[] = [
     ],
     weekReview: true,
   },
+  {
+    id: "l23",
     date: "23. März",
     title: "Meinungen, Artikel & Possessivpronomen",
     subtitle: "Wie finden Sie…? — Meinungen äußern, Artikeldeklination und Possessivpronomen im Überblick",
