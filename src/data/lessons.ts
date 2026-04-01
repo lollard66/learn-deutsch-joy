@@ -1146,6 +1146,8 @@ export const lessons: Lesson[] = [
       { de: "Firma", article: "die", en: "company", ru: "фирма" },
     ],
   },
+  {
+    id: "l25",
     date: "25. März",
     title: "Nomen & Artikel: Nominativ, Akkusativ, Dativ",
     subtitle: "Wer? Wen? Wem? — Притяжательные артикли, Dativ-предлоги и женские формы профессий.",
