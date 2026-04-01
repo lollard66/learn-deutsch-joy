@@ -129,6 +129,8 @@ export const lessons: Lesson[] = [
       { de: "Apfel", article: "der", en: "apple", ru: "яблоко" },
     ],
   },
+  {
+    id: "l16",
     date: "16. März",
     title: "Höfliche Fragen",
     subtitle: "Modalverben nutzen, um respektvoll zu kommunizieren.",
