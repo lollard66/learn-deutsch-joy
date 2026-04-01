@@ -1734,6 +1734,8 @@ export const lessons: Lesson[] = [
       { de: "Montag", article: "der", en: "Monday", ru: "понедельник" },
     ],
   },
+  {
+    id: "l31",
     date: "31. März",
     title: "Kleidung, Bildbeschreibung & Meinung",
     subtitle: "Одежда, описание картинки, dass-Sätze и как выражать мнение.",
