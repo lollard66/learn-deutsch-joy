@@ -299,6 +299,8 @@ export const lessons: Lesson[] = [
       { de: "Schrank", article: "der", en: "wardrobe", ru: "шкаф" },
     ],
   },
+  {
+    id: "l18",
     date: "18. März",
     title: "Wo? & Wohin? — Wechselpräpositionen",
     subtitle: "Position und Bewegung mit Dativ und Akkusativ beschreiben.",
