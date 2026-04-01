@@ -582,8 +582,19 @@ export const lessons: Lesson[] = [
       { sentence: "Ich lege das Buch auf ___ Tisch. (Wohin?)", answer: "den" },
       { sentence: "Das Buch liegt auf ___ Tisch. (Wo?)", answer: "dem" },
     ],
+    vocabulary: [
+      { de: "Buch", article: "das", en: "book", ru: "книга" },
+      { de: "Mann", article: "der", en: "man", ru: "мужчина" },
+      { de: "Frau", article: "die", en: "woman", ru: "женщина" },
+      { de: "Kind", article: "das", en: "child", ru: "ребёнок" },
+      { de: "geben", en: "to give", ru: "давать" },
+      { de: "sehen", en: "to see", ru: "видеть" },
+      { de: "kaufen", en: "to buy", ru: "покупать" },
+      { de: "helfen", en: "to help", ru: "помогать" },
+      { de: "Hund", article: "der", en: "dog", ru: "собака" },
+      { de: "Apfel", article: "der", en: "apple", ru: "яблоко" },
+    ],
   },
-
   // ── 20. März ──────────────────────────────────────────
   {
     id: "l20",
