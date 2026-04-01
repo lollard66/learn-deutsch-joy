@@ -17,6 +17,20 @@ export default function Index() {
   const [contentKey, setContentKey] = useState(0);
 
   const lesson = lessons.find(l => l.id === activeId)!;
+  const lessonIndex = lessons.findIndex(l => l.id === activeId);
+
+  // Collect vocabulary from the current week for weekly review
+  const weeklyVocab = useMemo(() => {
+    if (!lesson.weekReview) return [];
+    // Collect vocab from current lesson and previous lessons until the last weekReview
+    const words = [];
+    for (let i = lessonIndex; i >= 0; i--) {
+      const l = lessons[i];
+      if (l.vocabulary) words.push(...l.vocabulary);
+      if (i < lessonIndex && l.weekReview) break;
+    }
+    return words;
+  }, [lesson, lessonIndex]);
 
   const switchLesson = useCallback((id: string) => {
     setActiveId(id);
