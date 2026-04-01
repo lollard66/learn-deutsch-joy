@@ -466,6 +466,8 @@ export const lessons: Lesson[] = [
       { de: "zwischen", en: "between", ru: "между" },
     ],
   },
+  {
+    id: "l19",
     date: "19. März",
     title: "Stellen, Legen, Hängen",
     subtitle: "Глаголы перемещения, описание квартиры и Perfekt с предлогами места",
