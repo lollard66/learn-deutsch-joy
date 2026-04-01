@@ -92,6 +92,16 @@ export default function Index() {
             </div>
           </section>
 
+          {/* Vocabulary Trainer */}
+          {lesson.vocabulary && lesson.vocabulary.length > 0 && (
+            <VocabularyTrainer words={lesson.vocabulary} />
+          )}
+
+          {/* Weekly Review */}
+          {lesson.weekReview && weeklyVocab.length > 0 && (
+            <WeeklyReview words={weeklyVocab} weekLabel={lesson.date} />
+          )}
+
           {/* Adjektivdeklination for l23 */}
           {lesson.id === "l23" && <AdjektivDeklination />}
 
