@@ -2026,5 +2026,17 @@ export const lessons: Lesson[] = [
       { sentence: "___ du Zeit? (haben)", answer: "Hast" },
       { sentence: "Ich ___ um 18 Uhr. (k\u00F6nnen)", answer: "kann" },
     ],
+    vocabulary: [
+      { de: "schenken", en: "to give (gift)", ru: "дарить" },
+      { de: "danken", en: "to thank", ru: "благодарить" },
+      { de: "lieben", en: "to love", ru: "любить" },
+      { de: "Geschenk", article: "das", en: "gift", ru: "подарок" },
+      { de: "Blume", article: "die", en: "flower", ru: "цветок" },
+      { de: "Termin", article: "der", en: "appointment", ru: "встреча" },
+      { de: "können", en: "can", ru: "мочь" },
+      { de: "müde", en: "tired", ru: "уставший" },
+      { de: "Preis", article: "der", en: "price", ru: "цена" },
+      { de: "stehen", en: "to suit", ru: "идти (об одежде)" },
+    ],
   },
 ];
