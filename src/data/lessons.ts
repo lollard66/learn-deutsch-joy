@@ -936,6 +936,8 @@ export const lessons: Lesson[] = [
       { de: "billig", en: "cheap", ru: "дешёвый" },
     ],
   },
+  {
+    id: "l24",
     date: "24. März",
     title: "Beruf, Freizeit & Perfekt",
     subtitle: "Работа, свободное время и прошедшее время с неправильными глаголами",
