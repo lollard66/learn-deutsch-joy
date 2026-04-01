@@ -204,6 +204,8 @@ export const lessons: Lesson[] = [
       { de: "Straße", article: "die", en: "street", ru: "улица" },
     ],
   },
+  {
+    id: "l17",
     date: "17. März",
     title: "bringen / mitbringen / nehmen",
     subtitle: "Bewegung und Richtung präzise beschreiben.",
