@@ -1377,6 +1377,8 @@ export const lessons: Lesson[] = [
       { de: "zusammen", en: "together", ru: "вместе" },
     ],
   },
+  {
+    id: "l26",
     date: "26. März",
     title: 'Konjunktion „dass" & Nebensätze',
     subtitle: "Придаточные предложения с dass — слухи, мнения, аргументы. Глагол в конце!",
