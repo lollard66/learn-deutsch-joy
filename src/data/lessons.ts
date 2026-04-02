@@ -2071,7 +2071,6 @@ export const lessons: Lesson[] = [
       { de: "stehen", en: "to suit", ru: "идти (об одежде)" },
     ],
   },
-  },
   {
     id: "l02apr",
     date: "02. April",
