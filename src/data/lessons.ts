@@ -2071,4 +2071,166 @@ export const lessons: Lesson[] = [
       { de: "stehen", en: "to suit", ru: "идти (об одежде)" },
     ],
   },
+  },
+  {
+    id: "l02apr",
+    date: "02. April",
+    title: "Kleidung, gefallen & Dialog im Geschäft",
+    subtitle: "Adjektivdeklination im Akkusativ, gefallen/gefällt und Einkaufsdialoge.",
+    grammar: [
+      {
+        title: "Kleidung — Grundwortschatz",
+        content: `<div class="grid grid-cols-2 gap-2 text-sm">
+<div class="bg-muted p-3 rounded-xl"><span class="case-nom font-bold">der</span> Pullover — свитер</div>
+<div class="bg-muted p-3 rounded-xl"><span class="case-nom font-bold">die</span> Jacke — куртка</div>
+<div class="bg-muted p-3 rounded-xl"><span class="case-nom font-bold">das</span> T-Shirt — футболка</div>
+<div class="bg-muted p-3 rounded-xl"><span class="case-nom font-bold">die</span> Hose — штаны</div>
+<div class="bg-muted p-3 rounded-xl"><span class="case-nom font-bold">der</span> Mantel — пальто</div>
+<div class="bg-muted p-3 rounded-xl"><span class="case-nom font-bold">die</span> Schuhe — обувь</div>
+<div class="bg-muted p-3 rounded-xl"><span class="case-nom font-bold">die</span> Bluse — блузка</div>
+<div class="bg-muted p-3 rounded-xl"><span class="case-nom font-bold">der</span> Rock — юбка</div>
+</div>`,
+      },
+      {
+        title: "Adjektivdeklination im Akkusativ",
+        content: `<p class="mb-3">Nach <strong>kaufen, suchen, tragen, brauchen</strong> → Akkusativ:</p>
+<div class="overflow-x-auto mb-4">
+<table class="w-full text-sm border-collapse">
+<thead><tr class="bg-muted">
+<th class="p-2 text-left border border-border">Genus</th>
+<th class="p-2 text-left border border-border">Artikel</th>
+<th class="p-2 text-left border border-border">Adjektiv + Nomen</th>
+</tr></thead>
+<tbody>
+<tr><td class="p-2 border border-border"><span class="case-nom font-bold">der</span></td><td class="p-2 border border-border">einen</td><td class="p-2 border border-border">rot<span class="text-case-dat font-bold">en</span> Pullover</td></tr>
+<tr><td class="p-2 border border-border"><span class="case-nom font-bold">die</span></td><td class="p-2 border border-border">eine</td><td class="p-2 border border-border">rot<span class="text-case-dat font-bold">e</span> Jacke</td></tr>
+<tr><td class="p-2 border border-border"><span class="case-nom font-bold">das</span></td><td class="p-2 border border-border">ein</td><td class="p-2 border border-border">rot<span class="text-case-dat font-bold">es</span> T-Shirt</td></tr>
+<tr><td class="p-2 border border-border"><span class="case-nom font-bold">Plural</span></td><td class="p-2 border border-border">—</td><td class="p-2 border border-border">rot<span class="text-case-dat font-bold">e</span> Schuhe</td></tr>
+</tbody>
+</table>
+</div>
+<div class="bg-muted p-4 rounded-xl text-sm space-y-1">
+<p>Ich kaufe <span class="case-akk font-bold">einen schwarzen</span> Mantel.</p>
+<p>Ich suche <span class="case-akk font-bold">eine weiße</span> Bluse.</p>
+<p>Ich trage <span class="case-akk font-bold">ein blaues</span> T-Shirt.</p>
+</div>`,
+      },
+      {
+        title: "gefallen / gefällt",
+        content: `<p class="mb-3">gefallen = нравиться. Подлежащее — <strong>то, что нравится</strong>:</p>
+<div class="overflow-x-auto mb-4">
+<table class="w-full text-sm border-collapse">
+<thead><tr class="bg-muted">
+<th class="p-2 text-left border border-border">Zahl</th>
+<th class="p-2 text-left border border-border">Form</th>
+<th class="p-2 text-left border border-border">Beispiel</th>
+</tr></thead>
+<tbody>
+<tr><td class="p-2 border border-border">Singular</td><td class="p-2 border border-border case-verb font-bold">gefällt</td><td class="p-2 border border-border">Die Jacke gefällt mir.</td></tr>
+<tr><td class="p-2 border border-border">Plural</td><td class="p-2 border border-border case-verb font-bold">gefallen</td><td class="p-2 border border-border">Die Schuhe gefallen mir.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="bg-rose-50 dark:bg-rose-950/20 p-4 rounded-xl text-sm space-y-1 border border-case-dat">
+<p>❌ <s>Mir gefällt die Schuhe</s></p>
+<p>✅ Die Schuhe <span class="case-verb font-bold">gefallen</span> mir.</p>
+</div>`,
+      },
+      {
+        title: "welch- oder was für ein-?",
+        content: `<div class="grid sm:grid-cols-2 gap-4 text-sm">
+<div class="bg-muted p-4 rounded-xl">
+<p class="font-bold mb-2">welch- = конкретный выбор</p>
+<p><span class="case-akk font-bold">Welchen</span> Pullover möchtest du?</p>
+<p class="text-muted-foreground mt-1">→ Какой именно (из этих)?</p>
+</div>
+<div class="bg-muted p-4 rounded-xl">
+<p class="font-bold mb-2">was für ein- = тип / категория</p>
+<p><span class="case-akk font-bold">Was für einen</span> Pullover suchst du?</p>
+<p class="text-muted-foreground mt-1">→ Какого типа?</p>
+</div>
+</div>`,
+      },
+      {
+        title: "Dialog im Geschäft",
+        content: `<div class="bg-muted p-4 rounded-xl text-sm space-y-2">
+<p><span class="font-bold">Verkäufer:</span> Guten Tag! Kann ich Ihnen helfen?</p>
+<p><span class="font-bold">Kunde:</span> Ja, ich suche eine Jacke.</p>
+<p><span class="font-bold">Verkäufer:</span> Welche Größe?</p>
+<p><span class="font-bold">Kunde:</span> M. Haben Sie eine schwarze Jacke?</p>
+<p><span class="font-bold">Verkäufer:</span> Ja. Gefällt sie Ihnen?</p>
+<p><span class="font-bold">Kunde:</span> Ja, sie gefällt mir. Kann ich sie anprobieren?</p>
+<p><span class="font-bold">Kunde:</span> Sie passt gut. Kann ich mit Karte bezahlen?</p>
+</div>
+<div class="mt-4 p-4 bg-primary/5 rounded-xl text-sm">
+<p class="font-bold mb-2">Wichtige Phrasen für die Prüfung:</p>
+<ul class="space-y-1">
+<li>Ich suche … / Haben Sie …?</li>
+<li>Welche Größe? / Kann ich das anprobieren?</li>
+<li>Wie viel kostet das? / Gefällt es Ihnen?</li>
+<li>Es passt mir gut. / Kann ich mit Karte bezahlen?</li>
+</ul>
+</div>`,
+      },
+      {
+        title: "Häufige Fehler",
+        content: `<div class="space-y-3 text-sm">
+<div class="flex gap-3 items-start"><span class="text-case-dat font-bold">❌</span><p>einen rot<strong>e</strong> Pullover</p></div>
+<div class="flex gap-3 items-start"><span class="text-case-akk font-bold">✅</span><p>einen rot<strong>en</strong> Pullover</p></div>
+<hr class="border-border"/>
+<div class="flex gap-3 items-start"><span class="text-case-dat font-bold">❌</span><p>Mir gefällt die Schuhe</p></div>
+<div class="flex gap-3 items-start"><span class="text-case-akk font-bold">✅</span><p>Die Schuhe gefallen mir</p></div>
+<hr class="border-border"/>
+<div class="flex gap-3 items-start"><span class="text-case-dat font-bold">❌</span><p>Wo hast die Schuhe gekauft?</p></div>
+<div class="flex gap-3 items-start"><span class="text-case-akk font-bold">✅</span><p>Wo hast <strong>du</strong> die Schuhe gekauft?</p></div>
+</div>`,
+      },
+    ],
+    examples: [
+      { de: "Ich kaufe <span class='case-akk font-bold'>einen schwarzen</span> Mantel.", en: "I buy a black coat." },
+      { de: "Ich suche <span class='case-akk font-bold'>eine weiße</span> Bluse.", en: "I'm looking for a white blouse." },
+      { de: "Ich trage <span class='case-akk font-bold'>ein blaues</span> T-Shirt.", en: "I'm wearing a blue T-shirt." },
+      { de: "Die Jacke <span class='case-verb font-bold'>gefällt</span> <span class='case-dat font-bold'>mir</span>.", en: "I like the jacket." },
+      { de: "Die Schuhe <span class='case-verb font-bold'>gefallen</span> <span class='case-dat font-bold'>mir</span>.", en: "I like the shoes." },
+      { de: "<span class='case-akk font-bold'>Welchen</span> Pullover möchtest du?", en: "Which pullover do you want?" },
+      { de: "<span class='case-akk font-bold'>Was für einen</span> Pullover suchst du?", en: "What kind of pullover are you looking for?" },
+      { de: "Kann ich <span class='case-akk font-bold'>sie</span> anprobieren?", en: "Can I try it on?" },
+      { de: "Das <span class='case-verb font-bold'>steht</span> dir gut.", en: "That suits you well." },
+      { de: "Kann ich mit Karte <span class='case-verb font-bold'>bezahlen</span>?", en: "Can I pay by card?" },
+    ],
+    test: [
+      { sentence: "Ich kaufe ein___ schwarz___ Mantel. (der Mantel, Akk.)", answer: "einen schwarzen" },
+      { sentence: "Ich suche ein___ weiß___ Bluse. (die Bluse, Akk.)", answer: "eine weiße" },
+      { sentence: "Ich trage ein___ blau___ T-Shirt. (das T-Shirt, Akk.)", answer: "ein blaues" },
+      { sentence: "Ich brauche ___ rot___ Schuhe. (Plural, Akk.)", answer: "rote" },
+      { sentence: "Die Jacke ___ mir. (gefallen, Singular)", answer: "gefällt" },
+      { sentence: "Die Schuhe ___ mir. (gefallen, Plural)", answer: "gefallen" },
+      { sentence: "___ Pullover möchtest du? (welch-, Akk. maskulin)", answer: "Welchen" },
+      { sentence: "Was für ___ Kleid suchst du? (ein, Akk. neutral)", answer: "ein" },
+      { sentence: "Kann ich das ___? (anprobieren)", answer: "anprobieren" },
+      { sentence: "Wie viel ___ das? (kosten)", answer: "kostet" },
+      { sentence: "Ich kaufe ein___ grün___ Jacke. (die Jacke, Akk.)", answer: "eine grüne" },
+      { sentence: "Er trägt ein___ rot___ Hemd. (das Hemd, Akk.)", answer: "ein rotes" },
+      { sentence: "Sie sucht ein___ warm___ Mantel. (der Mantel, Akk.)", answer: "einen warmen" },
+      { sentence: "Die Bluse ___ mir gut. (stehen)", answer: "steht" },
+      { sentence: "Das Kleid ___ mir. (gefallen, Singular)", answer: "gefällt" },
+      { sentence: "___ Größe haben Sie? (welch-, Akk. feminin)", answer: "Welche" },
+      { sentence: "Ich ___ gern Jeans. (tragen)", answer: "trage" },
+      { sentence: "Haben Sie ein___ schwarz___ Jacke? (die Jacke, Akk.)", answer: "eine schwarze" },
+      { sentence: "Das ___ dir gut! (passen)", answer: "passt" },
+      { sentence: "Kann ich mit Karte ___? (bezahlen)", answer: "bezahlen" },
+    ],
+    vocabulary: [
+      { de: "Pullover", article: "der", en: "pullover", ru: "свитер" },
+      { de: "Bluse", article: "die", en: "blouse", ru: "блузка" },
+      { de: "anprobieren", en: "to try on", ru: "примерять" },
+      { de: "bezahlen", en: "to pay", ru: "платить" },
+      { de: "gefallen", en: "to like / to please", ru: "нравиться" },
+      { de: "passen", en: "to fit", ru: "подходить" },
+      { de: "Größe", article: "die", en: "size", ru: "размер" },
+      { de: "Geschäft", article: "das", en: "shop", ru: "магазин" },
+      { de: "Verkäufer", article: "der", en: "salesperson", ru: "продавец" },
+      { de: "Karte", article: "die", en: "card", ru: "карта" },
+    ],
+  },
 ];
