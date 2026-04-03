@@ -2232,4 +2232,153 @@ export const lessons: Lesson[] = [
       { de: "Karte", article: "die", en: "card", ru: "карта" },
     ],
   },
+  // ── 03. April ──
+  {
+    id: "l03apr",
+    date: "03.04",
+    title: "Kleidung: Fragen & Antworten",
+    subtitle: "Vollständige Antworten bilden, tragen konjugieren, Perfekt & Wortstellung",
+    grammar: [
+      {
+        title: "Vollständige Antworten bilden",
+        content: `
+          <p class="mb-2"><strong>Formel:</strong> Ja/Nein + ich + Verb + Ergänzung</p>
+          <table class="w-full text-sm border-collapse mb-3">
+            <thead><tr class="bg-muted"><th class="p-2 text-left border border-border">Frage</th><th class="p-2 text-left border border-border">Antwort</th></tr></thead>
+            <tbody>
+              <tr><td class="p-2 border border-border">Trägst du gern Pullover?</td><td class="p-2 border border-border">Ja, ich trage gern Pullover.</td></tr>
+              <tr><td class="p-2 border border-border">Welche Farbe trägst du?</td><td class="p-2 border border-border">Ich trage am liebsten Schwarz.</td></tr>
+              <tr><td class="p-2 border border-border">Wo hast du die Schuhe gekauft?</td><td class="p-2 border border-border">Ich habe die Schuhe im Geschäft gekauft.</td></tr>
+            </tbody>
+          </table>
+        `,
+      },
+      {
+        title: "Das Verb «tragen» (Konjugation)",
+        content: `
+          <table class="w-full text-sm border-collapse mb-3">
+            <thead><tr class="bg-muted"><th class="p-2 border border-border">Person</th><th class="p-2 border border-border">Form</th></tr></thead>
+            <tbody>
+              <tr><td class="p-2 border border-border">ich</td><td class="p-2 border border-border">trage</td></tr>
+              <tr><td class="p-2 border border-border">du</td><td class="p-2 border border-border">tr<strong>ä</strong>gst</td></tr>
+              <tr><td class="p-2 border border-border">er/sie/es</td><td class="p-2 border border-border">tr<strong>ä</strong>gt</td></tr>
+              <tr><td class="p-2 border border-border">wir</td><td class="p-2 border border-border">tragen</td></tr>
+              <tr><td class="p-2 border border-border">ihr</td><td class="p-2 border border-border">tragt</td></tr>
+              <tr><td class="p-2 border border-border">sie/Sie</td><td class="p-2 border border-border">tragen</td></tr>
+            </tbody>
+          </table>
+          <p class="text-sm text-muted-foreground">⚠ Umlaut bei du/er/sie: a → ä</p>
+        `,
+      },
+      {
+        title: "welch- vs. was für ein-",
+        content: `
+          <table class="w-full text-sm border-collapse mb-3">
+            <thead><tr class="bg-muted"><th class="p-2 border border-border">Typ</th><th class="p-2 border border-border">Bedeutung</th><th class="p-2 border border-border">Beispiel</th></tr></thead>
+            <tbody>
+              <tr><td class="p-2 border border-border"><strong>welch-</strong></td><td class="p-2 border border-border">konkreter Gegenstand</td><td class="p-2 border border-border">Welche Jacke möchtest du?</td></tr>
+              <tr><td class="p-2 border border-border"><strong>was für ein-</strong></td><td class="p-2 border border-border">Typ / Art</td><td class="p-2 border border-border">Was für eine Jacke suchst du?</td></tr>
+            </tbody>
+          </table>
+        `,
+      },
+      {
+        title: "Farben + Adjektive im Akkusativ",
+        content: `
+          <p class="mb-2">schwarz, blau, weiß, rot, grün</p>
+          <table class="w-full text-sm border-collapse mb-3">
+            <thead><tr class="bg-muted"><th class="p-2 border border-border">Genus</th><th class="p-2 border border-border">Beispiel</th></tr></thead>
+            <tbody>
+              <tr><td class="p-2 border border-border">der → ein<strong>en</strong> schwarz<strong>en</strong></td><td class="p-2 border border-border">Ich trage einen schwarzen Pullover.</td></tr>
+              <tr><td class="p-2 border border-border">die → ein<strong>e</strong> rot<strong>e</strong></td><td class="p-2 border border-border">Ich trage eine rote Jacke.</td></tr>
+              <tr><td class="p-2 border border-border">das → ein blau<strong>es</strong></td><td class="p-2 border border-border">Ich trage ein blaues T-Shirt.</td></tr>
+              <tr><td class="p-2 border border-border">Plural → schwarz<strong>e</strong></td><td class="p-2 border border-border">Ich trage schwarze Schuhe.</td></tr>
+            </tbody>
+          </table>
+        `,
+      },
+      {
+        title: "Perfekt — Wo hast du … gekauft?",
+        content: `
+          <p class="mb-2"><strong>Formel:</strong> haben + … + Partizip II (am Ende!)</p>
+          <table class="w-full text-sm border-collapse mb-3">
+            <thead><tr class="bg-muted"><th class="p-2 border border-border">Infinitiv</th><th class="p-2 border border-border">Partizip II</th></tr></thead>
+            <tbody>
+              <tr><td class="p-2 border border-border">kaufen</td><td class="p-2 border border-border">gekauft</td></tr>
+              <tr><td class="p-2 border border-border">tragen</td><td class="p-2 border border-border">getragen</td></tr>
+            </tbody>
+          </table>
+          <p class="text-sm">✔ Ich habe die Schuhe im Geschäft <strong>gekauft</strong>.</p>
+          <p class="text-sm text-destructive">✘ Ich habe gekauft die Schuhe. ← falsch!</p>
+        `,
+      },
+      {
+        title: "Nützliche Wörter für die Prüfung",
+        content: `
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+            <div><p class="font-semibold mb-1">Wo?</p><p>im Geschäft</p><p>online</p><p>im Einkaufszentrum</p></div>
+            <div><p class="font-semibold mb-1">Wie oft?</p><p>oft, manchmal, immer</p></div>
+            <div><p class="font-semibold mb-1">Wie gern?</p><p>gern, sehr gern, nicht gern</p></div>
+          </div>
+        `,
+      },
+      {
+        title: "Häufige Fehler",
+        content: `
+          <div class="space-y-2 text-sm">
+            <p class="text-destructive">✘ einen rote Pullover → <span class="text-foreground">✔ einen rot<strong>en</strong> Pullover</span></p>
+            <p class="text-destructive">✘ Ich habe gekauft die Schuhe → <span class="text-foreground">✔ Ich habe die Schuhe gekauft</span></p>
+            <p class="text-destructive">✘ Wo hast die Schuhe gekauft? → <span class="text-foreground">✔ Wo hast <strong>du</strong> die Schuhe gekauft?</span></p>
+          </div>
+        `,
+      },
+    ],
+    examples: [
+      { de: "Ich <span class='text-case-akk font-semibold'>trage</span> gern Pullover.", en: "I like wearing pullovers." },
+      { de: "Ich trage am liebsten <span class='text-case-akk font-semibold'>schwarze</span> Kleidung.", en: "I prefer wearing black clothes." },
+      { de: "Ich habe die Schuhe im Geschäft <span class='text-case-dat font-semibold'>gekauft</span>.", en: "I bought the shoes in the store." },
+      { de: "Ich habe die Jacke <span class='text-case-akk font-semibold'>online</span> gekauft.", en: "I bought the jacket online." },
+      { de: "Du <span class='text-case-akk font-semibold'>trägst</span> eine schöne Jacke.", en: "You're wearing a nice jacket." },
+      { de: "<span class='text-case-nom font-semibold'>Welche</span> Farbe trägst du am liebsten?", en: "Which color do you like wearing most?" },
+      { de: "Was für <span class='text-case-akk font-semibold'>einen</span> Pullover suchst du?", en: "What kind of pullover are you looking for?" },
+      { de: "Ich trage <span class='text-case-akk font-semibold'>meistens</span> schwarze Kleidung, weil sie praktisch ist.", en: "I usually wear black clothes because it's practical." },
+      { de: "Er <span class='text-case-akk font-semibold'>trägt</span> immer blaue Jeans.", en: "He always wears blue jeans." },
+      { de: "Ich kaufe <span class='text-case-akk font-semibold'>sehr gern</span> Kleidung im Einkaufszentrum.", en: "I really enjoy buying clothes in the mall." },
+    ],
+    test: [
+      { sentence: "Trägst du gern Pullover? — Ja, ich ___ gern Pullover.", answer: "trage" },
+      { sentence: "Du ___ eine schöne Jacke. (tragen)", answer: "trägst" },
+      { sentence: "Er ___ immer schwarze Schuhe. (tragen)", answer: "trägt" },
+      { sentence: "Ich trage ein___ schwarz___ Pullover. (der, Akk.)", answer: "einen schwarzen" },
+      { sentence: "Ich trage ein___ rot___ Jacke. (die, Akk.)", answer: "eine rote" },
+      { sentence: "Ich trage ein___ blau___ T-Shirt. (das, Akk.)", answer: "ein blaues" },
+      { sentence: "Ich trage ___ schwarz___ Schuhe. (Plural, Akk.)", answer: "schwarze" },
+      { sentence: "___ Farbe trägst du am liebsten? (welch-)", answer: "Welche" },
+      { sentence: "Was für ___ Pullover suchst du? (ein, maskulin, Akk.)", answer: "einen" },
+      { sentence: "Ich habe die Schuhe im Geschäft ___. (kaufen, Perfekt)", answer: "gekauft" },
+      { sentence: "Wo ___ du die Jacke gekauft? (haben)", answer: "hast" },
+      { sentence: "Ich habe die Hose online ___. (kaufen, Perfekt)", answer: "gekauft" },
+      { sentence: "Ich trage ___ liebsten blaue Kleidung. (am)", answer: "am" },
+      { sentence: "Er hat ein___ neu___ Mantel gekauft. (der, Akk.)", answer: "einen neuen" },
+      { sentence: "Sie ___ sehr gern rote Kleider. (tragen)", answer: "trägt" },
+      { sentence: "___ Jacke möchtest du? (welch-, feminin)", answer: "Welche" },
+      { sentence: "Ich trage ___ schwarze Kleidung. (meistens)", answer: "meistens" },
+      { sentence: "Wir ___ im Einkaufszentrum eingekauft. (haben)", answer: "haben" },
+      { sentence: "Ich kaufe ___ gern Kleidung. (sehr)", answer: "sehr" },
+      { sentence: "Er hat die Schuhe ___. (tragen, Perfekt)", answer: "getragen" },
+    ],
+    vocabulary: [
+      { de: "tragen", en: "to wear / carry", ru: "носить" },
+      { de: "Farbe", article: "die", en: "color", ru: "цвет" },
+      { de: "Einkaufszentrum", article: "das", en: "shopping center", ru: "торговый центр" },
+      { de: "meistens", en: "mostly / usually", ru: "обычно" },
+      { de: "praktisch", en: "practical", ru: "практичный" },
+      { de: "Kleidung", article: "die", en: "clothing", ru: "одежда" },
+      { de: "manchmal", en: "sometimes", ru: "иногда" },
+      { de: "immer", en: "always", ru: "всегда" },
+      { de: "Lieblings-", en: "favorite (prefix)", ru: "любимый (приставка)" },
+      { de: "bequem", en: "comfortable", ru: "удобный" },
+    ],
+    weekReview: true,
+  },
 ];
