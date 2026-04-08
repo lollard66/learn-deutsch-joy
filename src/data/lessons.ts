@@ -2381,4 +2381,119 @@ export const lessons: Lesson[] = [
     ],
     weekReview: true,
   },
+  // ── 09 April ──
+  {
+    id: "l09apr",
+    date: "09.04",
+    title: "Steigerung der Adjektive",
+    subtitle: "Степени сравнения прилагательных: Komparativ und Superlativ",
+    grammar: [
+      {
+        title: "Drei Formen der Steigerung",
+        content: `
+          <table class="w-full text-sm mb-4 border-collapse">
+            <thead><tr class="border-b border-border">
+              <th class="text-left py-2 pr-3">Grundform</th>
+              <th class="text-left py-2 pr-3">Komparativ (+er)</th>
+              <th class="text-left py-2">Superlativ (am …sten)</th>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">schnell</td><td class="py-2 pr-3">schnell<b>er</b></td><td class="py-2">am schnell<b>sten</b></td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">schön</td><td class="py-2 pr-3">schön<b>er</b></td><td class="py-2">am schön<b>sten</b></td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">klein</td><td class="py-2 pr-3">klein<b>er</b></td><td class="py-2">am klein<b>sten</b></td></tr>
+              <tr><td class="py-2 pr-3">billig</td><td class="py-2 pr-3">billig<b>er</b></td><td class="py-2">am billig<b>sten</b></td></tr>
+            </tbody>
+          </table>`,
+      },
+      {
+        title: "Umlaut: a → ä, o → ö, u → ü",
+        content: `
+          <p class="mb-3">Einige kurze Adjektive bekommen einen Umlaut:</p>
+          <table class="w-full text-sm mb-4 border-collapse">
+            <thead><tr class="border-b border-border">
+              <th class="text-left py-2 pr-3">Grundform</th>
+              <th class="text-left py-2 pr-3">Komparativ</th>
+              <th class="text-left py-2">Superlativ</th>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">alt</td><td class="py-2 pr-3"><b>ä</b>lter</td><td class="py-2">am <b>ä</b>ltesten</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">groß</td><td class="py-2 pr-3">gr<b>ö</b>ßer</td><td class="py-2">am gr<b>ö</b>ßten</td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">jung</td><td class="py-2 pr-3">j<b>ü</b>nger</td><td class="py-2">am j<b>ü</b>ngsten</td></tr>
+              <tr><td class="py-2 pr-3">gesund</td><td class="py-2 pr-3">ges<b>ü</b>nder</td><td class="py-2">am ges<b>ü</b>ndesten</td></tr>
+            </tbody>
+          </table>`,
+      },
+      {
+        title: "Unregelmäßige Formen",
+        content: `
+          <table class="w-full text-sm mb-4 border-collapse">
+            <thead><tr class="border-b border-border">
+              <th class="text-left py-2 pr-3">Grundform</th>
+              <th class="text-left py-2 pr-3">Komparativ</th>
+              <th class="text-left py-2">Superlativ</th>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">gut</td><td class="py-2 pr-3"><b>besser</b></td><td class="py-2">am <b>besten</b></td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">viel</td><td class="py-2 pr-3"><b>mehr</b></td><td class="py-2">am <b>meisten</b></td></tr>
+              <tr class="border-b border-border/50"><td class="py-2 pr-3">gern</td><td class="py-2 pr-3"><b>lieber</b></td><td class="py-2">am <b>liebsten</b></td></tr>
+              <tr><td class="py-2 pr-3">hoch</td><td class="py-2 pr-3"><b>höher</b></td><td class="py-2">am <b>höchsten</b></td></tr>
+            </tbody>
+          </table>`,
+      },
+      {
+        title: "Vergleich: so … wie / …-er als",
+        content: `
+          <p class="mb-2"><b>Gleichheit</b> (равенство): <code>so + Adjektiv + wie</code></p>
+          <p class="text-muted-foreground text-sm mb-4">Ich bin <b>so groß wie</b> du. — Я такой же высокий, как ты.</p>
+          <p class="mb-2"><b>Unterschied</b> (различие): <code>Komparativ + als</code></p>
+          <p class="text-muted-foreground text-sm">Ich bin <b>größer als</b> du. — Я выше, чем ты.</p>`,
+      },
+    ],
+    examples: [
+      { de: "Das Auto ist <span class='text-case-akk font-semibold'>schneller</span> als das Fahrrad.", en: "The car is faster than the bicycle." },
+      { de: "Das Haus ist <span class='text-case-akk font-semibold'>größer</span> als das Auto.", en: "The house is bigger than the car." },
+      { de: "Ich bin <span class='text-case-akk font-semibold'>älter</span> als du.", en: "I am older than you." },
+      { de: "Ich trinke <span class='text-case-akk font-semibold'>lieber</span> Tee als Kaffee.", en: "I prefer tea over coffee." },
+      { de: "Dieses Buch ist <span class='text-case-akk font-semibold'>besser</span> als das andere.", en: "This book is better than the other one." },
+      { de: "Berlin ist <span class='text-case-akk font-semibold'>so groß wie</span> Hamburg? Nein!", en: "Berlin is as big as Hamburg? No!" },
+      { de: "Er läuft <span class='text-case-akk font-semibold'>am schnellsten</span>.", en: "He runs the fastest." },
+      { de: "Sie ist <span class='text-case-akk font-semibold'>jünger</span> als ihr Bruder.", en: "She is younger than her brother." },
+      { de: "Das ist das <span class='text-case-akk font-semibold'>billigste</span> T-Shirt.", en: "That is the cheapest T-shirt." },
+      { de: "Ich finde Deutsch <span class='text-case-akk font-semibold'>schwieriger</span> als Englisch.", en: "I find German harder than English." },
+    ],
+    test: [
+      { sentence: "Das Auto ist ___ als das Fahrrad. (schnell)", answer: "schneller" },
+      { sentence: "Ich bin ___ als du. (alt)", answer: "älter" },
+      { sentence: "Er läuft am ___. (schnell, Superlativ)", answer: "schnellsten" },
+      { sentence: "gut → Komparativ: ___", answer: "besser" },
+      { sentence: "viel → Komparativ: ___", answer: "mehr" },
+      { sentence: "gern → Komparativ: ___", answer: "lieber" },
+      { sentence: "Ich bin so groß ___ du. (Gleichheit)", answer: "wie" },
+      { sentence: "Er ist größer ___ ich. (Vergleich)", answer: "als" },
+      { sentence: "Das Haus ist ___ als die Wohnung. (groß)", answer: "größer" },
+      { sentence: "Sie ist ___ als ihr Bruder. (jung)", answer: "jünger" },
+      { sentence: "Das ist am ___. (gut, Superlativ)", answer: "besten" },
+      { sentence: "Ich trinke ___ Kaffee als Tee. (gern, Komparativ)", answer: "lieber" },
+      { sentence: "klein → Komparativ: ___", answer: "kleiner" },
+      { sentence: "schön → Komparativ: ___", answer: "schöner" },
+      { sentence: "Das T-Shirt ist ___ als die Jacke. (billig)", answer: "billiger" },
+      { sentence: "Er ist am ___. (alt, Superlativ)", answer: "ältesten" },
+      { sentence: "hoch → Komparativ: ___", answer: "höher" },
+      { sentence: "Dieses Buch ist ___ als das andere. (gut)", answer: "besser" },
+      { sentence: "gesund → Komparativ: ___", answer: "gesünder" },
+      { sentence: "Ich finde Deutsch ___ als Englisch. (schwierig)", answer: "schwieriger" },
+    ],
+    vocabulary: [
+      { de: "schnell", en: "fast", ru: "быстрый" },
+      { de: "langsam", en: "slow", ru: "медленный" },
+      { de: "groß", en: "big / tall", ru: "большой / высокий" },
+      { de: "klein", en: "small / short", ru: "маленький" },
+      { de: "jung", en: "young", ru: "молодой" },
+      { de: "gesund", en: "healthy", ru: "здоровый" },
+      { de: "teuer", en: "expensive", ru: "дорогой" },
+      { de: "billig", en: "cheap", ru: "дешёвый" },
+      { de: "dunkel", en: "dark", ru: "тёмный" },
+      { de: "hell", en: "light / bright", ru: "светлый" },
+    ],
+  },
 ];
