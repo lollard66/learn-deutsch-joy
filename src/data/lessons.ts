@@ -2381,10 +2381,10 @@ export const lessons: Lesson[] = [
     ],
     weekReview: true,
   },
-  // ── 09 April ──
+  // ── 08 April ──
   {
-    id: "l09apr",
-    date: "09.04",
+    id: "l08apr",
+    date: "08.04",
     title: "Steigerung der Adjektive",
     subtitle: "Степени сравнения прилагательных: Komparativ und Superlativ",
     grammar: [
