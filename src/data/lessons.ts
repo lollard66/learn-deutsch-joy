@@ -2496,4 +2496,144 @@ export const lessons: Lesson[] = [
       { de: "hell", en: "light / bright", ru: "светлый" },
     ],
   },
+  // ── 09 April ──
+  {
+    id: "l09apr",
+    date: "09.04",
+    title: "Verkehr + Vergleich",
+    subtitle: "Транспорт, сравнение с als/wie и глагол pendeln",
+    grammar: [
+      {
+        title: "Verkehr — Transportmittel",
+        content: `
+          <p class="mb-3"><b>Основные слова:</b></p>
+          <table class="w-full text-sm mb-4 border-collapse">
+            <tbody>
+              <tr class="border-b border-border"><td class="py-1 pr-4 font-medium">der Bus</td><td>автобус</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4 font-medium">die Straßenbahn</td><td>трамвай</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4 font-medium">die U-Bahn</td><td>метро</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4 font-medium">der Zug</td><td>поезд</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4 font-medium">das Auto</td><td>машина</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4 font-medium">das Taxi</td><td>такси</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4 font-medium">das Fahrrad</td><td>велосипед</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4 font-medium">das Flugzeug</td><td>самолёт</td></tr>
+            </tbody>
+          </table>
+          <p class="mb-2"><b>mit + Dativ</b> = на чём ехать:</p>
+          <p class="text-muted-foreground text-sm mb-1">mit <b>dem</b> Bus fahren — ехать на автобусе</p>
+          <p class="text-muted-foreground text-sm mb-1">mit <b>dem</b> Auto fahren — на машине</p>
+          <p class="text-muted-foreground text-sm mb-4">mit <b>dem</b> Zug fahren — на поезде</p>
+          <p class="mb-2"><b>nehmen + Akkusativ</b>:</p>
+          <p class="text-muted-foreground text-sm mb-1"><b>den</b> Bus nehmen — взять автобус</p>
+          <p class="text-muted-foreground text-sm"><b>das</b> Taxi nehmen — взять такси</p>`,
+      },
+      {
+        title: "pendeln — ездить на работу и обратно",
+        content: `
+          <p class="mb-3"><b>pendeln</b> = ездить туда-сюда (дом–работа)</p>
+          <table class="w-full text-sm mb-4 border-collapse">
+            <tbody>
+              <tr class="border-b border-border"><td class="py-1 pr-4">ich</td><td class="font-medium">pendle</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4">du</td><td class="font-medium">pendelst</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4">er/sie</td><td class="font-medium">pendelt</td></tr>
+              <tr class="border-b border-border"><td class="py-1 pr-4">wir</td><td class="font-medium">pendeln</td></tr>
+            </tbody>
+          </table>
+          <p class="text-muted-foreground text-sm">Ich pendle jeden Tag nach Wien. — Я каждый день езжу в Вену.</p>`,
+      },
+      {
+        title: "Komparativ: -er + als / so … wie",
+        content: `
+          <p class="mb-2"><b>Сравнение</b> (больше): <code>Adjektiv + er + als</code></p>
+          <p class="text-muted-foreground text-sm mb-4">Das Auto ist <b>schneller als</b> der Bus. — Машина быстрее автобуса.</p>
+          <p class="mb-2"><b>Равенство</b>: <code>so + Adjektiv + wie</code></p>
+          <p class="text-muted-foreground text-sm mb-4">Der Bus ist <b>so schnell wie</b> die Straßenbahn. — Автобус такой же быстрый, как трамвай.</p>
+          <p class="mb-2"><b>Отрицание</b>: <code>nicht so + Adj + wie</code></p>
+          <p class="text-muted-foreground text-sm mb-4">Der Bus ist <b>nicht so schnell wie</b> die Straßenbahn.</p>
+          <p class="mb-2"><b>Усиление</b>: <code>viel + Komparativ</code></p>
+          <p class="text-muted-foreground text-sm">Das Flugzeug ist <b>viel schneller</b> als der Bus. — Самолёт <b>намного</b> быстрее.</p>`,
+      },
+      {
+        title: "⚠️ Typische Fehler",
+        content: `
+          <div class="space-y-2 text-sm">
+            <p>❌ billig als → ✅ <b>billiger</b> als</p>
+            <p>❌ teuer als → ✅ <b>teurer</b> als</p>
+            <p>❌ so schnell <b>als</b> → ✅ so schnell <b>wie</b></p>
+          </div>`,
+      },
+      {
+        title: "Неправильные глаголы — карточки из тетради",
+        content: `
+          <p class="mb-3">Глаголы из таблицы (Infinitiv → Präsens → Präteritum → Perfekt):</p>
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="border-b border-border font-semibold">
+              <td class="py-1 pr-2">Infinitiv</td><td class="pr-2">er/sie</td><td class="pr-2">Prät.</td><td>Perfekt</td>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border"><td class="py-1">heißen</td><td>heißt</td><td>hieß</td><td>hat geheißen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">helfen</td><td>hilft</td><td>half</td><td>hat geholfen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">hinfahren</td><td>fährt hin</td><td>fuhr hin</td><td>ist hingefahren</td></tr>
+              <tr class="border-b border-border"><td class="py-1">hinkommen</td><td>kommt hin</td><td>kam hin</td><td>ist hingekommen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">kennen</td><td>kennt</td><td>kannte</td><td>hat gekannt</td></tr>
+              <tr class="border-b border-border"><td class="py-1">klingen</td><td>klingt</td><td>klang</td><td>hat geklungen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">kommen</td><td>kommt</td><td>kam</td><td>ist gekommen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">können</td><td>kann</td><td>konnte</td><td>hat gekonnt/können</td></tr>
+              <tr class="border-b border-border"><td class="py-1">lassen</td><td>lässt</td><td>ließ</td><td>hat gelassen/lassen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">laufen</td><td>läuft</td><td>lief</td><td>ist gelaufen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">leihen</td><td>leiht</td><td>lieh</td><td>hat geliehen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">lesen</td><td>liest</td><td>las</td><td>hat gelesen</td></tr>
+              <tr class="border-b border-border"><td class="py-1">liegen</td><td>liegt</td><td>lag</td><td>hat gelegen</td></tr>
+            </tbody>
+          </table>`,
+      },
+    ],
+    examples: [
+      { de: "Ich fahre <span class='text-case-dat font-semibold'>mit dem Bus</span> zur Arbeit.", en: "I take the bus to work." },
+      { de: "Das Auto ist <span class='text-case-akk font-semibold'>schneller als</span> der Bus.", en: "The car is faster than the bus." },
+      { de: "Das Fahrrad ist <span class='text-case-akk font-semibold'>billiger als</span> das Taxi.", en: "The bicycle is cheaper than the taxi." },
+      { de: "Die Straßenbahn ist <span class='text-case-akk font-semibold'>sicherer als</span> das Taxi.", en: "The tram is safer than the taxi." },
+      { de: "Das Fahrrad ist <span class='text-case-akk font-semibold'>gesünder als</span> das Auto.", en: "Cycling is healthier than driving." },
+      { de: "Der Bus ist <span class='text-case-akk font-semibold'>genauso bequem wie</span> die Straßenbahn.", en: "The bus is just as comfortable as the tram." },
+      { de: "Das Flugzeug ist <span class='text-case-akk font-semibold'>viel schneller</span> als der Zug.", en: "The plane is much faster than the train." },
+      { de: "Ich <span class='text-case-verb font-semibold'>pendle</span> jeden Tag nach Wien.", en: "I commute to Vienna every day." },
+      { de: "Ich <span class='text-case-verb font-semibold'>nehme</span> den Zug.", en: "I take the train." },
+      { de: "Das Auto ist <span class='text-case-akk font-semibold'>bequemer als</span> das Fahrrad.", en: "The car is more comfortable than the bicycle." },
+    ],
+    test: [
+      { sentence: "Ich fahre ___ dem Bus. (предлог)", answer: "mit" },
+      { sentence: "Das Auto ist ___ als der Bus. (schnell)", answer: "schneller" },
+      { sentence: "Das Fahrrad ist ___ als das Taxi. (billig)", answer: "billiger" },
+      { sentence: "Der Bus ist so bequem ___ die Straßenbahn. (равенство)", answer: "wie" },
+      { sentence: "Das Flugzeug ist schneller ___ der Zug. (сравнение)", answer: "als" },
+      { sentence: "gut → Komparativ: ___", answer: "besser" },
+      { sentence: "gern → Komparativ: ___", answer: "lieber" },
+      { sentence: "Das Auto ist ___ schnell wie das Taxi. (отрицание)", answer: "nicht so" },
+      { sentence: "Ich ___ jeden Tag nach Wien. (ездить туда-сюда)", answer: "pendle" },
+      { sentence: "teuer → Komparativ: ___", answer: "teurer" },
+      { sentence: "helfen: er ___ (Präsens)", answer: "hilft" },
+      { sentence: "lesen: er ___ (Präsens)", answer: "liest" },
+      { sentence: "laufen: er ___ (Präsens)", answer: "läuft" },
+      { sentence: "kommen: Perfekt → ___", answer: "ist gekommen" },
+      { sentence: "lassen: er ___ (Präsens)", answer: "lässt" },
+      { sentence: "kennen: Präteritum → ___", answer: "kannte" },
+      { sentence: "heißen: Präteritum → ___", answer: "hieß" },
+      { sentence: "liegen: Präteritum → ___", answer: "lag" },
+      { sentence: "Das Fahrrad ist ___ als das Auto. (gesund)", answer: "gesünder" },
+      { sentence: "Die Straßenbahn ist ___ als das Taxi. (sicher)", answer: "sicherer" },
+    ],
+    vocabulary: [
+      { de: "Straßenbahn", article: "die", en: "tram", ru: "трамвай" },
+      { de: "U-Bahn", article: "die", en: "subway", ru: "метро" },
+      { de: "Flugzeug", article: "das", en: "airplane", ru: "самолёт" },
+      { de: "Fahrrad", article: "das", en: "bicycle", ru: "велосипед" },
+      { de: "pendeln", en: "to commute", ru: "ездить на работу и обратно" },
+      { de: "sicher", en: "safe", ru: "безопасный" },
+      { de: "bequem", en: "comfortable", ru: "удобный" },
+      { de: "genauso", en: "just as", ru: "так же" },
+      { de: "viel (+ Komparativ)", en: "much (+ comparative)", ru: "намного" },
+      { de: "meistens", en: "mostly", ru: "обычно / чаще всего" },
+    ],
+    weekReview: true,
+  },
 ];
