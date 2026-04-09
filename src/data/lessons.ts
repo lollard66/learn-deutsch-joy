@@ -1918,7 +1918,7 @@ export const lessons: Lesson[] = [
   },
   {
     id: "l01apr",
-    date: "01. Apr",
+    date: "01.04",
     title: "Akkusativ & Dativ: Pronomen, dass-S\u00E4tze & Alltag",
     subtitle: "Personalpronomen im Akkusativ und Dativ, Nebens\u00E4tze mit dass, Kleidung, Einkaufen und Termine.",
     grammar: [
@@ -2073,7 +2073,7 @@ export const lessons: Lesson[] = [
   },
   {
     id: "l02apr",
-    date: "02. April",
+    date: "02.04",
     title: "Kleidung, gefallen & Dialog im Geschäft",
     subtitle: "Adjektivdeklination im Akkusativ, gefallen/gefällt und Einkaufsdialoge.",
     grammar: [
