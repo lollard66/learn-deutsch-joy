@@ -1918,7 +1918,7 @@ export const lessons: Lesson[] = [
   },
   {
     id: "l01apr",
-    date: "01.04",
+    date: "01. April",
     title: "Akkusativ & Dativ: Pronomen, dass-S\u00E4tze & Alltag",
     subtitle: "Personalpronomen im Akkusativ und Dativ, Nebens\u00E4tze mit dass, Kleidung, Einkaufen und Termine.",
     grammar: [
@@ -2073,7 +2073,7 @@ export const lessons: Lesson[] = [
   },
   {
     id: "l02apr",
-    date: "02.04",
+    date: "02. April",
     title: "Kleidung, gefallen & Dialog im Geschäft",
     subtitle: "Adjektivdeklination im Akkusativ, gefallen/gefällt und Einkaufsdialoge.",
     grammar: [
@@ -2235,7 +2235,7 @@ export const lessons: Lesson[] = [
   // ── 03. April ──
   {
     id: "l03apr",
-    date: "03.04",
+    date: "03. April",
     title: "Kleidung: Fragen & Antworten",
     subtitle: "Vollständige Antworten bilden, tragen konjugieren, Perfekt & Wortstellung",
     grammar: [
@@ -2384,7 +2384,7 @@ export const lessons: Lesson[] = [
   // ── 08 April ──
   {
     id: "l08apr",
-    date: "08.04",
+    date: "08. April",
     title: "Steigerung der Adjektive",
     subtitle: "Степени сравнения прилагательных: Komparativ und Superlativ",
     grammar: [
@@ -2499,7 +2499,7 @@ export const lessons: Lesson[] = [
   // ── 09 April ──
   {
     id: "l09apr",
-    date: "09.04",
+    date: "09. April",
     title: "Verkehr + Vergleich",
     subtitle: "Транспорт, сравнение с als/wie и глагол pendeln",
     grammar: [
