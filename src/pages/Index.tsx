@@ -9,6 +9,8 @@ import { VerbTrainer } from "@/components/VerbTrainer";
 import { ClothingTrainer } from "@/components/ClothingTrainer";
 import { VocabularyTrainer } from "@/components/VocabularyTrainer";
 import { WeeklyReview } from "@/components/WeeklyReview";
+import { LessonVerbTrainer } from "@/components/LessonVerbTrainer";
+import type { LessonVerb } from "@/components/LessonVerbTrainer";
 import { BookOpen } from "lucide-react";
 
 export default function Index() {
@@ -110,6 +112,28 @@ export default function Index() {
 
           {/* Clothing Trainer for l31 */}
           {lesson.id === "l31" && <ClothingTrainer />}
+
+          {/* Lesson verb cards for 09. April */}
+          {lesson.id === "l09apr" && (
+            <LessonVerbTrainer
+              title="Unreg. Verben — Карточки"
+              verbs={[
+                { infinitiv: "heißen", praesens: "heißt", praeteritum: "hieß", perfekt: "hat geheißen", translation: "называться" },
+                { infinitiv: "helfen", praesens: "hilft", praeteritum: "half", perfekt: "hat geholfen", translation: "помогать" },
+                { infinitiv: "hinfahren", praesens: "fährt hin", praeteritum: "fuhr hin", perfekt: "ist hingefahren", translation: "ехать туда" },
+                { infinitiv: "hinkommen", praesens: "kommt hin", praeteritum: "kam hin", perfekt: "ist hingekommen", translation: "добираться" },
+                { infinitiv: "kennen", praesens: "kennt", praeteritum: "kannte", perfekt: "hat gekannt", translation: "знать" },
+                { infinitiv: "klingen", praesens: "klingt", praeteritum: "klang", perfekt: "hat geklungen", translation: "звучать" },
+                { infinitiv: "kommen", praesens: "kommt", praeteritum: "kam", perfekt: "ist gekommen", translation: "приходить" },
+                { infinitiv: "können", praesens: "kann", praeteritum: "konnte", perfekt: "hat gekonnt/können", translation: "мочь" },
+                { infinitiv: "lassen", praesens: "lässt", praeteritum: "ließ", perfekt: "hat gelassen/lassen", translation: "оставлять / позволять" },
+                { infinitiv: "laufen", praesens: "läuft", praeteritum: "lief", perfekt: "ist gelaufen", translation: "бежать" },
+                { infinitiv: "leihen", praesens: "leiht", praeteritum: "lieh", perfekt: "hat geliehen", translation: "одалживать" },
+                { infinitiv: "lesen", praesens: "liest", praeteritum: "las", perfekt: "hat gelesen", translation: "читать" },
+                { infinitiv: "liegen", praesens: "liegt", praeteritum: "lag", perfekt: "hat gelegen", translation: "лежать" },
+              ]}
+            />
+          )}
 
           {/* Examples */}
           <section>
