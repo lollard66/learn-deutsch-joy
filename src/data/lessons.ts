@@ -2636,4 +2636,138 @@ export const lessons: Lesson[] = [
     ],
     weekReview: true,
   },
+  // ── 10 April ──
+  {
+    id: "l10apr",
+    date: "10. April",
+    title: "weil – dass – wenn",
+    subtitle: "Союзы с глаголом в конце: причина, факт, условие",
+    grammar: [
+      {
+        title: "🧠 Главное правило",
+        content: `
+          <p class="mb-3"><b>weil, dass, wenn</b> — это союзы (Bindewörter), которые соединяют два предложения.</p>
+          <div class="bg-primary/10 p-4 rounded-xl mb-3">
+            <p class="text-lg font-bold text-center">❗ Глагол всегда в КОНЦЕ!</p>
+          </div>
+          <p class="text-muted-foreground text-sm">Ich komme nicht, <b>weil</b> ich krank <u>bin</u>.</p>
+          <p class="text-muted-foreground text-sm">Ich denke, <b>dass</b> Deutsch schwer <u>ist</u>.</p>
+          <p class="text-muted-foreground text-sm"><b>Wenn</b> ich Zeit <u>habe</u>, gehe ich ins Fitnessstudio.</p>`,
+      },
+      {
+        title: "🔹 WEIL = потому что",
+        content: `
+          <p class="mb-3">Отвечает на вопрос <b>Warum?</b> (почему?)</p>
+          <div class="space-y-2 text-sm">
+            <p>👉 Ich komme nicht, <b>weil</b> ich krank <u>bin</u>.</p>
+            <p class="text-muted-foreground ml-4">Я не прихожу, потому что я болен.</p>
+            <p>👉 Ich fahre mit dem Bus, <b>weil</b> ich kein Auto <u>habe</u>.</p>
+            <p class="text-muted-foreground ml-4">Я еду на автобусе, потому что у меня нет машины.</p>
+            <p>👉 Ich lerne Deutsch, <b>weil</b> ich in Österreich <u>lebe</u>.</p>
+            <p class="text-muted-foreground ml-4">Я учу немецкий, потому что живу в Австрии.</p>
+          </div>`,
+      },
+      {
+        title: "🔹 DASS = что",
+        content: `
+          <p class="mb-3">Используется после глаголов: <b>denken, wissen, sagen, finden, möchten, glauben</b></p>
+          <div class="space-y-2 text-sm">
+            <p>👉 Ich denke, <b>dass</b> Deutsch schwer <u>ist</u>.</p>
+            <p class="text-muted-foreground ml-4">Я думаю, что немецкий сложный.</p>
+            <p>👉 Ich weiß, <b>dass</b> du müde <u>bist</u>.</p>
+            <p class="text-muted-foreground ml-4">Я знаю, что ты устал.</p>
+            <p>👉 Ich möchte, <b>dass</b> du <u>kommst</u>.</p>
+            <p class="text-muted-foreground ml-4">Я хочу, чтобы ты пришёл.</p>
+            <p>👉 Ich finde, <b>dass</b> das Buch interessant <u>ist</u>.</p>
+            <p class="text-muted-foreground ml-4">Я считаю, что книга интересная.</p>
+          </div>`,
+      },
+      {
+        title: "🔹 WENN = если / когда",
+        content: `
+          <p class="mb-3">Условие или повторяющееся действие.</p>
+          <div class="space-y-2 text-sm">
+            <p>👉 <b>Wenn</b> ich Zeit <u>habe</u>, gehe ich ins Fitnessstudio.</p>
+            <p class="text-muted-foreground ml-4">Если у меня есть время, я иду в зал.</p>
+            <p>👉 <b>Wenn</b> ich krank <u>bin</u>, bleibe ich zu Hause.</p>
+            <p class="text-muted-foreground ml-4">Когда я болен, я остаюсь дома.</p>
+            <p>👉 <b>Wenn</b> es regnet, nehme ich den Bus.</p>
+            <p class="text-muted-foreground ml-4">Если идёт дождь, я еду на автобусе.</p>
+          </div>
+          <div class="bg-primary/10 p-3 rounded-xl mt-4 text-sm">
+            <p>❗ Если предложение <b>начинается</b> с wenn → после запятой глагол на <b>2 месте</b>:</p>
+            <p class="mt-1"><b>Wenn</b> ich Zeit habe, <u>gehe</u> ich ins Fitnessstudio.</p>
+          </div>`,
+      },
+      {
+        title: "⚠️ Порядок слов — Схема",
+        content: `
+          <table class="w-full text-sm mb-4 border-collapse">
+            <thead><tr class="border-b-2 border-primary/30 font-semibold">
+              <td class="py-2 pr-3">Союз</td><td class="pr-3">Значение</td><td>Глагол</td>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border"><td class="py-2 pr-3 font-bold">weil</td><td class="pr-3">потому что</td><td>в конце</td></tr>
+              <tr class="border-b border-border"><td class="py-2 pr-3 font-bold">dass</td><td class="pr-3">что</td><td>в конце</td></tr>
+              <tr class="border-b border-border"><td class="py-2 pr-3 font-bold">wenn</td><td class="pr-3">если / когда</td><td>в конце</td></tr>
+            </tbody>
+          </table>
+          <div class="space-y-1 text-sm text-muted-foreground">
+            <p>...<b>weil</b> ich keine Zeit <u>habe</u>.</p>
+            <p>...<b>dass</b> du <u>kommst</u>.</p>
+            <p><b>Wenn</b> ich <u>arbeite</u>, ...</p>
+          </div>`,
+      },
+      {
+        title: "🔥 Сравнение: weil vs. dass vs. wenn",
+        content: `
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="border-b-2 border-primary/30 font-semibold">
+              <td class="py-2 pr-3">Союз</td><td class="pr-3">Значение</td><td>Пример</td>
+            </tr></thead>
+            <tbody>
+              <tr class="border-b border-border"><td class="py-2 pr-3 font-bold">weil</td><td class="pr-3">потому что</td><td>Ich bleibe zu Hause, weil ich krank bin</td></tr>
+              <tr class="border-b border-border"><td class="py-2 pr-3 font-bold">dass</td><td class="pr-3">что</td><td>Ich denke, dass es gut ist</td></tr>
+              <tr class="border-b border-border"><td class="py-2 pr-3 font-bold">wenn</td><td class="pr-3">если</td><td>Wenn ich Zeit habe, komme ich</td></tr>
+            </tbody>
+          </table>`,
+      },
+    ],
+    examples: [
+      { de: "Ich komme nicht, <span class='text-case-akk font-semibold'>weil</span> ich arbeiten <u>muss</u>.", en: "I'm not coming because I have to work." },
+      { de: "Ich finde, <span class='text-case-akk font-semibold'>dass</span> Deutsch interessant <u>ist</u>.", en: "I think that German is interesting." },
+      { de: "<span class='text-case-akk font-semibold'>Wenn</span> ich frei <u>habe</u>, gehe ich spazieren.", en: "When I'm free, I go for a walk." },
+      { de: "Ich bleibe zu Hause, <span class='text-case-akk font-semibold'>weil</span> es <u>regnet</u>.", en: "I stay home because it's raining." },
+      { de: "Ich weiß, <span class='text-case-akk font-semibold'>dass</span> du müde <u>bist</u>.", en: "I know that you are tired." },
+      { de: "<span class='text-case-akk font-semibold'>Wenn</span> ich krank <u>bin</u>, bleibe ich zu Hause.", en: "When I'm sick, I stay home." },
+      { de: "Ich fahre mit dem Bus, <span class='text-case-akk font-semibold'>weil</span> ich kein Auto <u>habe</u>.", en: "I take the bus because I don't have a car." },
+      { de: "Ich möchte, <span class='text-case-akk font-semibold'>dass</span> du <u>kommst</u>.", en: "I want you to come." },
+    ],
+    test: [
+      { sentence: "Ich komme nicht, ___ ich krank bin. (потому что)", answer: "weil" },
+      { sentence: "Ich denke, ___ Deutsch schwer ist. (что)", answer: "dass" },
+      { sentence: "___ ich Zeit habe, gehe ich ins Fitnessstudio. (если)", answer: "Wenn" },
+      { sentence: "Ich bleibe zu Hause, weil es ___. (regnen — Präsens)", answer: "regnet" },
+      { sentence: "Ich weiß, dass du müde ___. (sein — du)", answer: "bist" },
+      { sentence: "Ich fahre mit dem Bus, weil ich kein Auto ___. (haben — ich)", answer: "habe" },
+      { sentence: "___ ich krank bin, bleibe ich zu Hause. (когда)", answer: "Wenn" },
+      { sentence: "Ich finde, ___ das Buch gut ist. (что)", answer: "dass" },
+      { sentence: "Ich lerne Deutsch, ___ ich in Österreich lebe. (потому что)", answer: "weil" },
+      { sentence: "Ich möchte, dass du ___. (kommen)", answer: "kommst" },
+    ],
+    vocabulary: [
+      { de: "weil", en: "because", ru: "потому что" },
+      { de: "dass", en: "that", ru: "что" },
+      { de: "wenn", en: "if / when", ru: "если / когда" },
+      { de: "kommen", en: "to come", ru: "приходить" },
+      { de: "bleiben", en: "to stay", ru: "оставаться" },
+      { de: "gehen", en: "to go", ru: "идти" },
+      { de: "arbeiten", en: "to work", ru: "работать" },
+      { de: "denken", en: "to think", ru: "думать" },
+      { de: "wissen", en: "to know", ru: "знать" },
+      { de: "finden", en: "to find / to think", ru: "находить / считать" },
+      { de: "regnen", en: "to rain", ru: "идти (о дожде)" },
+      { de: "Zeit haben", en: "to have time", ru: "иметь время" },
+    ],
+  },
 ];
